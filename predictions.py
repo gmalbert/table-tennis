@@ -22,11 +22,7 @@ def home_page():
     st.caption("Table tennis analytics — 10 years of match data")
 
     if not db.db_ready():
-        st.error(
-            "Database not found. Run the build script first:\n\n"
-            "```\npython scripts/tt_build_db.py\n```"
-        )
-        st.stop()
+        db.ensure_db()
 
     # ── Summary metrics ───────────────────────────────────────────────────────
     stats = db.summary_stats()

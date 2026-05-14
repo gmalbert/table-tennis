@@ -39,6 +39,7 @@ data/flashscore/
 processed/matches.csv
 processed/sets.csv
 processed/matches_combined.json
+processed/tt.db
 processed/tt.db-shm
 processed/tt.db-wal
 processed/.checkpoint
