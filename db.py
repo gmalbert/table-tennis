@@ -15,7 +15,57 @@ import streamlit as st
 
 DB_PATH = Path(__file__).parent / "processed" / "tt.db"
 
+# GitHub Releases URL for the database file.
+# Update the tag (db-latest) if you publish a new release.
+DB_RELEASE_URL = (
+    "https://github.com/gmalbert/table-tennis/releases/download/db-latest/tt.db"
+)
+
 ENDED = "Ended"
+
+
+# ── Download ──────────────────────────────────────────────────────────────────
+
+def ensure_db() -> None:
+    """Download tt.db from GitHub Releases if it is not present locally.
+
+    Shows a Streamlit progress bar while downloading so the user knows
+    the app is working. Calls st.stop() on failure to abort the page.
+    """
+    if DB_PATH.exists():
+        return
+
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    import requests
+
+    st.info("Database not cached — downloading (~1.4 GB). This only happens on the first run after a new deployment.", icon="⬇️")
+    progress_bar = st.progress(0.0, text="Connecting…")
+    tmp_path = DB_PATH.with_suffix(".tmp")
+
+    try:
+        with requests.get(DB_RELEASE_URL, stream=True, timeout=600) as r:
+            r.raise_for_status()
+            total = int(r.headers.get("content-length", 0))
+            downloaded = 0
+            with open(tmp_path, "wb") as f:
+                for chunk in r.iter_content(chunk_size=1024 * 1024):
+                    f.write(chunk)
+                    downloaded += len(chunk)
+                    if total:
+                        pct = downloaded / total
+                        progress_bar.progress(
+                            pct,
+                            text=f"Downloading tt.db… {downloaded / 1e9:.2f} / {total / 1e9:.2f} GB",
+                        )
+        tmp_path.rename(DB_PATH)
+        progress_bar.progress(1.0, text="Download complete!")
+        st.rerun()
+    except Exception as exc:
+        if tmp_path.exists():
+            tmp_path.unlink(missing_ok=True)
+        st.error(f"Failed to download database: {exc}")
+        st.stop()
 
 
 # ── Connection ────────────────────────────────────────────────────────────────
