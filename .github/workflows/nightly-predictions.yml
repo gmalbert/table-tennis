@@ -28,6 +28,17 @@ jobs:
       - name: Install Playwright Chromium (+ system deps)
         run: playwright install chromium --with-deps
 
+      - name: Download tt.db from latest release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p processed
+          gh release download db-latest \
+            --repo gmalbert/table-tennis \
+            --pattern tt.db \
+            --dir processed \
+            --clobber
+
       - name: Compute date range (today → today+3)
         id: dates
         run: |

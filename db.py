@@ -14,34 +14,98 @@ import pandas as pd
 import streamlit as st
 
 DB_PATH = Path(__file__).parent / "processed" / "tt.db"
+# Stamp file: small JSON that records the last API-check time and the
+# release's published_at so we can avoid re-downloading when nothing changed.
+STAMP_PATH = DB_PATH.with_suffix(".stamp")
 
-# GitHub Releases URL for the database file.
-# Update the tag (db-latest) if you publish a new release.
+GITHUB_REPO = "gmalbert/table-tennis"
+DB_RELEASE_TAG = "db-latest"
 DB_RELEASE_URL = (
-    "https://github.com/gmalbert/table-tennis/releases/download/db-latest/tt.db"
+    f"https://github.com/{GITHUB_REPO}/releases/download/{DB_RELEASE_TAG}/tt.db"
 )
+# How often (seconds) the app calls the GitHub API to check for a newer release.
+DB_CHECK_INTERVAL = 12 * 3600  # 12 hours
 
 ENDED = "Ended"
 
 
-# ── Download ──────────────────────────────────────────────────────────────────
+# ── Download helpers ──────────────────────────────────────────────────────────
 
-def ensure_db() -> None:
-    """Download tt.db from GitHub Releases if it is not present locally.
+def _read_stamp() -> dict:
+    """Return the stamp dict or an empty dict if missing / unreadable."""
+    import json
+    try:
+        return json.loads(STAMP_PATH.read_text())
+    except Exception:
+        return {}
 
-    Shows a Streamlit progress bar while downloading so the user knows
-    the app is working. Calls st.stop() on failure to abort the page.
+
+def _write_stamp(last_checked: str, release_published_at: str) -> None:
+    import json
+    STAMP_PATH.write_text(
+        json.dumps({"last_checked": last_checked, "release_published_at": release_published_at})
+    )
+
+
+def _fetch_release_published_at() -> str | None:
+    """Call the GitHub API and return the release's published_at ISO string, or None on error."""
+    import requests
+    url = f"https://api.github.com/repos/{GITHUB_REPO}/releases/tags/{DB_RELEASE_TAG}"
+    try:
+        r = requests.get(url, timeout=15, headers={"Accept": "application/vnd.github+json"})
+        r.raise_for_status()
+        return r.json().get("published_at")
+    except Exception:
+        return None
+
+
+def _db_needs_update() -> bool:
+    """Return True if the DB is missing or a newer release is available.
+
+    Calls the GitHub API at most once every DB_CHECK_INTERVAL seconds.
     """
-    if DB_PATH.exists():
-        return
+    from datetime import datetime, timezone
 
-    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    if not DB_PATH.exists():
+        return True
 
+    stamp = _read_stamp()
+    now = datetime.now(tz=timezone.utc)
+
+    # Skip API call if we checked recently.
+    last_checked_str = stamp.get("last_checked")
+    if last_checked_str:
+        last_checked = datetime.fromisoformat(last_checked_str)
+        if (now - last_checked).total_seconds() < DB_CHECK_INTERVAL:
+            return False
+
+    # Hit the API.
+    remote_ts = _fetch_release_published_at()
+    if remote_ts is None:
+        # Network error — don't force a re-download.
+        return False
+
+    _write_stamp(last_checked=now.isoformat(), release_published_at=remote_ts)
+
+    local_ts = stamp.get("release_published_at")
+    if local_ts is None:
+        # No stamp yet but file exists — treat as stale so stamp gets written.
+        return True
+
+    return remote_ts > local_ts
+
+
+def _download_db() -> None:
+    """Stream tt.db from GitHub Releases with a Streamlit progress bar."""
     import requests
 
-    st.info("Database not cached — downloading (~1.4 GB). This only happens on the first run after a new deployment.", icon="⬇️")
+    st.info(
+        "Downloading database (~1.4 GB) — this only happens when a new release is published.",
+        icon="⬇️",
+    )
     progress_bar = st.progress(0.0, text="Connecting…")
     tmp_path = DB_PATH.with_suffix(".tmp")
+    DB_PATH.parent.mkdir(parents=True, exist_ok=True)
 
     try:
         with requests.get(DB_RELEASE_URL, stream=True, timeout=600) as r:
@@ -60,12 +124,26 @@ def ensure_db() -> None:
                         )
         tmp_path.rename(DB_PATH)
         progress_bar.progress(1.0, text="Download complete!")
-        st.rerun()
     except Exception as exc:
         if tmp_path.exists():
             tmp_path.unlink(missing_ok=True)
         st.error(f"Failed to download database: {exc}")
         st.stop()
+
+
+def ensure_db() -> None:
+    """Ensure tt.db is present and up to date.
+
+    - If missing: downloads immediately.
+    - If present: checks the GitHub Releases API at most once every
+      DB_CHECK_INTERVAL seconds and re-downloads only when a newer
+      release has been published.
+    """
+    if not _db_needs_update():
+        return
+
+    _download_db()
+    st.rerun()
 
 
 # ── Connection ────────────────────────────────────────────────────────────────
