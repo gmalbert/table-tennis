@@ -1,0 +1,67 @@
+name: Nightly Predictions
+
+on:
+  schedule:
+    # Run at 05:00 UTC every day — before most morning fixtures start.
+    - cron: "0 5 * * *"
+  workflow_dispatch:   # allow manual trigger from the Actions tab
+
+jobs:
+  precompute:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed to push the enriched JSON back to the repo
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install Python dependencies
+        run: pip install requests tqdm playwright pandas
+
+      - name: Install Playwright Chromium (+ system deps)
+        run: playwright install chromium --with-deps
+
+      - name: Compute date range (today → today+3)
+        id: dates
+        run: |
+          python - <<'EOF'
+          import os
+          from datetime import date, timedelta
+          today = date.today()
+          end   = today + timedelta(days=3)
+          env_file = os.environ["GITHUB_ENV"]
+          with open(env_file, "a") as f:
+              f.write(f"SOFA_START={today}\n")
+              f.write(f"SOFA_END={end}\n")
+          EOF
+
+      - name: Scrape upcoming fixtures from SofaScore
+        run: |
+          echo "Fetching SofaScore $SOFA_START → $SOFA_END"
+          python scripts/tt_scraper.py sofa \
+            --start "$SOFA_START" \
+            --end   "$SOFA_END"   \
+            --no-stats
+
+      - name: Pre-compute enriched predictions
+        run: python scripts/tt_precompute.py
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add processed/upcoming_enriched.json
+          if git diff --staged --quiet; then
+            echo "No new data — nothing to commit."
+          else
+            TODAY=$(date -u +%Y-%m-%d)
+            git commit -m "data: nightly predictions refresh $TODAY [skip ci]"
+            git push
+          fi

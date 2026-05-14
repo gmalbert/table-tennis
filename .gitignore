@@ -1,0 +1,44 @@
+# Virtual environments
+venv/
+__pycache__/
+*.pyc
+.env
+.local.env
+
+# IDE files
+.vs/_.hidden
+.idea/
+.idea_cache/
+.py-idea/
+*.code-workspace
+.continue/
+
+# Build artifacts
+dist/
+build/
+*.egg-info*
+*.pycs
+
+# Logs and temporary files
+*.log
+*.tmp
+.cache/
+
+# Jupyter notebooks output
+.ip_output/
+.ip_cache/
+
+# OS-specific
+.DS_
+
+# Raw scraped data — only precomputed output is kept in git
+data/sofascore/
+data/flashscore/
+
+# Processed build artifacts — not needed by the app runtime
+processed/matches.csv
+processed/sets.csv
+processed/matches_combined.json
+processed/tt.db-shm
+processed/tt.db-wal
+processed/.checkpoint

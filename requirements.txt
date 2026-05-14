@@ -1,0 +1,12 @@
+# Pong Odds - Table Tennis Betting Analysis Platform
+# Core Dependencies
+streamlit>=1.57.0
+pandas>=1.8.0
+numpy>=1.25.0
+matplotlib>=3.6.0
+pillow>=1.0.0
+plotly>=5.0.0
+# API Integration
+requests>=2.25.0
+urllib3>=1.7.0
+tqdm>=4.0.0

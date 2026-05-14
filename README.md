@@ -1,2 +1,69 @@
-# table-tennis
-Data analysis and sports betting for Table Tennis
+<a name="top"></a>
+<p align="center">
+  <img src="data_files/logo.png" width="220" alt="Pong Odds logo">
+</p>
+
+# 🎯 Table Tennis Betting Analytics — Pong Odds
+
+## Overview
+Pong Odds is a Streamlit analytics app for table tennis betting, built on historical match data and nightly precomputed forecasts. The app delivers:
+- fast, search-driven player and tournament exploration
+- a precomputed upcoming match betting dashboard
+- head-to-head and player form insights
+- one-click predictions for any two players
+
+[Back to top](#top)
+
+---
+
+## Pages
+
+### Home
+- Summary metrics for matches, players, and tournaments
+- Charts showing match volume and top tournaments
+
+### Upcoming Matches
+- Uses precomputed predictions from `processed/upcoming_enriched.json`
+- Designed to load instantly with no on-demand DB computation
+- Updated nightly via GitHub Actions
+
+### Player Stats
+- Searchable player selector
+- Detailed player record, year-by-year performance, and recent form
+
+### Head to Head
+- Compare two players directly with historical H2H and form metrics
+
+### Tournaments
+- Searchable tournament selector
+- Yearly match distribution and top players for each event
+
+### Predict
+- Searchable player pickers for Player 1 and Player 2
+- Generates win probability, confidence, and factor breakdown
+
+### Recent Matches
+- Lists the latest finished matches from the historical database
+
+[Back to top](#top)
+
+---
+
+## Developer Notes
+
+### Streamlit UI improvements
+- Player and tournament pages now use searchable `st.selectbox` inputs.
+- The main homepage logo is displayed at the top of the main section only.
+- Other pages keep the logo in the sidebar.
+
+### Precompute strategy
+- Upcoming match odds are precomputed nightly so users never wait for model execution.
+- This keeps page loads immediately responsive.
+
+### Helpful utilities
+- `scripts/check_use_container_width.py` verifies deprecated Streamlit `use_container_width` usage.
+
+[Back to top](#top)
+
+
+
