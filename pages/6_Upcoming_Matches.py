@@ -60,6 +60,10 @@ def load_enriched() -> tuple[pd.DataFrame, str]:
     df["_date"] = et_cols[0]
     df["Time"]  = et_cols[1]
 
+    # Drop fixtures whose ET calendar date is in the past
+    today_et = datetime.now(ET).date().isoformat()
+    df = df[df["_date"] >= today_et]
+
     return df, generated_at
 
 
@@ -135,8 +139,7 @@ tab_labels    = [
 
 display_cols = [
     "Time ET", "Home", "Away",
-    "Home Rank", "Away Rank",
-    "Favourite", "Win %", "Confidence",
+    "Favorite", "Win %", "Confidence",
     "H2H (home W-L)", "Home Recent", "Away Recent",
     "Home Overall", "Away Overall",
 ]
@@ -145,7 +148,7 @@ tabs = st.tabs(tab_labels)
 
 for tab, day_str in zip(tabs, dates_present):
     day_df = df[df["_date"] == day_str].copy()
-    day_df = day_df.rename(columns={"Time": "Time ET"})
+    day_df = day_df.rename(columns={"Time": "Time ET", "Favourite": "Favorite"})
 
     with tab:
         total = len(day_df)
@@ -182,13 +185,11 @@ for tab, day_str in zip(tabs, dates_present):
             with st.expander(label, expanded=(t_high > 0)):
                 st.dataframe(
                     t_df,
-                    use_container_width=True,
+                    width='stretch',
                     hide_index=True,
                     column_config={
                         "Time ET":    st.column_config.TextColumn("Time (ET)", width="small"),
                         "Win %":      st.column_config.TextColumn("Win %",     width="small"),
                         "Confidence": st.column_config.TextColumn("Conf.",     width="small"),
-                        "Home Rank":  st.column_config.TextColumn("H.Rank",    width="small"),
-                        "Away Rank":  st.column_config.TextColumn("A.Rank",    width="small"),
                     },
                 )

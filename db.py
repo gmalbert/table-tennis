@@ -8,6 +8,7 @@ is a singleton (check_same_thread=False is safe for read-only queries).
 from __future__ import annotations
 
 import sqlite3
+from datetime import date
 from pathlib import Path
 
 import pandas as pd
@@ -191,6 +192,57 @@ def top_tournaments(n: int = 15) -> pd.DataFrame:
         get_conn(),
     )
 
+@st.cache_data(ttl=3600)
+def top_players_current_year(n: int = 100, min_matches: int = 4) -> pd.DataFrame:
+    """Return the top players by win percentage for the current calendar year."""
+    year = date.today().year
+    start_date = f"{year}-01-01"
+    end_date = f"{year + 1}-01-01"
+
+    sql = (
+        "SELECT slug, name, wins, losses, matches, "
+        "ROUND(100.0 * wins / matches, 1) AS win_pct "
+        "FROM ("
+        "  SELECT slug, name, SUM(win) wins, SUM(loss) losses, COUNT(*) matches "
+        "  FROM ("
+        "    SELECT home_slug AS slug, home_name AS name, "
+        "           CASE WHEN winner='home' THEN 1 ELSE 0 END AS win, "
+        "           CASE WHEN winner='home' THEN 0 ELSE 1 END AS loss "
+        "    FROM matches "
+        "    WHERE status_description=? AND date >= ? AND date < ? "
+        "    UNION ALL "
+        "    SELECT away_slug AS slug, away_name AS name, "
+        "           CASE WHEN winner='away' THEN 1 ELSE 0 END AS win, "
+        "           CASE WHEN winner='away' THEN 0 ELSE 1 END AS loss "
+        "    FROM matches "
+        "    WHERE status_description=? AND date >= ? AND date < ? "
+        "  ) "
+        "  GROUP BY slug, name "
+        "  HAVING COUNT(*) >= ? "
+        ") "
+        "ORDER BY win_pct DESC, wins DESC, matches DESC "
+        "LIMIT ?"
+    )
+
+    return pd.read_sql(
+        sql,
+        get_conn(),
+        params=[ENDED, start_date, end_date, ENDED, start_date, end_date, min_matches, n],
+    )
+
+@st.cache_data(ttl=3600)
+def current_year_latest_date() -> str | None:
+    year = date.today().year
+    start_date = f"{year}-01-01"
+    end_date = f"{year + 1}-01-01"
+    df = pd.read_sql(
+        "SELECT MAX(date) AS latest_date FROM matches "
+        "WHERE status_description=? AND date >= ? AND date < ?",
+        get_conn(),
+        params=[ENDED, start_date, end_date],
+    )
+    latest = df.iloc[0, 0] if not df.empty else None
+    return latest if latest else None
 
 # ── Player helpers ────────────────────────────────────────────────────────────
 
