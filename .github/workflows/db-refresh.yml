@@ -2,7 +2,7 @@ name: Database Refresh
 
 on:
   schedule:
-    # Run daily at 04:30 UTC to refresh the release DB from committed raw data.
+    # Run daily at 04:30 UTC to refresh the release DB from live scraper data.
     - cron: '30 4 * * *'
   workflow_dispatch:
 
@@ -25,12 +25,39 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install pandas tqdm requests
+        run: |
+          pip install pandas tqdm requests playwright
+          playwright install chromium --with-deps
 
-      - name: Authenticate GitHub CLI
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: echo "$GITHUB_TOKEN" | gh auth login --with-token
+      - name: Compute scrape date ranges
+        id: dates
+        run: |
+          python - <<'EOF'
+          import os
+          from datetime import date, timedelta
+          today = date.today()
+          sofa_start = today - timedelta(days=7)
+          flash_start = today - timedelta(days=5)
+          with open(os.environ['GITHUB_ENV'], 'a') as f:
+              f.write(f"SOFA_START={sofa_start}\n")
+              f.write(f"SOFA_END={today}\n")
+              f.write(f"FLASH_START={flash_start}\n")
+              f.write(f"FLASH_END={today}\n")
+          EOF
+
+      - name: Scrape SofaScore raw data
+        run: |
+          python scripts/tt_scraper.py sofa \
+            --start "$SOFA_START" \
+            --end "$SOFA_END" \
+            --no-stats
+
+      - name: Scrape Flashscore raw data
+        run: |
+          python scripts/tt_scraper.py flash \
+            --start "$FLASH_START" \
+            --end "$FLASH_END" \
+            --no-detail
 
       - name: Build processed database
         run: |
