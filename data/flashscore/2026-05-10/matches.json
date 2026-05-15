@@ -1,0 +1,306 @@
+{
+  "date": "2026-05-10",
+  "match_count": 12,
+  "matches": [
+    {
+      "match_id": "dKQJRFkd",
+      "tournament": "TEAMS - MEN: World Championships (World) - Play Offs",
+      "home_player": "Japan",
+      "away_player": "China",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-10 15:20:00",
+      "home_ranking": "",
+      "away_ranking": "",
+      "home_slug": "japan",
+      "away_slug": "china",
+      "sets": []
+    },
+    {
+      "match_id": "25qddPk3",
+      "tournament": "TEAMS - WOMEN: World Championships (World) - Play Offs",
+      "home_player": "China W",
+      "away_player": "Japan W",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-05-10 10:00:00",
+      "home_ranking": "",
+      "away_ranking": "",
+      "home_slug": "china",
+      "away_slug": "japan",
+      "sets": []
+    },
+    {
+      "match_id": "zTGzLhmf",
+      "tournament": "OTHERS - MEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Harimoto T.",
+      "away_player": "Liang J.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-05-10 15:20:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-tomokazu",
+      "away_slug": "liang-jingkun",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8tFrJWH6",
+      "tournament": "OTHERS - MEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Matsushima S.",
+      "away_player": "Wang C.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-05-10 16:10:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "matsushima-sora",
+      "away_slug": "wang-chuqin",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "G6IjHAnJ",
+      "tournament": "OTHERS - MEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Togami S.",
+      "away_player": "Lin S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-05-10 16:45:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "togami-shunsuke",
+      "away_slug": "lin-shidong",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "rDAxuEvQ",
+      "tournament": "OTHERS - MEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Harimoto T.",
+      "away_player": "Wang C.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-05-10 17:35:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-tomokazu",
+      "away_slug": "wang-chuqin",
+      "sets": []
+    },
+    {
+      "match_id": "QafGXVWa",
+      "tournament": "OTHERS - MEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Matsushima S.",
+      "away_player": "Liang J.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-05-10 18:15:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "matsushima-sora",
+      "away_slug": "liang-jingkun",
+      "sets": []
+    },
+    {
+      "match_id": "t6HnOyCG",
+      "tournament": "OTHERS - WOMEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Harimoto M.",
+      "away_player": "Wang M.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-05-10 10:00:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "wang-manyu",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "YDZgMFtT",
+      "tournament": "OTHERS - WOMEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Hayata H.",
+      "away_player": "Sun Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-10 11:05:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "hayata-hina",
+      "away_slug": "sun-yingsha",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "UqLPGg4j",
+      "tournament": "OTHERS - WOMEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Hashimoto H.",
+      "away_player": "Kuai M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-05-10 11:45:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "hashimoto-honoka",
+      "away_slug": "kuai-man",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "djDBvcdc",
+      "tournament": "OTHERS - WOMEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Harimoto M.",
+      "away_player": "Sun Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-10 12:40:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "sun-yingsha",
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "4GGJxyR9",
+      "tournament": "OTHERS - WOMEN: World Championships Teams (World) - Play Offs",
+      "home_player": "Hayata H.",
+      "away_player": "Wang M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-10 13:10:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "hayata-hina",
+      "away_slug": "wang-manyu",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    }
+  ]
+}

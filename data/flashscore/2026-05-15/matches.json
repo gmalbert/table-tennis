@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-15",
+  "match_count": 2,
+  "matches": [
+    {
+      "match_id": "Mgtgdbno",
+      "tournament": "TEAMS - MEN: Europe Cup (Europe) - Play Offs",
+      "home_player": "Priego",
+      "away_player": "El Nino Prague",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-05-15 18:00:00",
+      "home_ranking": "",
+      "away_ranking": "",
+      "home_slug": "priego",
+      "away_slug": "el-nino-prague",
+      "sets": []
+    },
+    {
+      "match_id": "8UUfGJwH",
+      "tournament": "TEAMS - WOMEN: Europe Cup (Europe) - Play Offs",
+      "home_player": "Cagliari W",
+      "away_player": "Linz AG Froschberg W",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-05-15 16:00:00",
+      "home_ranking": "",
+      "away_ranking": "",
+      "home_slug": "cagliari",
+      "away_slug": "linz-ag-froschberg",
+      "sets": []
+    }
+  ]
+}
