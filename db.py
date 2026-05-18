@@ -41,21 +41,30 @@ def _read_stamp() -> dict:
         return {}
 
 
-def _write_stamp(last_checked: str, release_published_at: str) -> None:
+def _write_stamp(last_checked: str, release_version: str) -> None:
     import json
     STAMP_PATH.write_text(
-        json.dumps({"last_checked": last_checked, "release_published_at": release_published_at})
+        json.dumps({"last_checked": last_checked, "release_version": release_version})
     )
 
 
-def _fetch_release_published_at() -> str | None:
-    """Call the GitHub API and return the release's published_at ISO string, or None on error."""
+def _fetch_release_version() -> str | None:
+    """Return a stable remote version for the db asset, or None on error.
+
+    We use the tt.db asset updated_at timestamp so uploads done with
+    --clobber on the same release tag are still detected by clients.
+    """
     import requests
     url = f"https://api.github.com/repos/{GITHUB_REPO}/releases/tags/{DB_RELEASE_TAG}"
     try:
         r = requests.get(url, timeout=15, headers={"Accept": "application/vnd.github+json"})
         r.raise_for_status()
-        return r.json().get("published_at")
+        payload = r.json()
+        for asset in payload.get("assets", []):
+            if asset.get("name") == "tt.db" and asset.get("updated_at"):
+                return asset["updated_at"]
+        # Fallback for safety if assets are unavailable.
+        return payload.get("published_at")
     except Exception:
         return None
 
@@ -81,14 +90,14 @@ def _db_needs_update() -> bool:
             return False
 
     # Hit the API.
-    remote_ts = _fetch_release_published_at()
+    remote_ts = _fetch_release_version()
     if remote_ts is None:
         # Network error — don't force a re-download.
         return False
 
-    _write_stamp(last_checked=now.isoformat(), release_published_at=remote_ts)
+    _write_stamp(last_checked=now.isoformat(), release_version=remote_ts)
 
-    local_ts = stamp.get("release_published_at")
+    local_ts = stamp.get("release_version") or stamp.get("release_published_at")
     if local_ts is None:
         # No stamp yet but file exists — treat as stale so stamp gets written.
         return True
@@ -126,6 +135,11 @@ def _download_db() -> None:
                         progress_bar.progress(
                             pct,
                             text=f"Downloading tt.db… {downloaded / 1e9:.2f} / {total / 1e9:.2f} GB",
+                        )
+                    else:
+                        progress_bar.progress(
+                            0.0,
+                            text=f"Downloading tt.db… {downloaded / 1e9:.2f} GB",
                         )
         # On Windows, rename() cannot overwrite an existing file.
         tmp_path.replace(DB_PATH)
