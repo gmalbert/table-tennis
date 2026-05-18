@@ -60,11 +60,17 @@ def publish_db() -> None:
     size_gb = DB_PATH.stat().st_size / 1e9
     print(f"  File: {DB_PATH}  ({size_gb:.2f} GB)")
     ensure_release_exists()
+    # Delete the existing asset before uploading. Using --clobber can silently
+    # corrupt the upload (truncating the file to a few KB), so we delete first.
+    subprocess.run(
+        ["gh", "release", "delete-asset", RELEASE_TAG, "tt.db",
+         "--repo", REPO, "--yes"],
+        capture_output=True,  # ignore errors if asset doesn't exist yet
+    )
     run([
         "gh", "release", "upload", RELEASE_TAG,
         str(DB_PATH),
         "--repo", REPO,
-        "--clobber",          # overwrite the existing asset
     ])
     print(f"\n✓ tt.db published to https://github.com/{REPO}/releases/tag/{RELEASE_TAG}")
     print("  The Streamlit app will pick it up within 12 hours automatically.")
