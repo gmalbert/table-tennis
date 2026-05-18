@@ -3,6 +3,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 import db
+from footer import add_betting_oracle_footer
 
 st.title("⚔️ Head to Head")
 
@@ -23,6 +24,7 @@ with col2:
 
 if not s1 or not s2:
     st.info("Enter both player names to see head-to-head history.")
+    add_betting_oracle_footer()
     st.stop()
 
 def pick(search: str) -> tuple[str, str] | None:
@@ -35,9 +37,11 @@ r1, r2 = pick(s1), pick(s2)
 
 if r1 is None:
     st.error(f"No player found matching **{s1}**.")
+    add_betting_oracle_footer()
     st.stop()
 if r2 is None:
     st.error(f"No player found matching **{s2}**.")
+    add_betting_oracle_footer()
     st.stop()
 
 name1, slug1 = r1
@@ -119,3 +123,5 @@ st.dataframe(
     width="stretch",
     hide_index=True,
 )
+
+add_betting_oracle_footer()

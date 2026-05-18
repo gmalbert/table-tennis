@@ -4,6 +4,7 @@ import plotly.graph_objects as go
 from datetime import date
 
 import db
+from footer import add_betting_oracle_footer
 
 st.title("👤 Player Stats")
 
@@ -24,23 +25,33 @@ with tabs[0]:
         if latest_date:
             caption += f" Latest ended match in DB for {date.today().year}: {latest_date}."
         st.caption(caption)
+        display_cols = ["full_name", "name", "wins", "losses", "matches", "win_pct"]
         st.dataframe(
-            top100.rename(columns={"slug": "Slug", "name": "Player", "wins": "Wins", "losses": "Losses", "matches": "Matches", "win_pct": "Win %"}),
+            top100[display_cols].rename(columns={
+                "full_name": "Full Name",
+                "name": "Name",
+                "wins": "Wins",
+                "losses": "Losses",
+                "matches": "Matches",
+                "win_pct": "Win %",
+            }),
             width="stretch",
             hide_index=True,
         )
+    add_betting_oracle_footer()
 
 with tabs[1]:
     # ── Player selector ───────────────────────────────────────────────────────────
     players_df = db.all_player_names()
-    _name_to_slug = dict(zip(players_df["name"], players_df["slug"]))
+    _name_to_slug = dict(zip(players_df["full_name"], players_df["slug"]))
 
-    selected_name = st.selectbox("Player", options=players_df["name"].tolist(),
+    selected_name = st.selectbox("Player", options=players_df["full_name"].tolist(),
                                  index=None, placeholder="Type to search…",
                                  key="ps_player")
 
     if not selected_name:
         st.info("Select a player above to get started.")
+        add_betting_oracle_footer()
         st.stop()
 
     slug = _name_to_slug[selected_name]
@@ -51,6 +62,7 @@ with tabs[1]:
 
     if df.empty:
         st.warning("No completed matches found for this player.")
+        add_betting_oracle_footer()
         st.stop()
 
     wins, losses = db.player_record(df, slug)
@@ -116,3 +128,4 @@ with tabs[1]:
         width="stretch",
         hide_index=True,
     )
+    add_betting_oracle_footer()

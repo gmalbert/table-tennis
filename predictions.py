@@ -23,7 +23,15 @@ def home_page():
 
     if not db.db_ready():
         db.ensure_db()
+    # ── Top 15 upcoming bets ─────────────────────────────────────────
+    st.subheader("🔥 Top 15 upcoming bets")
+    bets = db.top_upcoming_bets()
+    if bets.empty:
+        st.info("No upcoming fixtures available. Run the nightly pre-compute script.")
+    else:
+        st.dataframe(bets, width="stretch", hide_index=True)
 
+    st.divider()
     # ── Summary metrics ───────────────────────────────────────────────────────
     stats = db.summary_stats()
 

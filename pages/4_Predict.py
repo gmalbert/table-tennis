@@ -11,6 +11,7 @@ import streamlit as st
 import plotly.graph_objects as go
 
 import db
+from footer import add_betting_oracle_footer
 
 st.title("🔮 Match Prediction")
 
@@ -34,6 +35,7 @@ with c2:
 
 if not name1 or not name2:
     st.info("Select both players to generate a prediction.")
+    add_betting_oracle_footer()
     st.stop()
 
 slug1 = _name_to_slug[name1]
@@ -41,6 +43,7 @@ slug2 = _name_to_slug[name2]
 
 if slug1 == slug2:
     st.warning("Please enter two different players.")
+    add_betting_oracle_footer()
     st.stop()
 
 # ── Compute stats ─────────────────────────────────────────────────────────────
@@ -130,3 +133,5 @@ if h2h_total == 0:
         "⚠️ These two players have no recorded H2H matches. "
         "Prediction is based purely on recent form and overall record."
     )
+
+add_betting_oracle_footer()
