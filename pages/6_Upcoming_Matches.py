@@ -42,6 +42,8 @@ def load_enriched() -> tuple[pd.DataFrame, str]:
 
     # Convert UTC times to US/Eastern; rebuild _date from ET datetime so
     # late-UTC matches land on the right ET calendar day.
+    now_et = datetime.now(ET)
+
     def to_et(row) -> tuple[str, str]:
         raw_time = row.get("Time", "")
         raw_date = row.get("_date", "")
@@ -60,9 +62,23 @@ def load_enriched() -> tuple[pd.DataFrame, str]:
     df["_date"] = et_cols[0]
     df["Time"]  = et_cols[1]
 
-    # Drop fixtures whose ET calendar date is in the past
-    today_et = datetime.now(ET).date().isoformat()
-    df = df[df["_date"] >= today_et]
+    # Drop fixtures whose ET start time has already passed
+    def _is_future(row) -> bool:
+        raw_date = row.get("_date", "")
+        raw_time = row.get("Time", "")
+        if not raw_date or not raw_time:
+            return True  # keep if no time info
+        try:
+            dt_et = datetime(
+                *map(int, raw_date.split("-")),
+                *map(int, raw_time.split(":")),
+                tzinfo=ET,
+            )
+            return dt_et > now_et
+        except Exception:
+            return True
+
+    df = df[df.apply(_is_future, axis=1)]
 
     return df, generated_at
 

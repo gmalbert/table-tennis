@@ -2,6 +2,7 @@ import streamlit as st
 import plotly.express as px
 
 import db
+from footer import add_betting_oracle_footer
 
 st.title("🏆 Tournaments")
 
@@ -24,6 +25,7 @@ selected = st.selectbox(
 
 if not selected:
     st.info("Select a tournament above to get started.")
+    add_betting_oracle_footer()
     st.stop()
 
 # ── Load matches ──────────────────────────────────────────────────────────────
@@ -89,3 +91,5 @@ st.dataframe(
     width="stretch",
     hide_index=True,
 )
+
+add_betting_oracle_footer()
