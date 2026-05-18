@@ -21,8 +21,9 @@ def home_page():
         st.title("🏓 Pong Odds")
     st.caption("Table tennis analytics — 10 years of match data")
 
-    if not db.db_ready():
-        db.ensure_db()
+    # Always check release freshness so cloud instances with an existing
+    # stale DB can pull the latest published snapshot.
+    db.ensure_db()
     # ── Top 15 upcoming bets ─────────────────────────────────────────
     st.subheader("🔥 Top 15 upcoming bets")
     bets = db.top_upcoming_bets()
