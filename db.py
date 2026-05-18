@@ -105,8 +105,12 @@ def _download_db() -> None:
         icon="⬇️",
     )
     progress_bar = st.progress(0.0, text="Connecting…")
-    tmp_path = DB_PATH.with_suffix(".tmp")
+    tmp_path = DB_PATH.with_name(f"{DB_PATH.name}.tmp")
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+
+    # Remove a stale temp file from a previous interrupted download.
+    if tmp_path.exists():
+        tmp_path.unlink(missing_ok=True)
 
     try:
         with requests.get(DB_RELEASE_URL, stream=True, timeout=600) as r:
@@ -123,7 +127,8 @@ def _download_db() -> None:
                             pct,
                             text=f"Downloading tt.db… {downloaded / 1e9:.2f} / {total / 1e9:.2f} GB",
                         )
-        tmp_path.rename(DB_PATH)
+        # On Windows, rename() cannot overwrite an existing file.
+        tmp_path.replace(DB_PATH)
         progress_bar.progress(1.0, text="Download complete!")
     except Exception as exc:
         if tmp_path.exists():
