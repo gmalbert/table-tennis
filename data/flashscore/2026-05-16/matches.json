@@ -1,0 +1,34 @@
+{
+  "date": "2026-05-16",
+  "match_count": 2,
+  "matches": [
+    {
+      "match_id": "SWO4Rysf",
+      "tournament": "TEAMS - MEN: Champions League (Europe) - Play Offs",
+      "home_player": "Saarbrucken",
+      "away_player": "Grodzisk",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-16 10:30:00",
+      "home_ranking": "",
+      "away_ranking": "",
+      "home_slug": "saarbrucken",
+      "away_slug": "grodzisk",
+      "sets": []
+    },
+    {
+      "match_id": "0pNCPFB6",
+      "tournament": "TEAMS - MEN: Champions League (Europe) - Play Offs",
+      "home_player": "Nimes/Montpellier",
+      "away_player": "Dusseldorf",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-05-16 14:00:00",
+      "home_ranking": "",
+      "away_ranking": "",
+      "home_slug": "nimes-montpellier",
+      "away_slug": "dusseldorf",
+      "sets": []
+    }
+  ]
+}
