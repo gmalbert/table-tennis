@@ -3,788 +3,1600 @@
   "match_count": 56,
   "matches": [
     {
-      "match_id": "lxl717Si",
-      "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
-      "home_player": "Camara G.",
-      "away_player": "Oh J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 10:10:00",
-      "home_ranking": "139",
-      "away_ranking": "106",
-      "home_slug": "camara-gabrielius",
-      "away_slug": "oh-junsung",
-      "sets": []
-    },
-    {
       "match_id": "MsItehaf",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Lind A.",
       "away_player": "Chirita I.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 10:10:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-05-21 09:50:00",
       "home_ranking": "63",
       "away_ranking": "157",
       "home_slug": "lind-anders",
       "away_slug": "chirita-iulian",
-      "sets": []
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
     },
     {
-      "match_id": "lUJYdEUs",
+      "match_id": "lxl717Si",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
-      "home_player": "Bardet L.",
-      "away_player": "Mati T.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 10:45:00",
-      "home_ranking": "77",
-      "away_ranking": "143",
-      "home_slug": "bardet-lilian",
-      "away_slug": "mati-taiwo",
-      "sets": []
+      "home_player": "Camara G.",
+      "away_player": "Oh J.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 10:05:00",
+      "home_ranking": "139",
+      "away_ranking": "106",
+      "home_slug": "camara-gabrielius",
+      "away_slug": "oh-junsung",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "xtgVe3dT",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Solanke A.",
       "away_player": "Salifou A-K.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 10:45:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-05-21 10:20:00",
       "home_ranking": "143",
       "away_ranking": "34",
       "home_slug": "solanke-azeez",
       "away_slug": "salifou-abdel-kader",
-      "sets": []
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "lUJYdEUs",
+      "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
+      "home_player": "Bardet L.",
+      "away_player": "Mati T.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 10:35:00",
+      "home_ranking": "77",
+      "away_ranking": "143",
+      "home_slug": "bardet-lilian",
+      "away_slug": "mati-taiwo",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
     },
     {
       "match_id": "ObdLw4zo",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Fabunmi M.",
       "away_player": "Agunbiade S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 11:20:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-05-21 10:50:00",
       "home_ranking": "143",
       "away_ranking": "143",
       "home_slug": "fabunmi-mathew",
       "away_slug": "agunbiade-sultan",
-      "sets": []
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "K27sonrB",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Istrate A.",
       "away_player": "Adegoke M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 11:20:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 11:00:00",
       "home_ranking": "157",
       "away_ranking": "143",
       "home_slug": "istrate-andrei",
       "away_slug": "adegoke-muizz",
-      "sets": []
+      "sets": [
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
     },
     {
       "match_id": "MknFaoc4",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "De Boer M.",
       "away_player": "Kim G.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 11:55:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-05-21 11:05:00",
       "home_ranking": "139",
       "away_ranking": "106",
       "home_slug": "de-boer-milo",
       "away_slug": "kim-gaon",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        }
+      ]
     },
     {
       "match_id": "8zhKivAa",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Lim J.",
       "away_player": "Omotayo O.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 11:55:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 11:40:00",
       "home_ranking": "106",
       "away_ranking": "143",
       "home_slug": "lim-jonghoon",
       "away_slug": "omotayo-olajide",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
     },
     {
       "match_id": "hG5kqQCN",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Dani M.",
       "away_player": "Ly E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 16:10:00",
+      "score_home": "0",
+      "score_away": "0",
+      "time": "2026-05-21 15:50:00",
       "home_ranking": "93",
       "away_ranking": "47",
       "home_slug": "dani-mudit",
       "away_slug": "ly-edward",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "U7LlgWT6",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Yoshimura K.",
       "away_player": "Seyfried J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 16:10:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-05-21 15:55:00",
       "home_ranking": "100",
       "away_ranking": "77",
       "home_slug": "yoshimura-kazuhiro",
       "away_slug": "seyfried-joe",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "tljSkIvC",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Shah M. U.",
       "away_player": "Kuti M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 16:45:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-05-21 16:15:00",
       "home_ranking": "93",
       "away_ranking": "143",
       "home_slug": "shah-manush-utpalbhai",
       "away_slug": "kuti-matthew",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
     },
     {
       "match_id": "0AlCg0um",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Thakkar M. V.",
       "away_player": "Desai H.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 16:45:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 16:20:00",
       "home_ranking": "93",
       "away_ranking": "93",
       "home_slug": "thakkar-manav-vikash",
       "away_slug": "desai-harmeet",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
     },
     {
       "match_id": "UFkNcPRG",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Jain P.",
       "away_player": "Geraldo J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 17:20:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 16:50:00",
       "home_ranking": "93",
       "away_ranking": "155",
       "home_slug": "jain-payas",
       "away_slug": "geraldo-joao",
-      "sets": []
+      "sets": [
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "YBv1jsKj",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Shetty S.",
       "away_player": "de Nodrest L.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 17:20:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 17:10:00",
       "home_ranking": "93",
       "away_ranking": "77",
       "home_slug": "shetty-sanil",
       "away_slug": "de-nodrest-leo",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "URctaMHP",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Allegro M.",
       "away_player": "Poret T.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 17:55:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-05-21 17:35:00",
       "home_ranking": "32",
       "away_ranking": "77",
       "home_slug": "allegro-martin",
       "away_slug": "poret-thibault",
-      "sets": []
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "z5OdiAbJ",
       "tournament": "OTHERS - MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Bhattacharjee A.",
       "away_player": "Abdulfatai A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 17:55:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 17:40:00",
       "home_ranking": "93",
       "away_ranking": "143",
       "home_slug": "bhattacharjee-ankur",
       "away_slug": "abdulfatai-abdulbasit",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
     },
     {
       "match_id": "UX00cCwB",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Sato H.",
       "away_player": "Okanlawon K.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 10:10:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 09:45:00",
       "home_ranking": "100",
       "away_ranking": "143",
       "home_slug": "sato-hitomi",
       "away_slug": "okanlawon-kadijat",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
     },
     {
       "match_id": "Gla8ej8N",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Sezuo A.",
       "away_player": "Bello F.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 10:10:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 09:55:00",
       "home_ranking": "143",
       "away_ranking": "143",
       "home_slug": "sezuo-aziza",
       "away_slug": "bello-fatimo",
-      "sets": []
-    },
-    {
-      "match_id": "rVi1FMp9",
-      "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
-      "home_player": "Monfardini G.",
-      "away_player": "Shibata S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 10:45:00",
-      "home_ranking": "98",
-      "away_ranking": "100",
-      "home_slug": "monfardini-gaia",
-      "away_slug": "shibata-saki",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "vRxQDXNi",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Saini S.",
       "away_player": "Hashimoto H.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 10:45:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 10:15:00",
       "home_ranking": "93",
       "away_ranking": "100",
       "home_slug": "saini-suhana",
       "away_slug": "hashimoto-honoka",
-      "sets": []
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "rVi1FMp9",
+      "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
+      "home_player": "Monfardini G.",
+      "away_player": "Shibata S.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-05-21 10:35:00",
+      "home_ranking": "98",
+      "away_ranking": "100",
+      "home_slug": "monfardini-gaia",
+      "away_slug": "shibata-saki",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "CCdm8TiT",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Mukherjee A.",
       "away_player": "Tofant A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 11:20:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 10:35:00",
       "home_ranking": "93",
       "away_ranking": "172",
       "home_slug": "mukherjee-ayhika",
       "away_slug": "tofant-ana",
-      "sets": []
-    },
-    {
-      "match_id": "tA7zut9d",
-      "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
-      "home_player": "Odo S.",
-      "away_player": "Odusanya A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 11:20:00",
-      "home_ranking": "100",
-      "away_ranking": "143",
-      "home_slug": "odo-satsuki",
-      "away_slug": "odusanya-abosede",
-      "sets": []
-    },
-    {
-      "match_id": "hbEL2q13",
-      "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
-      "home_player": "Mukherjee S.",
-      "away_player": "Shao J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 11:55:00",
-      "home_ranking": "93",
-      "away_ranking": "155",
-      "home_slug": "mukherjee-sutirtha",
-      "away_slug": "shao-jieni",
-      "sets": []
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
     },
     {
       "match_id": "nitYBBh4",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Schreiner F.",
       "away_player": "Ajuwon A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 11:55:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 11:20:00",
       "home_ranking": "81",
       "away_ranking": "143",
       "home_slug": "schreiner-franziska",
       "away_slug": "ajuwon-anuoluwapo",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "tA7zut9d",
+      "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
+      "home_player": "Odo S.",
+      "away_player": "Odusanya A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 11:25:00",
+      "home_ranking": "100",
+      "away_ranking": "143",
+      "home_slug": "odo-satsuki",
+      "away_slug": "odusanya-abosede",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "hbEL2q13",
+      "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
+      "home_player": "Mukherjee S.",
+      "away_player": "Shao J.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 11:30:00",
+      "home_ranking": "93",
+      "away_ranking": "155",
+      "home_slug": "mukherjee-sutirtha",
+      "away_slug": "shao-jieni",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "nXkvjUVp",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Samara E.",
       "away_player": "Mani N.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 16:10:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 15:50:00",
       "home_ranking": "157",
       "away_ranking": "93",
       "home_slug": "samara-elizabeta",
       "away_slug": "mani-nithya",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
     },
     {
       "match_id": "Yq4St2vp",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Vivarelli D.",
       "away_player": "Ojomu A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 16:10:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 16:05:00",
       "home_ranking": "98",
       "away_ranking": "143",
       "home_slug": "vivarelli-debora",
       "away_slug": "ojomu-ajoke",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
     },
     {
       "match_id": "remJ27Fj",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Das S.",
       "away_player": "Ghorpade Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 16:45:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 16:25:00",
       "home_ranking": "93",
       "away_ranking": "93",
       "home_slug": "das-syndrela",
       "away_slug": "ghorpade-yashaswini",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "4K67guOk",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Lutz C.",
       "away_player": "Meshref D.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 16:45:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-05-21 16:35:00",
       "home_ranking": "77",
       "away_ranking": "69",
       "home_slug": "lutz-camile",
       "away_slug": "meshref-dina",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
     },
     {
       "match_id": "QBCT0NVF",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Aso R.",
       "away_player": "Batra M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 17:20:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-05-21 16:55:00",
       "home_ranking": "100",
       "away_ranking": "93",
       "home_slug": "aso-reina",
       "away_slug": "batra-manika",
-      "sets": []
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "vabuAkNG",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Udoaka H.",
       "away_player": "Chitale D. P.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 17:20:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 16:55:00",
       "home_ranking": "143",
       "away_ranking": "93",
       "home_slug": "udoaka-hope",
       "away_slug": "chitale-diya-parag",
-      "sets": []
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "xY4FiJh2",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Ojo F.",
       "away_player": "Joo Cheonhui",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 17:55:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 17:20:00",
       "home_ranking": "143",
       "away_ranking": "106",
       "home_slug": "ojo-favour",
       "away_slug": "joo-cheonhui",
-      "sets": []
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "YyGya10S",
       "tournament": "OTHERS - WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Zhang M.",
       "away_player": "Vega P.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 17:55:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 17:25:00",
       "home_ranking": "47",
       "away_ranking": "51",
       "home_slug": "zhang-mo",
       "away_slug": "vega-paulina",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
     },
     {
       "match_id": "6qPYsOsR",
       "tournament": "OTHERS - DOUBLES MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Thakkar M. V./Shah M. U.",
       "away_player": "Abdulfatai A./Fabunmi M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 12:30:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 12:00:00",
       "home_ranking": "93",
       "away_ranking": "143",
       "home_slug": "thakkar-manav-vikash",
       "away_slug": "abdulfatai-abdulbasit",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
     },
     {
       "match_id": "v3Q0vhYO",
       "tournament": "OTHERS - DOUBLES MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Dani M./Shetty S.",
       "away_player": "Ayoola U./Samson J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 12:30:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-05-21 12:05:00",
       "home_ranking": "93",
       "away_ranking": "143",
       "home_slug": "dani-mudit",
       "away_slug": "ayoola-umar",
-      "sets": []
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
     },
     {
       "match_id": "YuUvMtL7",
       "tournament": "OTHERS - DOUBLES MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Camara G./Chambet-Weil R.",
       "away_player": "Adeoye H./Adesanya S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 13:05:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 12:35:00",
       "home_ranking": "139",
       "away_ranking": "143",
       "home_slug": "camara-gabrielius",
       "away_slug": "adeoye-hussein",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "0nMQqpDE",
       "tournament": "OTHERS - DOUBLES MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Mati T./Kuti M.",
       "away_player": "Quarcoo E./Addo K.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 13:05:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 12:40:00",
       "home_ranking": "143",
       "away_ranking": "82",
       "home_slug": "mati-taiwo",
       "away_slug": "quarcoo-ernest",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "ld2QfDI5",
       "tournament": "OTHERS - DOUBLES MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Fayele D./Lawal A.",
       "away_player": "Marfo J./Antwi F.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "0",
       "time": "2026-05-21 15:00:00",
       "home_ranking": "143",
       "away_ranking": "82",
       "home_slug": "fayele-david",
       "away_slug": "marfo-james",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
     },
     {
       "match_id": "0SVWN2je",
       "tournament": "OTHERS - DOUBLES MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Omotayo O./Lind A.",
       "away_player": "Bhattacharjee A./Jain P.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-05-21 15:00:00",
       "home_ranking": "143",
       "away_ranking": "93",
       "home_slug": "omotayo-olajide",
       "away_slug": "bhattacharjee-ankur",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "8I0AbeJt",
       "tournament": "OTHERS - DOUBLES MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Atunwon Q./Adebakin T.",
       "away_player": "Chirita I./Istrate A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 15:35:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-05-21 15:20:00",
       "home_ranking": "143",
       "away_ranking": "157",
       "home_slug": "atunwon-quadri",
       "away_slug": "chirita-iulian",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "Gr4IdZmg",
       "tournament": "OTHERS - DOUBLES MEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Kazeem M./Oladele K.",
       "away_player": "Bardet L./Poret T.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "0",
+      "score_away": "3",
       "time": "2026-05-21 15:35:00",
       "home_ranking": "143",
       "away_ranking": "77",
       "home_slug": "kazeem-makanjuola",
       "away_slug": "bardet-lilian",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "2m2ci8nf",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Vivarelli D./Monfardini G.",
       "away_player": "Emmanuel J./Mbah O.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 12:30:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 12:10:00",
       "home_ranking": "98",
       "away_ranking": "143",
       "home_slug": "vivarelli-debora",
       "away_slug": "emmanuel-joy",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "biDJbjfK",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Faleye D./Shaibu E.",
       "away_player": "Bello F./Ojomu A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 12:30:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 12:15:00",
       "home_ranking": "143",
       "away_ranking": "143",
       "home_slug": "faleye-deborah",
       "away_slug": "bello-fatimo",
-      "sets": []
-    },
-    {
-      "match_id": "fNbkgUHs",
-      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Lagos (Nigeria)",
-      "home_player": "Batra M./Das S.",
-      "away_player": "Saini S./Mani N.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 13:05:00",
-      "home_ranking": "93",
-      "away_ranking": "93",
-      "home_slug": "batra-manika",
-      "away_slug": "saini-suhana",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "n36Yzm2D",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Asaju A./Fashola A.",
       "away_player": "Aso R./Joo Cheonhui",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 13:05:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 12:30:00",
       "home_ranking": "143",
       "away_ranking": "100",
       "home_slug": "asaju-ajarat",
       "away_slug": "aso-reina",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "fNbkgUHs",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Lagos (Nigeria)",
+      "home_player": "Batra M./Das S.",
+      "away_player": "Saini S./Mani N.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 12:45:00",
+      "home_ranking": "93",
+      "away_ranking": "93",
+      "home_slug": "batra-manika",
+      "away_slug": "saini-suhana",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "AuECztz1",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Odusanya A./Akinsete A.",
       "away_player": "Ghorpade Y./Chitale D. P.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "0",
+      "score_away": "3",
       "time": "2026-05-21 15:00:00",
       "home_ranking": "143",
       "away_ranking": "93",
       "home_slug": "odusanya-abosede",
       "away_slug": "ghorpade-yashaswini",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "Aa46dNdK",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Mukherjee A./Mukherjee S.",
       "away_player": "Okanlawon K./Hussain H.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "0",
       "time": "2026-05-21 15:00:00",
       "home_ranking": "93",
       "away_ranking": "143",
       "home_slug": "mukherjee-ayhika",
       "away_slug": "okanlawon-kadijat",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
     },
     {
       "match_id": "I5HKYJ4D",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Ayoola K./Rabiu A.",
       "away_player": "Ojo F./Udoaka H.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 15:35:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-05-21 15:25:00",
       "home_ranking": "143",
       "away_ranking": "143",
       "home_slug": "ayoola-kabirat",
       "away_slug": "ojo-favour",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "2FA4x25l",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Lagos (Nigeria)",
       "home_player": "Sato H./Shibata S.",
       "away_player": "Tofant A./Vega P.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 15:35:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 15:25:00",
       "home_ranking": "100",
       "away_ranking": "172",
       "home_slug": "sato-hitomi",
       "away_slug": "tofant-ana",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "fmAaoclJ",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Lagos (Nigeria)",
       "home_player": "Kuti M./Ayoola K.",
       "away_player": "Desai H./Ghorpade Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 09:00:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-05-21 09:05:00",
       "home_ranking": "143",
       "away_ranking": "93",
       "home_slug": "kuti-matthew",
       "away_slug": "desai-harmeet",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "EPSqlsK6",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Lagos (Nigeria)",
       "home_player": "Thakkar M. V./Batra M.",
       "away_player": "Mati T./Ojo F.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 09:00:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 09:05:00",
       "home_ranking": "93",
       "away_ranking": "143",
       "home_slug": "thakkar-manav-vikash",
       "away_slug": "mati-taiwo",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
     },
     {
       "match_id": "6q5yi1Ks",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Lagos (Nigeria)",
       "home_player": "Shah M. U./Chitale D. P.",
       "away_player": "Omotayo O./Vivarelli D.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 09:00:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 09:05:00",
       "home_ranking": "93",
       "away_ranking": "143",
       "home_slug": "shah-manush-utpalbhai",
       "away_slug": "omotayo-olajide",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
     },
     {
       "match_id": "nN6imJJ6",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Lagos (Nigeria)",
       "home_player": "Dani M./Mukherjee A.",
       "away_player": "Chambet-Weil R./Vega P.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 09:00:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-05-21 09:05:00",
       "home_ranking": "93",
       "away_ranking": "139",
       "home_slug": "dani-mudit",
       "away_slug": "chambet-weil-remi",
-      "sets": []
-    },
-    {
-      "match_id": "6aPyj3kf",
-      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Lagos (Nigeria)",
-      "home_player": "Abdulfatai A./Aiyelabegan S.",
-      "away_player": "Marfo J./Kwabi C.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 09:35:00",
-      "home_ranking": "143",
-      "away_ranking": "82",
-      "home_slug": "abdulfatai-abdulbasit",
-      "away_slug": "marfo-james",
-      "sets": []
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "E98qkukf",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Lagos (Nigeria)",
       "home_player": "de Nodrest L./Lutz C.",
       "away_player": "Antwi F./Borteye J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 09:35:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 09:25:00",
       "home_ranking": "77",
       "away_ranking": "82",
       "home_slug": "de-nodrest-leo",
       "away_slug": "antwi-francis",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "0"
+        }
+      ]
     },
     {
-      "match_id": "6XpinLlJ",
+      "match_id": "6aPyj3kf",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Lagos (Nigeria)",
-      "home_player": "Adegoke M./Rabiu A.",
-      "away_player": "Yoshimura K./Aso R.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 09:35:00",
+      "home_player": "Abdulfatai A./Aiyelabegan S.",
+      "away_player": "Marfo J./Kwabi C.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 09:30:00",
       "home_ranking": "143",
-      "away_ranking": "100",
-      "home_slug": "adegoke-muizz",
-      "away_slug": "yoshimura-kazuhiro",
-      "sets": []
+      "away_ranking": "82",
+      "home_slug": "abdulfatai-abdulbasit",
+      "away_slug": "marfo-james",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "YoRTiPKs",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Lagos (Nigeria)",
       "home_player": "Ly E./Zhang M.",
       "away_player": "Adesanya S./Okafor C.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-05-21 09:35:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-05-21 09:30:00",
       "home_ranking": "47",
       "away_ranking": "143",
       "home_slug": "ly-edward",
       "away_slug": "adesanya-sodiq",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "6XpinLlJ",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Lagos (Nigeria)",
+      "home_player": "Adegoke M./Rabiu A.",
+      "away_player": "Yoshimura K./Aso R.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-05-21 09:40:00",
+      "home_ranking": "143",
+      "away_ranking": "100",
+      "home_slug": "adegoke-muizz",
+      "away_slug": "yoshimura-kazuhiro",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
     }
   ]
 }
