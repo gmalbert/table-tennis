@@ -1,0 +1,1297 @@
+{
+  "date": "2026-06-03",
+  "match_count": 44,
+  "matches": [
+    {
+      "match_id": "GONYIqt2",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Feng Y.-H.",
+      "away_player": "Berzosa D.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 09:10:00",
+      "home_ranking": "218",
+      "away_ranking": "176",
+      "home_slug": "feng-yi-hsin",
+      "away_slug": "berzosa-daniel",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "15",
+          "away": "17"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "jVehwr2c",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Kang D.",
+      "away_player": "Brhel S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 09:45:00",
+      "home_ranking": "106",
+      "away_ranking": "62",
+      "home_slug": "kang-dongsoo",
+      "away_slug": "brhel-stepan",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "8zfvxv5U",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Park G.",
+      "away_player": "Perez J.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 09:55:00",
+      "home_ranking": "106",
+      "away_ranking": "176",
+      "home_slug": "park-gyuhyeon",
+      "away_slug": "perez-juan",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "OO36FvAj",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Pistej L.",
+      "away_player": "Wang Y.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-03 10:00:00",
+      "home_ranking": "171",
+      "away_ranking": "171",
+      "home_slug": "pistej-lubomir",
+      "away_slug": "wang-yang",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "OnUmdsjn",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Brard R.",
+      "away_player": "Pau Y. M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 10:20:00",
+      "home_ranking": "77",
+      "away_ranking": "222",
+      "home_slug": "brard-romain",
+      "away_slug": "pau-yik-man",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "fqS6iYM7",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Kveton O.",
+      "away_player": "Moreno S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-03 10:20:00",
+      "home_ranking": "62",
+      "away_ranking": "236",
+      "home_slug": "kveton-ondrej",
+      "away_slug": "moreno-steven",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "88stlaGF",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Valuch A.",
+      "away_player": "Lebaka N.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-03 10:20:00",
+      "home_ranking": "171",
+      "away_ranking": "200",
+      "home_slug": "valuch-alexander",
+      "away_slug": "lebaka-nishant",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "0rvYkLo3",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Bourrassaud F.",
+      "away_player": "Gomez G.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 10:45:00",
+      "home_ranking": "77",
+      "away_ranking": "51",
+      "home_slug": "bourrassaud-florian",
+      "away_slug": "gomez-gustavo",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "nJObgfhe",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Karlsson M.",
+      "away_player": "Castro R.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 10:45:00",
+      "home_ranking": "181",
+      "away_ranking": "128",
+      "home_slug": "karlsson-mattias",
+      "away_slug": "castro-rogelio",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "KQqfCoD6",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Hsu H.",
+      "away_player": "Freitas M.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-03 15:10:15",
+      "home_ranking": "218",
+      "away_ranking": "155",
+      "home_slug": "hsu-hsien-chia",
+      "away_slug": "freitas-marcos",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        }
+      ]
+    },
+    {
+      "match_id": "Od361Ubl",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Rolland J.",
+      "away_player": "El-Beiali M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 15:10:15",
+      "home_ranking": "77",
+      "away_ranking": "69",
+      "home_slug": "rolland-jules",
+      "away_slug": "el-beiali-mohamed",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "AXi8LkjK",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Oikawa M.",
+      "away_player": "Karlsson M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 15:25:15",
+      "home_ranking": "100",
+      "away_ranking": "181",
+      "home_slug": "oikawa-mizuki",
+      "away_slug": "karlsson-mattias",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Sjm2APsJ",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Berzosa D.",
+      "away_player": "Nuytinck C.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 15:30:15",
+      "home_ranking": "176",
+      "away_ranking": "32",
+      "home_slug": "berzosa-daniel",
+      "away_slug": "nuytinck-cedric",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "AD1Ea8T0",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Bourrassaud F.",
+      "away_player": "Park G.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 15:45:23",
+      "home_ranking": "77",
+      "away_ranking": "106",
+      "home_slug": "bourrassaud-florian",
+      "away_slug": "park-gyuhyeon",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "tGrvGTDs",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Chirita I.",
+      "away_player": "Devos L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 16:00:27",
+      "home_ranking": "157",
+      "away_ranking": "32",
+      "home_slug": "chirita-iulian",
+      "away_slug": "devos-laurens",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "Iw5McnbD",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Lillo D.",
+      "away_player": "Pistej L.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-03 16:00:32",
+      "home_ranking": "176",
+      "away_ranking": "171",
+      "home_slug": "lillo-diego",
+      "away_slug": "pistej-lubomir",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "nDonE7rf",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Zeljko F.",
+      "away_player": "Kozul D.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 16:00:36",
+      "home_ranking": "59",
+      "away_ranking": "172",
+      "home_slug": "zeljko-filip",
+      "away_slug": "kozul-deni",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        }
+      ]
+    },
+    {
+      "match_id": "pl7hFARr",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Aoki S.",
+      "away_player": "Das S.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-03 08:35:00",
+      "home_ranking": "100",
+      "away_ranking": "93",
+      "home_slug": "aoki-sachi",
+      "away_slug": "das-syndrela",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "IHqulYSq",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Kallberg Ch.",
+      "away_player": "Ghosh S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 08:35:00",
+      "home_ranking": "181",
+      "away_ranking": "93",
+      "home_slug": "kallberg-christina",
+      "away_slug": "ghosh-swastika",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "0"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "zeVSbks2",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Lutz C.",
+      "away_player": "Burgos B.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 08:35:00",
+      "home_ranking": "77",
+      "away_ranking": "236",
+      "home_slug": "lutz-camile",
+      "away_slug": "burgos-brianna",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "MDICco0t",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Sasao A.",
+      "away_player": "Diaconu A.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-03 08:35:00",
+      "home_ranking": "100",
+      "away_ranking": "157",
+      "home_slug": "sasao-asuka",
+      "away_slug": "diaconu-adina",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "E9hCPIYj",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Bergstrom L.",
+      "away_player": "Muramatsu C.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-03 09:10:00",
+      "home_ranking": "181",
+      "away_ranking": "100",
+      "home_slug": "bergstrom-linda",
+      "away_slug": "muramatsu-cocona",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ATD1X9mR",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Kimura K.",
+      "away_player": "Zarif A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-03 09:10:00",
+      "home_ranking": "100",
+      "away_ranking": "77",
+      "home_slug": "kimura-kasumi",
+      "away_slug": "zarif-audrey",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "8lNzhsUH",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "de Nutte S.",
+      "away_player": "Chen S-Y.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-03 09:30:00",
+      "home_ranking": "117",
+      "away_ranking": "218",
+      "home_slug": "de-nutte-sarah",
+      "away_slug": "chen-szu-yu",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "p2l4Lodc",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Chen S-Y.",
+      "away_player": "Ho T.T.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-03 14:01:00",
+      "home_ranking": "218",
+      "away_ranking": "197",
+      "home_slug": "chen-szu-yu",
+      "away_slug": "ho-tin-tin",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "lviP88Ci",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Kimura K.",
+      "away_player": "Yoo S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-03 14:01:00",
+      "home_ranking": "100",
+      "away_ranking": "106",
+      "home_slug": "kimura-kasumi",
+      "away_slug": "yoo-siwoo",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Ea7v5QBG",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Shao J.",
+      "away_player": "Sasao A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 14:01:00",
+      "home_ranking": "155",
+      "away_ranking": "100",
+      "home_slug": "shao-jieni",
+      "away_slug": "sasao-asuka",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "h81Icr4j",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Shibata S.",
+      "away_player": "Malobabic I.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 14:01:00",
+      "home_ranking": "100",
+      "away_ranking": "59",
+      "home_slug": "shibata-saki",
+      "away_slug": "malobabic-ivana",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "K4Cu1dgo",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Ni X.",
+      "away_player": "Lutz C.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-03 14:35:01",
+      "home_ranking": "117",
+      "away_ranking": "77",
+      "home_slug": "ni-xialian",
+      "away_slug": "lutz-camile",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        }
+      ]
+    },
+    {
+      "match_id": "MPAn34tT",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Rakovac L.",
+      "away_player": "Peng Y.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-03 14:35:41",
+      "home_ranking": "59",
+      "away_ranking": "218",
+      "home_slug": "rakovac-lea",
+      "away_slug": "peng-yu-han",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "OYQ96IVN",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Takeya M.",
+      "away_player": "Muramatsu C.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 14:45:04",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "takeya-misuzu",
+      "away_slug": "muramatsu-cocona",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "tn9W6ns4",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia) - Qualification - Play Offs",
+      "home_player": "Aoki S.",
+      "away_player": "Kallberg Ch.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-03 14:50:51",
+      "home_ranking": "100",
+      "away_ranking": "181",
+      "home_slug": "aoki-sachi",
+      "away_slug": "kallberg-christina",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "A5JjBO8C",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Jorgic D./Kozul D.",
+      "away_player": "Pistej L./Valuch A.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-06-03 11:30:00",
+      "home_ranking": "172",
+      "away_ranking": "171",
+      "home_slug": "jorgic-darko",
+      "away_slug": "pistej-lubomir",
+      "sets": []
+    },
+    {
+      "match_id": "xhLrDpv0",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Naranjo A./Moreno S.",
+      "away_player": "Jarvis T./Green C.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 11:30:00",
+      "home_ranking": "236",
+      "away_ranking": "198",
+      "home_slug": "naranjo-angel",
+      "away_slug": "jarvis-tom",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "URHzF69m",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Stojchev L./Stojanovski A.",
+      "away_player": "Park G./Kwon H.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 11:45:00",
+      "home_ranking": "118",
+      "away_ranking": "106",
+      "home_slug": "stojchev-luka",
+      "away_slug": "park-gyuhyeon",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "rXWc92wP",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Chirita I./Istrate A.",
+      "away_player": "Ban I./Zeljko F.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-03 12:05:00",
+      "home_ranking": "157",
+      "away_ranking": "59",
+      "home_slug": "chirita-iulian",
+      "away_slug": "ban-ivor",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "KWGVN1hI",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Burgos B./Leon E.",
+      "away_player": "Lutz C./Zarif A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 10:55:00",
+      "home_ranking": "236",
+      "away_ranking": "77",
+      "home_slug": "burgos-brianna",
+      "away_slug": "lutz-camile",
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "EZDNPNN5",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Malobabic I./Pavlovic A.",
+      "away_player": "Peng Y./Chen S-Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 11:00:00",
+      "home_ranking": "59",
+      "away_ranking": "218",
+      "home_slug": "malobabic-ivana",
+      "away_slug": "peng-yu-han",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        }
+      ]
+    },
+    {
+      "match_id": "YeC7T5Ot",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Muramatsu C./Aoki S.",
+      "away_player": "de Nutte S./Ni X.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-03 11:20:00",
+      "home_ranking": "100",
+      "away_ranking": "117",
+      "home_slug": "muramatsu-cocona",
+      "away_slug": "de-nutte-sarah",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "69AFRqgg",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Wong H. T./Lam Y. L.",
+      "away_player": "Kimura K./Kihara M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 11:20:00",
+      "home_ranking": "222",
+      "away_ranking": "100",
+      "home_slug": "wong-hoi-tung",
+      "away_slug": "kimura-kasumi",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "4z96vt0b",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Pistej L./de Nutte S.",
+      "away_player": "Castro R./Cossio Aceves A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-03 08:00:00",
+      "home_ranking": "171",
+      "away_ranking": "128",
+      "home_slug": "pistej-lubomir",
+      "away_slug": "castro-rogelio",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "dA5bt2Vo",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Assar O./Goda H.",
+      "away_player": "Bourrassaud F./Ng W. L.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-03 08:00:00",
+      "home_ranking": "69",
+      "away_ranking": "77",
+      "home_slug": "assar-omar",
+      "away_slug": "bourrassaud-florian",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "xl7ExKUA",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Mladenovic L./Ni X.",
+      "away_player": "Pau Y. M./Lee K. M. H.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-03 08:00:00",
+      "home_ranking": "117",
+      "away_ranking": "222",
+      "home_slug": "mladenovic-luka",
+      "away_slug": "pau-yik-man",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "hpFwMuNU",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Skopje (North Macedonia) - Qualification",
+      "home_player": "Movileanu D./Zaharia E.",
+      "away_player": "Kobayashi H./Kihara M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-03 08:00:00",
+      "home_ranking": "157",
+      "away_ranking": "100",
+      "home_slug": "movileanu-darius",
+      "away_slug": "kobayashi-hiromu",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        }
+      ]
+    }
+  ]
+}
