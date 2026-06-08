@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-07",
+  "match_count": 4,
+  "matches": [
+    {
+      "match_id": "hj0qEAIc",
+      "tournament": "OTHERS - MEN: WTT Contender Skopje (North Macedonia)",
+      "home_player": "Jha K.",
+      "away_player": "Jorgic D.",
+      "score_home": "2",
+      "score_away": "4",
+      "time": "2026-06-07 16:00:00",
+      "home_ranking": "200",
+      "away_ranking": "172",
+      "home_slug": "jha-kanak",
+      "away_slug": "jorgic-darko",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "14",
+          "away": "16"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "zm79OErA",
+      "tournament": "OTHERS - WOMEN: WTT Contender Skopje (North Macedonia)",
+      "home_player": "Odo S.",
+      "away_player": "Hashimoto H.",
+      "score_home": "4",
+      "score_away": "0",
+      "time": "2026-06-07 15:15:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "odo-satsuki",
+      "away_slug": "hashimoto-honoka",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "f3W2qRr3",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Skopje (North Macedonia)",
+      "home_player": "Lim J./Oh J.",
+      "away_player": "Jorgic D./Kozul D.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-07 14:45:00",
+      "home_ranking": "106",
+      "away_ranking": "172",
+      "home_slug": "lim-jonghoon",
+      "away_slug": "jorgic-darko",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "4WhNWmac",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Skopje (North Macedonia)",
+      "home_player": "Odo S./Yokoi S.",
+      "away_player": "Muramatsu C./Aoki S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-07 14:05:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "odo-satsuki",
+      "away_slug": "muramatsu-cocona",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "17",
+          "away": "15"
+        }
+      ]
+    }
+  ]
+}
