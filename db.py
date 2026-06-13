@@ -8,6 +8,7 @@ is a singleton (check_same_thread=False is safe for read-only queries).
 from __future__ import annotations
 
 import sqlite3
+import time
 from datetime import date
 from pathlib import Path
 
@@ -110,6 +111,8 @@ def _db_needs_update() -> bool:
 
 def _download_db() -> None:
     """Stream tt.db from GitHub Releases with a Streamlit progress bar."""
+    import gc
+    import os
     import requests
 
     st.info(
@@ -144,8 +147,47 @@ def _download_db() -> None:
                             0.0,
                             text=f"Downloading tt.db… {downloaded / 1e9:.2f} GB",
                         )
-        # On Windows, rename() cannot overwrite an existing file.
-        tmp_path.replace(DB_PATH)
+        # Close/clear any cached SQLite connection before swapping the DB file.
+        # This avoids WinError 5 when Windows still has tt.db open.
+        try:
+            conn = get_conn()
+            conn.close()
+        except Exception:
+            pass
+        try:
+            get_conn.clear()
+        except Exception:
+            pass
+
+        # Best-effort cleanup of sidecar files from prior WAL sessions.
+        for sidecar in (
+            DB_PATH.parent / f"{DB_PATH.name}-wal",
+            DB_PATH.parent / f"{DB_PATH.name}-shm",
+        ):
+            try:
+                sidecar.unlink(missing_ok=True)
+            except Exception:
+                pass
+
+        gc.collect()
+
+        # On Windows, replacing can fail briefly if another process just touched
+        # the file; retry with short backoff before surfacing an error.
+        last_exc: Exception | None = None
+        for attempt in range(8):
+            try:
+                os.replace(tmp_path, DB_PATH)
+                last_exc = None
+                break
+            except PermissionError as exc:
+                last_exc = exc
+                if attempt == 7:
+                    raise
+                time.sleep(0.25 * (attempt + 1))
+
+        if last_exc is not None:
+            raise last_exc
+
         progress_bar.progress(1.0, text="Download complete!")
     except Exception as exc:
         if tmp_path.exists():
