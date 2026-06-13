@@ -26,7 +26,17 @@ def home_page():
     db.ensure_db()
     # ── Top 15 upcoming bets ─────────────────────────────────────────
     st.subheader("🔥 Top 15 upcoming bets")
-    bets = db.top_upcoming_bets()
+    c1, c2, c3 = st.columns(3)
+    min_conf = c1.selectbox("Min confidence", ["Low", "Medium", "High"], index=0, key="home_min_conf")
+    min_cov = c2.selectbox("Min coverage", ["Low", "Medium", "High"], index=0, key="home_min_cov")
+    min_sample = c3.slider("Min sample size", min_value=0, max_value=200, value=0, step=5, key="home_min_sample")
+
+    bets = db.top_upcoming_bets(
+        n=15,
+        min_confidence=min_conf,
+        min_coverage_tier=min_cov,
+        min_sample_size=min_sample,
+    )
     if bets.empty:
         st.info("No upcoming fixtures available. Run the nightly pre-compute script.")
     else:
@@ -77,6 +87,7 @@ pg = st.navigation(
         st.Page("pages/3_Tournaments.py",      title="Tournaments",      icon="🏆"),
         st.Page("pages/4_Predict.py",          title="Predict",          icon="🔮"),
         st.Page("pages/5_Recent_Matches.py",   title="Recent Matches",   icon="📡"),
+        st.Page("pages/7_Backtesting.py",      title="Backtesting",      icon="📈"),
     ],
     position="sidebar",
 )

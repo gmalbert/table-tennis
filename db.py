@@ -27,7 +27,10 @@ DB_RELEASE_URL = (
 # How often (seconds) the app calls the GitHub API to check for a newer release.
 DB_CHECK_INTERVAL = 12 * 3600  # 12 hours
 
-ENDED = "Ended"
+# Some snapshots label completed matches as "Ended" while others use
+# "finished". Treat both as completed to keep metrics stable.
+ENDED_STATUSES = ("Ended", "finished")
+ENDED_STATUS_SQL = "status_description IN ('Ended','finished')"
 
 
 # ── Download helpers ──────────────────────────────────────────────────────────
@@ -185,9 +188,9 @@ def db_ready() -> bool:
 @st.cache_data(ttl=3600)
 def summary_stats() -> dict:
     conn = get_conn()
-    total  = pd.read_sql(f"SELECT COUNT(*) n FROM matches WHERE status_description='{ENDED}'", conn).iloc[0, 0]
+    total  = pd.read_sql(f"SELECT COUNT(*) n FROM matches WHERE {ENDED_STATUS_SQL}", conn).iloc[0, 0]
     total_p = pd.read_sql("SELECT COUNT(*) n FROM players", conn).iloc[0, 0]
-    total_t = pd.read_sql(f"SELECT COUNT(DISTINCT tournament_name) n FROM matches WHERE status_description='{ENDED}'", conn).iloc[0, 0]
+    total_t = pd.read_sql(f"SELECT COUNT(DISTINCT tournament_name) n FROM matches WHERE {ENDED_STATUS_SQL}", conn).iloc[0, 0]
     dr = pd.read_sql("SELECT MIN(date) mn, MAX(date) mx FROM matches", conn).iloc[0]
     return dict(matches=int(total), players=int(total_p), tournaments=int(total_t),
                 min_date=dr["mn"], max_date=dr["mx"])
@@ -197,7 +200,7 @@ def summary_stats() -> dict:
 def matches_per_year() -> pd.DataFrame:
     return pd.read_sql(
         f"SELECT substr(date,1,4) year, COUNT(*) matches FROM matches "
-        f"WHERE status_description='{ENDED}' GROUP BY year ORDER BY year",
+        f"WHERE {ENDED_STATUS_SQL} GROUP BY year ORDER BY year",
         get_conn(),
     )
 
@@ -206,7 +209,7 @@ def matches_per_year() -> pd.DataFrame:
 def top_tournaments(n: int = 15) -> pd.DataFrame:
     return pd.read_sql(
         f"SELECT tournament_name, COUNT(*) matches FROM matches "
-        f"WHERE status_description='{ENDED}' "
+        f"WHERE {ENDED_STATUS_SQL} "
         f"GROUP BY tournament_name ORDER BY matches DESC LIMIT {n}",
         get_conn(),
     )
@@ -228,13 +231,13 @@ def top_players_current_year(n: int = 100, min_matches: int = 4) -> pd.DataFrame
         "           CASE WHEN winner='home' THEN 1 ELSE 0 END AS win, "
         "           CASE WHEN winner='home' THEN 0 ELSE 1 END AS loss "
         "    FROM matches "
-        "    WHERE status_description=? AND date >= ? AND date < ? "
+        "    WHERE status_description IN (?, ?) AND date >= ? AND date < ? "
         "    UNION ALL "
         "    SELECT away_slug AS slug, "
         "           CASE WHEN winner='away' THEN 1 ELSE 0 END AS win, "
         "           CASE WHEN winner='away' THEN 0 ELSE 1 END AS loss "
         "    FROM matches "
-        "    WHERE status_description=? AND date >= ? AND date < ? "
+        "    WHERE status_description IN (?, ?) AND date >= ? AND date < ? "
         "  ) "
         "  GROUP BY slug "
         "  HAVING COUNT(*) >= ? "
@@ -247,7 +250,16 @@ def top_players_current_year(n: int = 100, min_matches: int = 4) -> pd.DataFrame
     df = pd.read_sql(
         sql,
         get_conn(),
-        params=[ENDED, start_date, end_date, ENDED, start_date, end_date, min_matches, n],
+        params=[
+            *ENDED_STATUSES,
+            start_date,
+            end_date,
+            *ENDED_STATUSES,
+            start_date,
+            end_date,
+            min_matches,
+            n,
+        ],
     )
     df["full_name"] = df["slug"].apply(slug_to_full_name)
     df = df.sort_values(
@@ -264,9 +276,9 @@ def current_year_latest_date() -> str | None:
     end_date = f"{year + 1}-01-01"
     df = pd.read_sql(
         "SELECT MAX(date) AS latest_date FROM matches "
-        "WHERE status_description=? AND date >= ? AND date < ?",
+        "WHERE status_description IN (?, ?) AND date >= ? AND date < ?",
         get_conn(),
-        params=[ENDED, start_date, end_date],
+        params=[*ENDED_STATUSES, start_date, end_date],
     )
     latest = df.iloc[0, 0] if not df.empty else None
     return latest if latest else None
@@ -279,16 +291,24 @@ def current_year_latest_date() -> str | None:
 ENRICHED_PATH = Path(__file__).parent / "processed" / "upcoming_enriched.json"
 
 _CONF_ORDER = {"High": 0, "Medium": 1, "Low": 2}
+_COVER_ORDER = {"High": 0, "Medium": 1, "Low": 2}
 
 
 @st.cache_data(ttl=300)
-def top_upcoming_bets(n: int = 15) -> pd.DataFrame:
+def top_upcoming_bets(
+    n: int = 15,
+    min_confidence: str = "Low",
+    min_coverage_tier: str = "Low",
+    min_sample_size: int = 0,
+) -> pd.DataFrame:
     """Return up to *n* upcoming fixtures sorted by nearest date/time then
     confidence (High > Medium > Low) then win probability descending.
 
-    Columns returned: Date, Time (ET), Home, Away, Favourite, Win %, Confidence, Tournament
+    Columns returned: Date, Time (ET), Home, Away, Favorite, Win %, Confidence,
+    Coverage, Why, Tournament
     """
     import json
+    import math
     from datetime import datetime, timezone
     from zoneinfo import ZoneInfo
 
@@ -306,6 +326,64 @@ def top_upcoming_bets(n: int = 15) -> pd.DataFrame:
         return pd.DataFrame()
 
     df = pd.DataFrame(fixtures)
+
+    # Fallback for fixtures whose precomputed probability is flat 50/50:
+    # if both rankings are known, derive a probability from rank gap.
+    def _to_rank(v):
+        s = str(v).strip()
+        if not s or s == "–":
+            return None
+        try:
+            return int(s)
+        except Exception:
+            return None
+
+    def _parse_win_pct(v):
+        try:
+            return float(str(v).rstrip("%"))
+        except Exception:
+            return None
+
+    def _rank_fallback(row):
+        current = _parse_win_pct(row.get("Win %", ""))
+        if current is None or abs(current - 50.0) > 0.01:
+            return row.get("Favourite", ""), row.get("Win %", "")
+
+        hr = _to_rank(row.get("Home Rank"))
+        ar = _to_rank(row.get("Away Rank"))
+        if not hr or not ar:
+            return row.get("Favourite", ""), row.get("Win %", "")
+
+        # Lower ranking number means stronger player.
+        # Calibrated to avoid overconfident tails from noisy rankings.
+        prob_home = 1.0 / (1.0 + math.exp(-(ar - hr) / 60.0))
+        prob_home = min(0.85, max(0.15, prob_home))
+        fav = row.get("Home", "") if prob_home >= 0.5 else row.get("Away", "")
+        win_pct = f"{max(prob_home, 1.0 - prob_home) * 100:.0f}%"
+        return fav, win_pct
+
+    fallback = df.apply(_rank_fallback, axis=1, result_type="expand")
+    df["Favourite"] = fallback[0]
+    df["Win %"] = fallback[1]
+
+    # Normalize optional enrichment columns for filtering/explainability.
+    if "Coverage Tier" not in df.columns:
+        df["Coverage Tier"] = "Low"
+    if "Sample Size" not in df.columns:
+        df["Sample Size"] = 0
+    if "Model Explain" not in df.columns:
+        df["Model Explain"] = ""
+    if "Coverage" not in df.columns:
+        df["Coverage"] = "0.0"
+
+    min_conf_rank = _CONF_ORDER.get(str(min_confidence), 2)
+    min_cov_rank = _COVER_ORDER.get(str(min_coverage_tier), 2)
+    conf_rank = (
+        df["Confidence"].astype(str).str.extract(r"(High|Medium|Low)", expand=False).map(_CONF_ORDER).fillna(99)
+    )
+    cov_rank = df["Coverage Tier"].astype(str).map(_COVER_ORDER).fillna(99)
+    samples = pd.to_numeric(df["Sample Size"], errors="coerce").fillna(0)
+    df = df[(conf_rank <= min_conf_rank) & (cov_rank <= min_cov_rank) & (samples >= int(min_sample_size))].copy()
 
     # Convert UTC times to ET; keep only fixtures that haven't started yet
     now_et = datetime.now(ET)
@@ -359,9 +437,81 @@ def top_upcoming_bets(n: int = 15) -> pd.DataFrame:
         ascending=[True, True, True, True, False],
     ).head(n)
 
-    out = df[["_date", "Time", "Home", "Away", "Favourite", "Win %", "Confidence", "Tournament"]].copy()
-    out = out.rename(columns={"_date": "Date", "Favourite": "Favorite"})
+    out = df[
+        ["_date", "Time", "Home", "Away", "Favourite", "Win %", "Confidence", "Coverage", "Model Explain", "Tournament"]
+    ].copy()
+    out = out.rename(columns={"_date": "Date", "Favourite": "Favorite", "Model Explain": "Why"})
     return out.reset_index(drop=True)
+
+
+@st.cache_data(ttl=3600)
+def backtest_prediction_report(window_days: int = 180) -> tuple[pd.DataFrame, dict]:
+    """Backtest a simple form+H2H model over recent ended matches."""
+    from datetime import timedelta
+
+    conn = get_conn()
+    cutoff = (date.today() - timedelta(days=max(30, int(window_days)))).isoformat()
+    sql = (
+        "SELECT date, home_slug, away_slug, winner, tournament_name "
+        "FROM matches "
+        "WHERE status_description IN (?, ?) AND date >= ? AND home_slug <> '' AND away_slug <> '' "
+        "ORDER BY date ASC"
+    )
+    df = pd.read_sql(sql, conn, params=[*ENDED_STATUSES, cutoff])
+    if df.empty:
+        return pd.DataFrame(), {"matches": 0, "accuracy": 0.0, "brier": 0.0}
+
+    history: dict[str, list[int]] = {}
+    results = []
+    for row in df.itertuples(index=False):
+        h = row.home_slug
+        a = row.away_slug
+        h_hist = history.get(h, [])
+        a_hist = history.get(a, [])
+        h_recent = (sum(h_hist[-20:]) / len(h_hist[-20:])) if h_hist else 0.5
+        a_recent = (sum(a_hist[-20:]) / len(a_hist[-20:])) if a_hist else 0.5
+
+        p_home = 0.5 + 0.6 * (h_recent - a_recent)
+        p_home = min(0.9, max(0.1, p_home))
+        pred_home = p_home >= 0.5
+        actual_home = row.winner == "home"
+        conf = abs(p_home - 0.5)
+        if conf >= 0.15:
+            bucket = "High"
+        elif conf >= 0.07:
+            bucket = "Medium"
+        else:
+            bucket = "Low"
+
+        results.append(
+            {
+                "date": row.date,
+                "bucket": bucket,
+                "pred_prob_home": p_home,
+                "pred_correct": int(pred_home == actual_home),
+                "actual_home": int(actual_home),
+                "brier": (p_home - float(actual_home)) ** 2,
+            }
+        )
+
+        history.setdefault(h, []).append(1 if actual_home else 0)
+        history.setdefault(a, []).append(0 if actual_home else 1)
+
+    res = pd.DataFrame(results)
+    by_bucket = (
+        res.groupby("bucket", as_index=False)
+        .agg(matches=("pred_correct", "size"), accuracy=("pred_correct", "mean"), brier=("brier", "mean"))
+    )
+    order = {"High": 0, "Medium": 1, "Low": 2}
+    by_bucket["_o"] = by_bucket["bucket"].map(order).fillna(9)
+    by_bucket = by_bucket.sort_values("_o").drop(columns=["_o"]).reset_index(drop=True)
+
+    summary = {
+        "matches": int(len(res)),
+        "accuracy": float(res["pred_correct"].mean()),
+        "brier": float(res["brier"].mean()),
+    }
+    return by_bucket, summary
 
 def slug_to_full_name(slug: str) -> str:
     """Derive a display name from a slug by title-casing each hyphen-separated part.
@@ -386,7 +536,7 @@ def all_player_names() -> pd.DataFrame:
 def player_matches(slug: str) -> pd.DataFrame:
     return pd.read_sql(
         f"SELECT * FROM matches WHERE (home_slug=? OR away_slug=?) "
-        f"AND status_description='{ENDED}' ORDER BY date DESC",
+        f"AND {ENDED_STATUS_SQL} ORDER BY date DESC",
         get_conn(), params=[slug, slug],
     )
 
@@ -420,7 +570,7 @@ def h2h_matches(slug1: str, slug2: str) -> pd.DataFrame:
     return pd.read_sql(
         f"SELECT * FROM matches "
         f"WHERE ((home_slug=? AND away_slug=?) OR (home_slug=? AND away_slug=?)) "
-        f"AND status_description='{ENDED}' ORDER BY date DESC",
+        f"AND {ENDED_STATUS_SQL} ORDER BY date DESC",
         get_conn(), params=[slug1, slug2, slug2, slug1],
     )
 
@@ -432,7 +582,7 @@ def all_tournament_names() -> pd.DataFrame:
     return pd.read_sql(
         f"SELECT tournament_name, COUNT(*) match_count, "
         f"MIN(date) first_date, MAX(date) last_date "
-        f"FROM matches WHERE status_description='{ENDED}' "
+        f"FROM matches WHERE {ENDED_STATUS_SQL} "
         f"GROUP BY tournament_name ORDER BY match_count DESC",
         get_conn(),
     )
@@ -442,7 +592,7 @@ def all_tournament_names() -> pd.DataFrame:
 def tournament_matches(tournament_name: str) -> pd.DataFrame:
     return pd.read_sql(
         f"SELECT * FROM matches WHERE tournament_name=? "
-        f"AND status_description='{ENDED}' ORDER BY date DESC",
+        f"AND {ENDED_STATUS_SQL} ORDER BY date DESC",
         get_conn(), params=[tournament_name],
     )
 

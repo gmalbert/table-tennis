@@ -4,19 +4,22 @@
     Refresh Upcoming Match Predictions
 
 .DESCRIPTION
-    Scrapes SofaScore for upcoming fixtures (today → today + DaysAhead),
+    Scrapes Flashscore for upcoming fixtures (today → today + DaysAhead),
     runs the precompute enrichment, then commits and pushes the updated
     processed/upcoming_enriched.json to GitHub so Streamlit Cloud shows
     fresh data.
 
     Designed to be run daily via Windows Task Scheduler.
+    
+    Note: As of June 2026, SofaScore is blocked by Cloudflare.
+    This script now uses Flashscore which has a rolling 7-day window.
 
 .PARAMETER DaysAhead
     Number of days beyond today to scrape. Default is 3 (today → today+3).
 
 .PARAMETER SkipScrape
-    Skip the SofaScore scraping step and go straight to precompute.
-    Useful when you already have fresh data in data/sofascore/.
+    Skip the scraping step and go straight to precompute.
+    Useful when you already have fresh data in data/flashscore/.
 
 .PARAMETER SkipPush
     Run scrape + precompute but do not commit or push. Useful for testing.
@@ -177,12 +180,13 @@ function Ensure-GitRemoteSynced {
 
 Ensure-GitRemoteSynced -Branch $Branch
 
-# ── Step 1: Scrape SofaScore ──────────────────────────────────────────────────
+# ── Step 1: Scrape Flashscore ────────────────────────────────────────────────
 if (-not $SkipScrape) {
-    Write-Step "STEP 1/3: Scrape SofaScore ($Today → $EndDate)"
+    Write-Step "STEP 1/3: Scrape Flashscore ($Today → $EndDate)"
     $Step1Start = Get-Date
     try {
-        python scripts/tt_scraper.py sofa --start $Today --end $EndDate --no-stats
+        # Use Flashscore instead of SofaScore (SofaScore blocked by Cloudflare as of June 2026)
+        python scripts/tt_scraper.py flash --start $Today --end $EndDate
         if ($LASTEXITCODE -ne 0) { throw "Exit code $LASTEXITCODE" }
         $Step1Duration = (Get-Date) - $Step1Start
         Write-OK "Scrape completed in $($Step1Duration.TotalSeconds.ToString('0')) sec"
@@ -198,7 +202,8 @@ if (-not $SkipScrape) {
 Write-Step "STEP 2/3: Enrich fixtures (tt_precompute.py)"
 $Step2Start = Get-Date
 try {
-    python scripts/tt_precompute.py
+    # Keep upcoming feed resilient when SofaScore is Cloudflare-blocked.
+    python scripts/tt_precompute.py --flash-only
     if ($LASTEXITCODE -ne 0) { throw "Exit code $LASTEXITCODE" }
     $Step2Duration = (Get-Date) - $Step2Start
     Write-OK "Precompute completed in $($Step2Duration.TotalSeconds.ToString('0')) sec"

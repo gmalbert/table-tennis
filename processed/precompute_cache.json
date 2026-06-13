@@ -1,0 +1,318 @@
+{
+  "cache_date": "2026-06-13",
+  "db_mtime": 1781370607,
+  "slug_stats": {
+    "an-jaehyun": {
+      "overall": 0.6178571428571429,
+      "recent": 0.3,
+      "matches": 280
+    },
+    "arapovic-hana": {
+      "overall": 0.5408163265306123,
+      "recent": 0.25,
+      "matches": 196
+    },
+    "bhattacharjee-ankur": {
+      "overall": 0.5614035087719298,
+      "recent": 0.8,
+      "matches": 57
+    },
+    "chen-junsong": {
+      "overall": 0.7543859649122807,
+      "recent": 0.85,
+      "matches": 57
+    },
+    "chen-yi": {
+      "overall": 0.7572254335260116,
+      "recent": 0.65,
+      "matches": 173
+    },
+    "chen-yuanyu": {
+      "overall": 0.6809815950920245,
+      "recent": 0.35,
+      "matches": 163
+    },
+    "doo-hoi-kem": {
+      "overall": 0.37735849056603776,
+      "recent": 0.45,
+      "matches": 159
+    },
+    "fan-shuhan": {
+      "overall": 0.6836734693877551,
+      "recent": 0.7,
+      "matches": 98
+    },
+    "gacina-andrej": {
+      "overall": 0.5146198830409356,
+      "recent": 0.7,
+      "matches": 171
+    },
+    "han-feier": {
+      "overall": 0.6588235294117647,
+      "recent": 0.55,
+      "matches": 85
+    },
+    "harimoto-miwa": {
+      "overall": 0.720108695652174,
+      "recent": 0.65,
+      "matches": 368
+    },
+    "hirano-miu": {
+      "overall": 0.6410256410256411,
+      "recent": 0.45,
+      "matches": 156
+    },
+    "ionescu-eduard": {
+      "overall": 0.5950920245398773,
+      "recent": 0.55,
+      "matches": 163
+    },
+    "jorgic-darko": {
+      "overall": 0.6433566433566433,
+      "recent": 0.6,
+      "matches": 286
+    },
+    "kallberg-christina": {
+      "overall": 0.49171270718232046,
+      "recent": 0.55,
+      "matches": 181
+    },
+    "kihara-miyuu": {
+      "overall": 0.6568047337278107,
+      "recent": 0.75,
+      "matches": 169
+    },
+    "lee-eunhye": {
+      "overall": 0.5763546798029556,
+      "recent": 0.4,
+      "matches": 203
+    },
+    "lim-jonghoon": {
+      "overall": 0.5185185185185185,
+      "recent": 0.7,
+      "matches": 162
+    },
+    "lin-shidong": {
+      "overall": 0.8,
+      "recent": 0.7,
+      "matches": 240
+    },
+    "odo-satsuki": {
+      "overall": 0.7885304659498208,
+      "recent": 0.75,
+      "matches": 279
+    },
+    "ovtcharov-dimitrij": {
+      "overall": 0.6009852216748769,
+      "recent": 0.45,
+      "matches": 203
+    },
+    "park-ganghyeon": {
+      "overall": 0.6277372262773723,
+      "recent": 0.65,
+      "matches": 137
+    },
+    "pucar-tomislav": {
+      "overall": 0.5732758620689655,
+      "recent": 0.5,
+      "matches": 232
+    },
+    "qiu-dang": {
+      "overall": 0.6538461538461539,
+      "recent": 0.6,
+      "matches": 260
+    },
+    "rassenfosse-adrien": {
+      "overall": 0.5294117647058824,
+      "recent": 0.5,
+      "matches": 204
+    },
+    "sato-hitomi": {
+      "overall": 0.7873563218390804,
+      "recent": 0.8,
+      "matches": 174
+    },
+    "shinozuka-hiroto": {
+      "overall": 0.5843621399176955,
+      "recent": 0.4,
+      "matches": 243
+    },
+    "thakkar-manav-vikash": {
+      "overall": 0.5523809523809524,
+      "recent": 0.5,
+      "matches": 210
+    },
+    "togami-shunsuke": {
+      "overall": 0.6157635467980296,
+      "recent": 0.7,
+      "matches": 203
+    },
+    "uda-yukiya": {
+      "overall": 0.6167664670658682,
+      "recent": 0.55,
+      "matches": 167
+    },
+    "wen-ruibo": {
+      "overall": 0.6231884057971014,
+      "recent": 0.6,
+      "matches": 69
+    },
+    "wong-chun-ting": {
+      "overall": 0.4900662251655629,
+      "recent": 0.2,
+      "matches": 151
+    },
+    "xiang-peng": {
+      "overall": 0.6380368098159509,
+      "recent": 0.6,
+      "matches": 163
+    },
+    "yeh-yi-tian": {
+      "overall": 0.6268656716417911,
+      "recent": 0.6,
+      "matches": 134
+    },
+    "yokoi-sakura": {
+      "overall": 0.7158469945355191,
+      "recent": 0.6,
+      "matches": 183
+    },
+    "zhu-yuling": {
+      "overall": 0.7520661157024794,
+      "recent": 0.5,
+      "matches": 121
+    }
+  },
+  "pair_stats": {
+    "an-jaehyun|lim-jonghoon": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "hirano-miu|odo-satsuki": {
+      "total": 4,
+      "wins_s1": 0,
+      "rate_s1": 0.0
+    },
+    "park-ganghyeon|qiu-dang": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "chen-yi|yeh-yi-tian": {
+      "total": 2,
+      "wins_s1": 2,
+      "rate_s1": 1.0
+    },
+    "park-ganghyeon|xiang-peng": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "kallberg-christina|odo-satsuki": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "harimoto-miwa|lee-eunhye": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "chen-yuanyu|shinozuka-hiroto": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "chen-yi|yokoi-sakura": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "chen-yi|harimoto-miwa": {
+      "total": 2,
+      "wins_s1": 2,
+      "rate_s1": 1.0
+    },
+    "jorgic-darko|thakkar-manav-vikash": {
+      "total": 3,
+      "wins_s1": 3,
+      "rate_s1": 1.0
+    },
+    "lim-jonghoon|ovtcharov-dimitrij": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "kihara-miyuu|zhu-yuling": {
+      "total": 2,
+      "wins_s1": 2,
+      "rate_s1": 1.0
+    },
+    "lim-jonghoon|lin-shidong": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "bhattacharjee-ankur|ionescu-eduard": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "harimoto-miwa|zhu-yuling": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "arapovic-hana|han-feier": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "an-jaehyun|chen-junsong": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "lim-jonghoon|wen-ruibo": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "lee-eunhye|sato-hitomi": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "lim-jonghoon|pucar-tomislav": {
+      "total": 4,
+      "wins_s1": 2,
+      "rate_s1": 0.5
+    },
+    "gacina-andrej|lin-shidong": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "togami-shunsuke|wong-chun-ting": {
+      "total": 5,
+      "wins_s1": 5,
+      "rate_s1": 1.0
+    },
+    "harimoto-miwa|sato-hitomi": {
+      "total": 4,
+      "wins_s1": 4,
+      "rate_s1": 1.0
+    },
+    "rassenfosse-adrien|uda-yukiya": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    },
+    "doo-hoi-kem|fan-shuhan": {
+      "total": 0,
+      "wins_s1": 0,
+      "rate_s1": 0.5
+    }
+  }
+}

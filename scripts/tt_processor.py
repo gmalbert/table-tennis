@@ -341,6 +341,45 @@ def write_csv(rows: list[dict], path: Path, fields: list[str]):
     print(f"  ✓ Written {len(rows)} rows → {path}")
 
 
+def write_combined_matches_json(match_path: Path, set_path: Path, out_path: Path, player_count: int):
+    """Write matches_combined.json without loading all matches into memory."""
+    if not match_path.exists():
+        return
+
+    # First pass: count rows for metadata.
+    with open(match_path, newline="", encoding="utf-8") as f:
+        match_count = sum(1 for _ in csv.DictReader(f))
+
+    set_count = 0
+    if set_path.exists():
+        with open(set_path, newline="", encoding="utf-8") as f:
+            set_count = sum(1 for _ in csv.DictReader(f))
+
+    # Second pass: stream rows into the JSON array.
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(match_path, newline="", encoding="utf-8") as match_file, open(
+        out_path, "w", encoding="utf-8"
+    ) as json_file:
+        reader = csv.DictReader(match_file)
+        json_file.write("{\n")
+        json_file.write(f'  "match_count": {match_count},\n')
+        json_file.write(f'  "set_count": {set_count},\n')
+        json_file.write(f'  "player_count": {player_count},\n')
+        json_file.write('  "matches": [\n')
+
+        first_row = True
+        for row in reader:
+            if not first_row:
+                json_file.write(",\n")
+            json_file.write("    ")
+            json_file.write(json.dumps(row, ensure_ascii=False))
+            first_row = False
+
+        json_file.write("\n  ]\n}\n")
+
+    print(f"  ✓ Combined JSON → {out_path}")
+
+
 # ─── Checkpoint helpers ───────────────────────────────────────────────────────
 
 def _load_checkpoint(path: Path) -> set:
@@ -399,25 +438,14 @@ def main():
     merged_players = {**existing_players, **sofa_players}
     write_csv(list(merged_players.values()), out_dir / "players.csv", PLAYER_FIELDS)
 
-    # Build combined JSON from the completed matches CSV
+    # Build combined JSON from the completed matches CSV without materializing
+    # all match rows in memory.
     match_path = out_dir / "matches.csv"
     set_path = out_dir / "sets.csv"
     if match_path.exists():
         print("Building combined JSON …")
-        with open(match_path, newline="", encoding="utf-8") as f:
-            all_matches = list(csv.DictReader(f))
-        set_count = sum(1 for _ in open(set_path, encoding="utf-8")) - 1 if set_path.exists() else 0
-        combined = {
-            "match_count": len(all_matches),
-            "set_count": set_count,
-            "player_count": len(merged_players),
-            "matches": all_matches,
-        }
         combined_path = out_dir / "matches_combined.json"
-        combined_path.write_text(
-            json.dumps(combined, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
-        print(f"  ✓ Combined JSON → {combined_path}")
+        write_combined_matches_json(match_path, set_path, combined_path, len(merged_players))
 
     print(f"\n✅ Done. Output in: {out_dir.resolve()}")
 

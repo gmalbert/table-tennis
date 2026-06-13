@@ -118,6 +118,13 @@ with st.sidebar:
         placeholder="e.g. ETTU, WTT...",
         key="up_tsearch",
     )
+    min_coverage = st.radio(
+        "Coverage",
+        ["All", "Medium +", "High only"],
+        index=0,
+        key="up_cov",
+    )
+    min_sample = st.slider("Min sample size", min_value=0, max_value=200, value=0, step=5, key="up_sample")
 
 df = df_all.copy()
 if min_confidence == "High only":
@@ -126,6 +133,12 @@ elif min_confidence == "Medium +":
     df = df[df["_conf_label"].isin(["High", "Medium"])]
 if tournament_search:
     df = df[df["Tournament"].str.contains(tournament_search, case=False, na=False)]
+if min_coverage == "High only":
+    df = df[df["Coverage Tier"] == "High"]
+elif min_coverage == "Medium +":
+    df = df[df["Coverage Tier"].isin(["High", "Medium"])]
+if "Sample Size" in df.columns:
+    df = df[pd.to_numeric(df["Sample Size"], errors="coerce").fillna(0) >= min_sample]
 
 if df.empty:
     st.info("No matches match the current filters.")
@@ -156,6 +169,7 @@ tab_labels    = [
 display_cols = [
     "Time ET", "Home", "Away",
     "Favorite", "Win %", "Confidence",
+    "Coverage", "Coverage Tier", "Sample Size", "Model Explain",
     "H2H (home W-L)", "Home Recent", "Away Recent",
     "Home Overall", "Away Overall",
 ]
@@ -207,5 +221,7 @@ for tab, day_str in zip(tabs, dates_present):
                         "Time ET":    st.column_config.TextColumn("Time (ET)", width="small"),
                         "Win %":      st.column_config.TextColumn("Win %",     width="small"),
                         "Confidence": st.column_config.TextColumn("Conf.",     width="small"),
+                        "Coverage":   st.column_config.TextColumn("Coverage",  width="small"),
+                        "Model Explain": st.column_config.TextColumn("Why",    width="large"),
                     },
                 )

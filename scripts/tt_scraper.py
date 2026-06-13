@@ -135,26 +135,88 @@ class SofaScoreScraper:
         from playwright.sync_api import sync_playwright
         print("  🌐 Launching browser for SofaScore …")
         self._pw = sync_playwright().start()
+        
+        # Cloudflare often blocks headless entirely — use visible browser by default
+        # Set HEADLESS=1 env var to force headless mode (less reliable)
+        headless_mode = os.getenv("HEADLESS", "0") == "1"
+        if headless_mode:
+            print("  ⚠  Running in headless mode (may trigger Cloudflare)")
+        
         self._browser = self._pw.chromium.launch(
-            headless=True,
-            args=["--no-sandbox", "--disable-blink-features=AutomationControlled"],
+            headless=headless_mode,
+            args=[
+                "--no-sandbox",
+                "--disable-blink-features=AutomationControlled",
+                "--disable-infobars",
+                "--disable-dev-shm-usage",
+                "--disable-automation",
+            ],
         )
+
+        # Get the real browser version so the UA matches exactly (avoids mismatch detection)
+        _tmp_ctx = self._browser.new_context()
+        _tmp_page = _tmp_ctx.new_page()
+        raw_ua: str = _tmp_page.evaluate("navigator.userAgent")
+        _tmp_page.close()
+        _tmp_ctx.close()
+        # Replace "HeadlessChrome" with "Chrome" — the #1 bot detection signal
+        patched_ua = raw_ua.replace("HeadlessChrome", "Chrome")
+
         self._context = self._browser.new_context(
-            user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36"
-            ),
+            user_agent=patched_ua,
             viewport={"width": 1280, "height": 900},
             locale="en-US",
-            extra_http_headers={"Accept-Language": "en-US,en;q=0.9"},
+            extra_http_headers={
+                "Accept-Language": "en-US,en;q=0.9",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+                "Sec-Fetch-Dest": "document",
+                "Sec-Fetch-Mode": "navigate",
+                "Sec-Fetch-Site": "none",
+                "Upgrade-Insecure-Requests": "1",
+            },
         )
+
+        # Stealth init script — injected before every page/frame load
+        self._context.add_init_script("""
+            // Mask navigator.webdriver
+            Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+
+            // Provide a minimal window.chrome object
+            if (!window.chrome) {
+                window.chrome = { runtime: {}, loadTimes: function(){}, csi: function(){}, app: {} };
+            }
+
+            // Fake non-empty plugins list
+            Object.defineProperty(navigator, 'plugins', {
+                get: () => {
+                    const arr = [
+                        { name: 'Chrome PDF Plugin', filename: 'internal-pdf-viewer' },
+                        { name: 'Chrome PDF Viewer',  filename: 'mhjfbmdgcfjbbpaeojofohoefgiehjai' },
+                        { name: 'Native Client',      filename: 'internal-nacl-plugin' },
+                    ];
+                    arr.__proto__ = PluginArray.prototype;
+                    return arr;
+                }
+            });
+
+            // Realistic languages
+            Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en'] });
+
+            // Suppress automation-related toString leakage
+            const originalQuery = window.navigator.permissions.query;
+            window.navigator.permissions.query = (params) =>
+                params.name === 'notifications'
+                    ? Promise.resolve({ state: Notification.permission })
+                    : originalQuery(params);
+        """)
+
         # Block images / fonts / media — we only need JSON responses
         self._context.route(
             "**/*.{png,jpg,jpeg,gif,webp,svg,woff,woff2,ttf,otf,mp4,mp3}",
             lambda r: r.abort(),
         )
         self._page = self._context.new_page()
+        print(f"  ℹ  User-Agent: {patched_ua}")
 
         # Load the main TT page once so Cloudflare sets its cookies
         print("  ⏳ Loading SofaScore landing page (Cloudflare warm-up) …")
@@ -163,7 +225,17 @@ class SofaScoreScraper:
             wait_until="domcontentloaded",
             timeout=60000,
         )
-        time.sleep(4)
+        time.sleep(5)  # Extra settle time for Cloudflare challenge
+
+        # More realistic user behavior - scroll and click around
+        try:
+            self._page.mouse.move(200, 300)
+            self._page.mouse.wheel(0, 100)
+            time.sleep(1)
+            self._page.mouse.move(400, 500)
+            time.sleep(1)
+        except Exception:
+            pass
 
         # Dismiss cookie banner if present
         for sel in [
@@ -176,10 +248,24 @@ class SofaScoreScraper:
                 btn = self._page.query_selector(sel)
                 if btn and btn.is_visible():
                     btn.click()
-                    time.sleep(1)
+                    time.sleep(2)
                     break
             except Exception:
                 pass
+
+        # Navigate to the scheduled events page via UI (not API) to establish proper session
+        try:
+            print("  ⏳ Navigating to scheduled events page …")
+            self._page.goto(
+                "https://www.sofascore.com/table-tennis/scheduled-events",
+                wait_until="domcontentloaded",
+                timeout=60000,
+            )
+            time.sleep(4)
+            self._page.mouse.wheel(0, 200)
+            time.sleep(2)
+        except Exception as e:
+            print(f"  ⚠ Could not load scheduled events page: {e}")
 
         print("  ✓ Browser ready.\n")
 
@@ -192,52 +278,50 @@ class SofaScoreScraper:
         except Exception:
             pass
 
-    # ── core fetch — runs fetch() inside the live browser page ────────────
+    # ── core fetch — uses Playwright's API context for proper browser fingerprinting ────────────
 
     def _fetch(self, url: str, retries=3) -> dict | None:
         """
-        Execute a fetch() call from inside the Playwright page context.
-        Because the request originates from the browser, Cloudflare treats it
-        as legitimate and returns 200 instead of 403.
-        """
-        js = f"""
-        async () => {{
-            const resp = await fetch("{url}", {{
-                method: "GET",
-                headers: {{
-                    "Accept": "application/json, text/plain, */*",
-                    "Accept-Language": "en-US,en;q=0.9",
-                    "Referer": "https://www.sofascore.com/",
-                }},
-                credentials: "include"
-            }});
-            if (!resp.ok) return {{ __status: resp.status }};
-            return await resp.json();
-        }}
+        Use Playwright's request API which properly carries all browser context,
+        cookies, and TLS fingerprint — more reliable than page.evaluate(fetch()).
         """
         for attempt in range(retries):
             try:
-                result = self._page.evaluate(js)
-                if result is None:
+                response = self._page.request.get(
+                    url,
+                    headers={
+                        "Accept": "application/json, text/plain, */*",
+                        "Accept-Language": "en-US,en;q=0.9",
+                        "Referer": "https://www.sofascore.com/",
+                    },
+                )
+                status = response.status
+                if status == 200:
+                    return response.json()
+                elif status == 404:
                     return None
-                status = result.get("__status") if isinstance(result, dict) else None
-                if status:
-                    if status == 404:
-                        return None
-                    elif status == 429:
-                        wait = 30 * (attempt + 1)
-                        print(f"  ⚠ Rate limited ({url}). Waiting {wait}s …")
+                elif status == 429:
+                    wait = 30 * (attempt + 1)
+                    print(f"  ⚠ Rate limited ({url}). Waiting {wait}s …")
+                    time.sleep(wait)
+                elif status == 403:
+                    wait = 20 * (attempt + 1)
+                    print(f"  ✗ 403 on attempt {attempt+1} for {url} — re-warming Cloudflare ({wait}s) …")
+                    # Re-visit the landing page to refresh Cloudflare cookies
+                    try:
+                        self._page.goto(
+                            "https://www.sofascore.com/table-tennis",
+                            wait_until="domcontentloaded",
+                            timeout=60000,
+                        )
                         time.sleep(wait)
-                    elif status == 403:
-                        print(f"  ✗ 403 on attempt {attempt+1} for {url} — waiting …")
-                        time.sleep(15 * (attempt + 1))
-                    else:
-                        print(f"  ✗ HTTP {status} for {url}")
-                        time.sleep(5)
+                    except Exception:
+                        time.sleep(wait)
                 else:
-                    return result  # success
+                    print(f"  ✗ HTTP {status} for {url}")
+                    time.sleep(5)
             except Exception as e:
-                print(f"  ✗ evaluate() error: {e}")
+                print(f"  ✗ Request error: {e}")
                 time.sleep(5 * (attempt + 1))
                 # If the page crashed, reload it
                 try:
@@ -250,34 +334,71 @@ class SofaScoreScraper:
     # ── data methods ───────────────────────────────────────────────────────
 
     def fetch_day(self, day: date):
-        """Fetch all table tennis events scheduled on `day`."""
+        """Fetch all table tennis events scheduled on `day` by intercepting network traffic."""
         day_str = day.strftime("%Y-%m-%d")
-        url = f"{SOFA_BASE}/sport/{SOFA_SPORT}/scheduled-events/{day_str}"
-        data = self._fetch(url)
-        if not data or "events" not in data:
-            print(f"  – No events on {day_str}")
-            return
 
-        events = data["events"]
-        # Filter to finished matches only (status code 100 = finished in SofaScore)
-        finished = [e for e in events if e.get("status", {}).get("code") == 100]
-        print(f"  → {len(events)} events on {day_str} ({len(finished)} finished)")
-        save_json(data, self.out / day_str / "events.json")
+        # Strategy: navigate to the scheduled-events page for the specific date
+        # and intercept the API response the page naturally makes
+        captured_data = []
 
-        # Skip per-event loop entirely if nothing extra is needed
-        if not self.fetch_stats and not self.fetch_h2h:
-            return
+        def capture_response(response):
+            """Intercept API responses"""
+            if "/scheduled-events/" in response.url and day_str in response.url:
+                try:
+                    if response.status == 200:
+                        data = response.json()
+                        captured_data.append(data)
+                except Exception as e:
+                    print(f"  ⚠ Error capturing response: {e}")
 
-        for event in finished:
-            event_id = event.get("id")
-            if not event_id:
-                continue
-            if self.fetch_stats:
-                self._fetch_event_stats(event_id, day_str)
-                random_delay(0.8, 1.8)
-            if self.fetch_h2h:
-                self._fetch_event_h2h(event_id, day_str)
-                random_delay(0.8, 1.8)
+        # Set up response listener
+        self._page.on("response", capture_response)
+        
+        try:
+            # Navigate to the date-specific page — this triggers the API call naturally
+            page_url = f"https://www.sofascore.com/table-tennis/scheduled-events/{day_str}"
+            print(f"  → Navigating to {day_str} …")
+            self._page.goto(page_url, wait_until="networkidle", timeout=60000)
+            time.sleep(3)  # Extra time for all API calls to complete
+            
+            # Remove listener
+            self._page.remove_listener("response", capture_response)
+            
+            if not captured_data:
+                # Fallback to direct API call if interception failed
+                print(f"  ⚠ No data captured, trying direct API call …")
+                url = f"{SOFA_BASE}/sport/{SOFA_SPORT}/scheduled-events/{day_str}"
+                data = self._fetch(url)
+                if data:
+                    captured_data.append(data)
+            
+            if not captured_data:
+                print(f"  – No events on {day_str}")
+                return
+            
+            data = captured_data[0]
+            events = data.get("events", [])
+            finished = [e for e in events if e.get("status", {}).get("code") == 100]
+            print(f"  ✓ {len(events)} events on {day_str} ({len(finished)} finished)")
+            save_json(data, self.out / day_str / "events.json")
+
+            # Skip per-event loop entirely if nothing extra is needed
+            if not self.fetch_stats and not self.fetch_h2h:
+                return
+
+            for event in finished:
+                event_id = event.get("id")
+                if not event_id:
+                    continue
+                if self.fetch_stats:
+                    self._fetch_event_stats(event_id, day_str)
+                    random_delay(0.8, 1.8)
+                if self.fetch_h2h:
+                    self._fetch_event_h2h(event_id, day_str)
+                    random_delay(0.8, 1.8)
+        except Exception as e:
+            print(f"  ✗ Error fetching day {day_str}: {e}")
+            self._page.remove_listener("response", capture_response)
 
     def _fetch_event_stats(self, event_id: int, day_str: str):
         url = f"{SOFA_BASE}/event/{event_id}/statistics"

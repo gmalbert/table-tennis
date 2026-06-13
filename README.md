@@ -59,6 +59,15 @@ Pong Odds is a Streamlit analytics app for table tennis betting, built on histor
 ### Precompute strategy
 - Upcoming match odds are precomputed nightly so users never wait for model execution.
 - This keeps page loads immediately responsive.
+- Precompute now maintains a lightweight incremental cache (`processed/precompute_cache.json`) for player/pair stats to speed repeated runs.
+- Canonical identity mapping (`processed/player_identity_map.json`) helps align player records across sources.
+
+### Prediction quality controls
+- Home and Upcoming views include uncertainty-aware filters: minimum confidence, coverage tier, and sample size.
+- Top picks now include explainability text (`Why`) sourced from model component weights and data coverage.
+
+### Backtesting
+- New `Backtesting` page reports accuracy and Brier score by confidence bucket over a selectable recent window.
 
 ### Helpful utilities
 - `scripts/check_use_container_width.py` verifies deprecated Streamlit `use_container_width` usage.
