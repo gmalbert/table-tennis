@@ -1,0 +1,916 @@
+{
+  "date": "2026-06-12",
+  "match_count": 30,
+  "matches": [
+    {
+      "match_id": "OYbo5bI7",
+      "tournament": "OTHERS - MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Pucar T.",
+      "away_player": "Thakkar M. V.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-12 09:30:00",
+      "home_ranking": "59",
+      "away_ranking": "93",
+      "home_slug": "pucar-tomislav",
+      "away_slug": "thakkar-manav-vikash",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "15",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "bT2eW2n3",
+      "tournament": "OTHERS - MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Lim J.",
+      "away_player": "Verdonschot W.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-12 10:10:00",
+      "home_ranking": "106",
+      "away_ranking": "81",
+      "home_slug": "lim-jonghoon",
+      "away_slug": "verdonschot-wim",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "StMJavV7",
+      "tournament": "OTHERS - MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Bhattacharjee A.",
+      "away_player": "Qiu D.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-12 10:45:00",
+      "home_ranking": "93",
+      "away_ranking": "81",
+      "home_slug": "bhattacharjee-ankur",
+      "away_slug": "qiu-dang",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "QuzFybOr",
+      "tournament": "OTHERS - MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Uda Y.",
+      "away_player": "Chen Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-12 10:45:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "uda-yukiya",
+      "away_slug": "chen-yuanyu",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "4C6y6UBC",
+      "tournament": "OTHERS - MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Wen R.",
+      "away_player": "Shinozuka H.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-12 15:35:00",
+      "home_ranking": "52",
+      "away_ranking": "100",
+      "home_slug": "wen-ruibo",
+      "away_slug": "shinozuka-hiroto",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "W62FeCjT",
+      "tournament": "OTHERS - MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Lin S.",
+      "away_player": "Chen J.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-12 16:00:00",
+      "home_ranking": "52",
+      "away_ranking": "52",
+      "home_slug": "lin-shidong",
+      "away_slug": "chen-junsong",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "14",
+          "away": "16"
+        }
+      ]
+    },
+    {
+      "match_id": "S0CDLLiR",
+      "tournament": "OTHERS - MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Sidorenko V.",
+      "away_player": "An J.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-12 16:25:00",
+      "home_ranking": "158",
+      "away_ranking": "106",
+      "home_slug": "sidorenko-vladimir",
+      "away_slug": "an-jaehyun",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        }
+      ]
+    },
+    {
+      "match_id": "b9C1ALPq",
+      "tournament": "OTHERS - MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Park G.",
+      "away_player": "Oh J.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-12 16:45:00",
+      "home_ranking": "106",
+      "away_ranking": "106",
+      "home_slug": "park-ganghyeon",
+      "away_slug": "oh-junsung",
+      "sets": [
+        {
+          "home": "16",
+          "away": "14"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "WMA98afd",
+      "tournament": "OTHERS - WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Lee E.",
+      "away_player": "Chen Y.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-12 09:25:00",
+      "home_ranking": "106",
+      "away_ranking": "52",
+      "home_slug": "lee-eunhye",
+      "away_slug": "chen-yi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "zwI64vu3",
+      "tournament": "OTHERS - WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Hirano M.",
+      "away_player": "Shan X.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-12 09:40:00",
+      "home_ranking": "100",
+      "away_ranking": "81",
+      "home_slug": "hirano-miu",
+      "away_slug": "shan-xiaona",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "1"
+        }
+      ]
+    },
+    {
+      "match_id": "YkcAokk3",
+      "tournament": "OTHERS - WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Hayata H.",
+      "away_player": "Yokoi S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-12 10:10:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "hayata-hina",
+      "away_slug": "yokoi-sakura",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "GWc1ytBG",
+      "tournament": "OTHERS - WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Zeng J.",
+      "away_player": "Zhu Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-12 10:45:00",
+      "home_ranking": "170",
+      "away_ranking": "233",
+      "home_slug": "zeng-jian",
+      "away_slug": "zhu-yuling",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "xUYX8r8L",
+      "tournament": "OTHERS - WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Kihara M.",
+      "away_player": "Doo H. K.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-12 15:00:00",
+      "home_ranking": "100",
+      "away_ranking": "222",
+      "home_slug": "kihara-miyuu",
+      "away_slug": "doo-hoi-kem",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "dQ1FKOa4",
+      "tournament": "OTHERS - WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Odo S.",
+      "away_player": "Hursey A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-12 15:00:00",
+      "home_ranking": "100",
+      "away_ranking": "207",
+      "home_slug": "odo-satsuki",
+      "away_slug": "hursey-anna",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "r3LE2I9F",
+      "tournament": "OTHERS - WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Polcanova S.",
+      "away_player": "Sato H.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-12 15:25:00",
+      "home_ranking": "25",
+      "away_ranking": "100",
+      "home_slug": "polcanova-sofia",
+      "away_slug": "sato-hitomi",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        }
+      ]
+    },
+    {
+      "match_id": "IeALgeel",
+      "tournament": "OTHERS - WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Harimoto M.",
+      "away_player": "Arapovic H.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-12 17:05:00",
+      "home_ranking": "100",
+      "away_ranking": "59",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "arapovic-hana",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "1"
+        }
+      ]
+    },
+    {
+      "match_id": "4Y3jZfHs",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Lin S./Huang Y.",
+      "away_player": "An J./Park G.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-12 11:20:00",
+      "home_ranking": "52",
+      "away_ranking": "106",
+      "home_slug": "lin-shidong",
+      "away_slug": "an-jaehyun",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "2LgWJPAO",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Suravajjula S./Thakkar M. V.",
+      "away_player": "Wen R./Yuan L.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-12 11:20:00",
+      "home_ranking": "93",
+      "away_ranking": "52",
+      "home_slug": "suravajjula-snehit",
+      "away_slug": "wen-ruibo",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "0l7IeRth",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Feng Y.-H./Kuo G.",
+      "away_player": "Gacina A./Ban I.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-12 11:55:00",
+      "home_ranking": "218",
+      "away_ranking": "59",
+      "home_slug": "feng-yi-hsin",
+      "away_slug": "gacina-andrej",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "jFPYYHnI",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Allegro M./Rassenfosse A.",
+      "away_player": "Lim J./Oh J.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-12 12:00:00",
+      "home_ranking": "32",
+      "away_ranking": "106",
+      "home_slug": "allegro-martin",
+      "away_slug": "lim-jonghoon",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Qqnm2yT1",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Rakovac L./Arapovic H.",
+      "away_player": "Sato H./Shibata S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-12 11:15:00",
+      "home_ranking": "59",
+      "away_ranking": "100",
+      "home_slug": "rakovac-lea",
+      "away_slug": "sato-hitomi",
+      "sets": [
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "hWH4moxh",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Lee E./Choi H.",
+      "away_player": "Ryu H./Kim N.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-12 11:20:00",
+      "home_ranking": "106",
+      "away_ranking": "106",
+      "home_slug": "lee-eunhye",
+      "away_slug": "ryu-hanna",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "SxdxebAj",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Chen Y./Kuai M.",
+      "away_player": "Lee D./Choi S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-12 12:00:00",
+      "home_ranking": "52",
+      "away_ranking": "106",
+      "home_slug": "chen-yi",
+      "away_slug": "lee-daeun-2002",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "hMvI7yfd",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Zagreb (Croatia)",
+      "home_player": "Harimoto M./Odo S.",
+      "away_player": "Hirano M./Kihara M.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-12 12:00:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "hirano-miu",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        }
+      ]
+    },
+    {
+      "match_id": "W6n5nEke",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Zagreb (Croatia)",
+      "home_player": "Wong Chun Ting/Doo H. K.",
+      "away_player": "Yiu K. T./Ng W. L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-12 09:00:00",
+      "home_ranking": "222",
+      "away_ranking": "222",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "yiu-kwan-to",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "vcFck5s9",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Zagreb (Croatia)",
+      "home_player": "Wen R./Kuai M.",
+      "away_player": "Green C./Ho T.T.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-12 09:00:00",
+      "home_ranking": "52",
+      "away_ranking": "198",
+      "home_slug": "wen-ruibo",
+      "away_slug": "green-connor",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "AkgmSw2E",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Zagreb (Croatia)",
+      "home_player": "Togami S./Odo S.",
+      "away_player": "Aida S./Sato H.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-12 09:00:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "togami-shunsuke",
+      "away_slug": "aida-satoshi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "CjNBR1k2",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Zagreb (Croatia)",
+      "home_player": "Pang Y. E. K./Zeng J.",
+      "away_player": "Robles A./Xiao M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-12 09:00:00",
+      "home_ranking": "170",
+      "away_ranking": "176",
+      "home_slug": "pang-yew-en-koen",
+      "away_slug": "robles-alvaro",
+      "sets": [
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "tK4Sfemm",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Zagreb (Croatia)",
+      "home_player": "Togami S./Odo S.",
+      "away_player": "Robles A./Xiao M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-12 17:25:00",
+      "home_ranking": "100",
+      "away_ranking": "176",
+      "home_slug": "togami-shunsuke",
+      "away_slug": "robles-alvaro",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "hvhW1U0U",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Zagreb (Croatia)",
+      "home_player": "Wong Chun Ting/Doo H. K.",
+      "away_player": "Green C./Ho T.T.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-12 17:30:00",
+      "home_ranking": "222",
+      "away_ranking": "198",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "green-connor",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    }
+  ]
+}
