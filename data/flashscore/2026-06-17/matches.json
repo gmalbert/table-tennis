@@ -1,0 +1,1490 @@
+{
+  "date": "2026-06-17",
+  "match_count": 48,
+  "matches": [
+    {
+      "match_id": "vidTLeY0",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Kurmangaliyev A.",
+      "away_player": "Yoshiyama R.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 09:40:00",
+      "home_ranking": "102",
+      "away_ranking": "100",
+      "home_slug": "kurmangaliyev-alan",
+      "away_slug": "yoshiyama-ryoichi",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "dGMoIkfo",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Kwan M. H.",
+      "away_player": "Aida S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 09:45:00",
+      "home_ranking": "222",
+      "away_ranking": "100",
+      "home_slug": "kwan-man-ho",
+      "away_slug": "aida-satoshi",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "hKX7PX1B",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Yuan L.",
+      "away_player": "Andras C.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 10:25:00",
+      "home_ranking": "52",
+      "away_ranking": "91",
+      "home_slug": "yuan-licen",
+      "away_slug": "andras-csaba",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "IJMBQOuC",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Walther R.",
+      "away_player": "Kharki I.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-17 10:40:00",
+      "home_ranking": "81",
+      "away_ranking": "102",
+      "home_slug": "walther-ricardo",
+      "away_slug": "kharki-iskender",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "hWRM85SG",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Woo H.",
+      "away_player": "Park G.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 11:05:00",
+      "home_ranking": "106",
+      "away_ranking": "106",
+      "home_slug": "woo-hyeonggyu",
+      "away_slug": "park-gyuhyeon",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "803GbOyS",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Naranjo A.",
+      "away_player": "Wang Y.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 11:10:00",
+      "home_ranking": "236",
+      "away_ranking": "171",
+      "home_slug": "naranjo-angel",
+      "away_slug": "wang-yang",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "2DgD5trR",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Huang Y.",
+      "away_player": "Fang B.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-17 11:20:00",
+      "home_ranking": "52",
+      "away_ranking": "102",
+      "home_slug": "huang-youzheng",
+      "away_slug": "fang-bo",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "pKcoMJCG",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Chan B. H. W.",
+      "away_player": "Quek I.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 11:25:00",
+      "home_ranking": "222",
+      "away_ranking": "170",
+      "home_slug": "chan-baldwin-ho-wah",
+      "away_slug": "quek-izaac",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "f1qXf1mf",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Ursu V.",
+      "away_player": "Chang Y.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 11:40:00",
+      "home_ranking": "130",
+      "away_ranking": "218",
+      "home_slug": "ursu-vladislav",
+      "away_slug": "chang-yu-an",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "4l8sjts3",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Zeljko F.",
+      "away_player": "Li T.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 11:50:00",
+      "home_ranking": "59",
+      "away_ranking": "52",
+      "home_slug": "zeljko-filip",
+      "away_slug": "li-tianyang",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "2gosOhRr",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Chang Y.",
+      "away_player": "Park G.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 15:45:00",
+      "home_ranking": "218",
+      "away_ranking": "106",
+      "home_slug": "chang-yu-an",
+      "away_slug": "park-gyuhyeon",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "lWxDnzYQ",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Lim J.",
+      "away_player": "Hung J.-K.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 15:45:00",
+      "home_ranking": "106",
+      "away_ranking": "218",
+      "home_slug": "lim-jonghoon",
+      "away_slug": "hung-jing-kai",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "4rF1gnrg",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Walther R.",
+      "away_player": "Yoshiyama R.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 16:15:00",
+      "home_ranking": "81",
+      "away_ranking": "100",
+      "home_slug": "walther-ricardo",
+      "away_slug": "yoshiyama-ryoichi",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "0Erg0t56",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Huang Y.",
+      "away_player": "Oikawa M.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 17:00:00",
+      "home_ranking": "52",
+      "away_ranking": "100",
+      "home_slug": "huang-youzheng",
+      "away_slug": "oikawa-mizuki",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "YV2IcUG8",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Xue F.",
+      "away_player": "Gacina A.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 17:05:00",
+      "home_ranking": "52",
+      "away_ranking": "59",
+      "home_slug": "xue-fei",
+      "away_slug": "gacina-andrej",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "dAe8QLBr",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Naranjo A.",
+      "away_player": "Yuan L.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 17:10:00",
+      "home_ranking": "236",
+      "away_ranking": "52",
+      "home_slug": "naranjo-angel",
+      "away_slug": "yuan-licen",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "lCA5iMNN",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Zeljko F.",
+      "away_player": "de Nodrest L.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-17 17:40:00",
+      "home_ranking": "59",
+      "away_ranking": "77",
+      "home_slug": "zeljko-filip",
+      "away_slug": "de-nodrest-leo",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "WAfBTE3L",
+      "tournament": "OTHERS - MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Chan B. H. W.",
+      "away_player": "Aida S.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 18:05:00",
+      "home_ranking": "222",
+      "away_ranking": "100",
+      "home_slug": "chan-baldwin-ho-wah",
+      "away_slug": "aida-satoshi",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "fwaSR1dT",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Varady B.",
+      "away_player": "Shan X.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 09:00:00",
+      "home_ranking": "171",
+      "away_ranking": "81",
+      "home_slug": "balazova-barbora",
+      "away_slug": "shan-xiaona",
+      "sets": [
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "SEsuguI6",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Yang X.",
+      "away_player": "Muramatsu C.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-17 09:00:00",
+      "home_ranking": "131",
+      "away_ranking": "100",
+      "home_slug": "yang-xiaoxin",
+      "away_slug": "muramatsu-cocona",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "G66WR5oB",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Zarif A.",
+      "away_player": "Peng Y.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 09:00:00",
+      "home_ranking": "77",
+      "away_ranking": "218",
+      "home_slug": "zarif-audrey",
+      "away_slug": "peng-yu-han",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "jiRfFa4k",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Zong G.",
+      "away_player": "Zhu S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 09:00:00",
+      "home_ranking": "52",
+      "away_ranking": "52",
+      "home_slug": "zong-geman",
+      "away_slug": "zhu-sibing",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8xTnJr5c",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Fan S.",
+      "away_player": "Ser Lin Qian",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-17 09:50:00",
+      "home_ranking": "52",
+      "away_ranking": "170",
+      "home_slug": "fan-shuhan",
+      "away_slug": "ser-lin-qian",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "vqtNcywK",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Wang X.",
+      "away_player": "Han F.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-17 09:50:00",
+      "home_ranking": "52",
+      "away_ranking": "52",
+      "home_slug": "wang-xiaotong",
+      "away_slug": "han-feier",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "15",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "hxuwpu7T",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Aoki S.",
+      "away_player": "Kim E.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-17 10:10:00",
+      "home_ranking": "100",
+      "away_ranking": "106",
+      "home_slug": "aoki-sachi",
+      "away_slug": "kim-eunseo",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "dldqSHxp",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Yang Y.",
+      "away_player": "Yoo S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-17 10:15:00",
+      "home_ranking": "52",
+      "away_ranking": "106",
+      "home_slug": "yang-yiyun",
+      "away_slug": "yoo-siwoo",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "ClUU6FaL",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Mischek K.",
+      "away_player": "Ghorpade Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 10:50:00",
+      "home_ranking": "25",
+      "away_ranking": "93",
+      "home_slug": "mischek-karoline",
+      "away_slug": "ghorpade-yashaswini",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "x4Le9Jqm",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Tan Z. Y.",
+      "away_player": "Park G.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-17 10:50:00",
+      "home_ranking": "170",
+      "away_ranking": "106",
+      "home_slug": "tan-zhao-yun",
+      "away_slug": "park-gahyeon",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "OWc8YRje",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Yoo Y.",
+      "away_player": "Surjan S.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-17 15:40:00",
+      "home_ranking": "106",
+      "away_ranking": "167",
+      "home_slug": "yoo-yerin",
+      "away_slug": "surjan-sabina",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "pAxpeN2b",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Zhu S.",
+      "away_player": "Peng Y.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 16:05:00",
+      "home_ranking": "52",
+      "away_ranking": "218",
+      "home_slug": "zhu-sibing",
+      "away_slug": "peng-yu-han",
+      "sets": [
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "zkSyYvGF",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Aoki S.",
+      "away_player": "Chitale D. P.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 16:15:00",
+      "home_ranking": "100",
+      "away_ranking": "93",
+      "home_slug": "aoki-sachi",
+      "away_slug": "chitale-diya-parag",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "INzhg1XA",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Yang X.",
+      "away_player": "Varady B.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-06-17 16:20:00",
+      "home_ranking": "131",
+      "away_ranking": "171",
+      "home_slug": "yang-xiaoxin",
+      "away_slug": "balazova-barbora",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "bPUrn0wo",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Ryu H.",
+      "away_player": "Xu Yi",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 16:55:00",
+      "home_ranking": "106",
+      "away_ranking": "52",
+      "home_slug": "ryu-hanna",
+      "away_slug": "xu-yi",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "raXyeVrH",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Wang X.",
+      "away_player": "Fan S.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 17:35:00",
+      "home_ranking": "52",
+      "away_ranking": "52",
+      "home_slug": "wang-xiaotong",
+      "away_slug": "fan-shuhan",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "MwUiRrHj",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Yang Y.",
+      "away_player": "Tan Z. Y.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-17 17:35:00",
+      "home_ranking": "52",
+      "away_ranking": "170",
+      "home_slug": "yang-yiyun",
+      "away_slug": "tan-zhao-yun",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "4KYDTvsK",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Zhu Z.",
+      "away_player": "Ghorpade Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 17:40:00",
+      "home_ranking": "52",
+      "away_ranking": "93",
+      "home_slug": "zhu-ziyu",
+      "away_slug": "ghorpade-yashaswini",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8zxWVHiL",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Bhattacharjee A./Jain P.",
+      "away_player": "Xiang P./Chen J.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 12:30:00",
+      "home_ranking": "93",
+      "away_ranking": "52",
+      "home_slug": "bhattacharjee-ankur",
+      "away_slug": "xiang-peng",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "CWQ9OZqe",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Ban I./Gacina A.",
+      "away_player": "Gauzy S./Poret T.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 13:00:00",
+      "home_ranking": "59",
+      "away_ranking": "77",
+      "home_slug": "ban-ivor",
+      "away_slug": "gauzy-simon",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "KdUHMDE7",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Uda Y./Hamada K.",
+      "away_player": "Yoshiyama R./Kobayashi H.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-17 13:05:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "uda-yukiya",
+      "away_slug": "yoshiyama-ryoichi",
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "15",
+          "away": "13"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        }
+      ]
+    },
+    {
+      "match_id": "46N1QeFr",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Chua J. S. H./Kwan M. H.",
+      "away_player": "Feng Y.-H./Kuo G.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-06-17 13:05:00",
+      "home_ranking": "170",
+      "away_ranking": "218",
+      "home_slug": "chua-josh-shao-han",
+      "away_slug": "feng-yi-hsin",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "6msw2y1T",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Kukulkova T./Varady B.",
+      "away_player": "Dragoman A./Diaconu A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-06-17 11:55:00",
+      "home_ranking": "171",
+      "away_ranking": "157",
+      "home_slug": "kukulkova-tatiana",
+      "away_slug": "dragoman-andreea",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Q9uN5J14",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Ryu H./Yoo Y.",
+      "away_player": "Ser Lin Qian/Zeng J.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-17 12:15:00",
+      "home_ranking": "106",
+      "away_ranking": "170",
+      "home_slug": "ryu-hanna",
+      "away_slug": "ser-lin-qian",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "UPKfKIGc",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Lutz Ch./Pavade P.",
+      "away_player": "Polcanova S./Yuan J. N.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-06-17 12:20:00",
+      "home_ranking": "77",
+      "away_ranking": "25",
+      "home_slug": "lutz-charlotte",
+      "away_slug": "polcanova-sofia",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "GtJ2IdoA",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Shan X./Wan Y.",
+      "away_player": "Kaufmann A./Winter S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 12:35:00",
+      "home_ranking": "81",
+      "away_ranking": "81",
+      "home_slug": "shan-xiaona",
+      "away_slug": "kaufmann-annett",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8blWuglI",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Oh J./Joo Cheonhui",
+      "away_player": "Yuan L./Qin Y.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 15:00:00",
+      "home_ranking": "106",
+      "away_ranking": "52",
+      "home_slug": "oh-junsung",
+      "away_slug": "yuan-licen",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "16",
+          "away": "18"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "WzSmbz4n",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Wen R./Kuai M.",
+      "away_player": "Jain P./Das S.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 15:00:00",
+      "home_ranking": "52",
+      "away_ranking": "93",
+      "home_slug": "wen-ruibo",
+      "away_slug": "jain-payas",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "IiQedEYb",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Pistej L./Kukulkova T.",
+      "away_player": "Franziska P./Kaufmann A.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-06-17 15:00:00",
+      "home_ranking": "171",
+      "away_ranking": "81",
+      "home_slug": "pistej-lubomir",
+      "away_slug": "franziska-patrick",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "GOivvXIU",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Ljubljana (Slovenia) - Qualification",
+      "home_player": "Poret T./Lutz Ch.",
+      "away_player": "Ban I./Arapovic H.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-06-17 15:00:00",
+      "home_ranking": "77",
+      "away_ranking": "59",
+      "home_slug": "poret-thibault",
+      "away_slug": "ban-ivor",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    }
+  ]
+}
