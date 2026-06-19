@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
           cache: pip
@@ -46,6 +46,8 @@ jobs:
           EOF
 
       - name: Scrape SofaScore raw data
+        env:
+          HEADLESS: "1"
         run: |
           python scripts/tt_scraper.py sofa \
             --start "$SOFA_START" \
@@ -53,6 +55,8 @@ jobs:
             --no-stats
 
       - name: Scrape Flashscore raw data
+        env:
+          HEADLESS: "1"
         run: |
           python scripts/tt_scraper.py flash \
             --start "$FLASH_START" \
