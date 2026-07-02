@@ -1,0 +1,325 @@
+{
+  "date": "2026-07-02",
+  "match_count": 17,
+  "matches": [
+    {
+      "match_id": "nwq1MPIq",
+      "tournament": "OTHERS - MEN: United States Smash (USA)",
+      "home_player": "Jha K.",
+      "away_player": "Jarvis T.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-02 03:45:00",
+      "home_ranking": "200",
+      "away_ranking": "198",
+      "home_slug": "jha-kanak",
+      "away_slug": "jarvis-tom",
+      "sets": [
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "vy4sPXkD",
+      "tournament": "OTHERS - MEN: United States Smash (USA)",
+      "home_player": "Lebrun F.",
+      "away_player": "Geraldo J.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-02 19:35:00",
+      "home_ranking": "77",
+      "away_ranking": "155",
+      "home_slug": "lebrun-felix",
+      "away_slug": "geraldo-joao",
+      "sets": []
+    },
+    {
+      "match_id": "2y2KsoYR",
+      "tournament": "OTHERS - MEN: United States Smash (USA)",
+      "home_player": "Qiu D.",
+      "away_player": "Matsushima S.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-02 20:45:00",
+      "home_ranking": "81",
+      "away_ranking": "100",
+      "home_slug": "qiu-dang",
+      "away_slug": "matsushima-sora",
+      "sets": []
+    },
+    {
+      "match_id": "dl8RX1Yp",
+      "tournament": "OTHERS - MEN: United States Smash (USA)",
+      "home_player": "Wang C.",
+      "away_player": "Lind A.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-03 01:35:00",
+      "home_ranking": "52",
+      "away_ranking": "63",
+      "home_slug": "wang-chuqin",
+      "away_slug": "lind-anders",
+      "sets": []
+    },
+    {
+      "match_id": "lbZiWlct",
+      "tournament": "OTHERS - MEN: United States Smash (USA)",
+      "home_player": "Lebrun A.",
+      "away_player": "Lin S.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-03 02:45:00",
+      "home_ranking": "77",
+      "away_ranking": "52",
+      "home_slug": "lebrun-alexis",
+      "away_slug": "lin-shidong",
+      "sets": []
+    },
+    {
+      "match_id": "SjkzAaCc",
+      "tournament": "OTHERS - WOMEN: United States Smash (USA)",
+      "home_player": "Huang Y.",
+      "away_player": "Chen X.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-02 03:15:00",
+      "home_ranking": "218",
+      "away_ranking": "52",
+      "home_slug": "huang-yu-jie",
+      "away_slug": "chen-xingtong",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "fJCNKiQs",
+      "tournament": "OTHERS - WOMEN: United States Smash (USA)",
+      "home_player": "Odo S.",
+      "away_player": "Yokoi S.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-07-02 03:15:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "odo-satsuki",
+      "away_slug": "yokoi-sakura",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "neGus6Bb",
+      "tournament": "OTHERS - WOMEN: United States Smash (USA)",
+      "home_player": "Hashimoto H.",
+      "away_player": "Sato H.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-02 20:10:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "hashimoto-honoka",
+      "away_slug": "sato-hitomi",
+      "sets": []
+    },
+    {
+      "match_id": "8A2kEeKc",
+      "tournament": "OTHERS - WOMEN: United States Smash (USA)",
+      "home_player": "Kuai M.",
+      "away_player": "Shin Y.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-02 21:20:00",
+      "home_ranking": "52",
+      "away_ranking": "106",
+      "home_slug": "kuai-man",
+      "away_slug": "shin-yubin",
+      "sets": []
+    },
+    {
+      "match_id": "MBXaUSRh",
+      "tournament": "OTHERS - WOMEN: United States Smash (USA)",
+      "home_player": "Ito M.",
+      "away_player": "Harimoto M.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-03 02:10:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "ito-mima",
+      "away_slug": "harimoto-miwa",
+      "sets": []
+    },
+    {
+      "match_id": "pCZFIl7L",
+      "tournament": "OTHERS - WOMEN: United States Smash (USA)",
+      "home_player": "Han Y.",
+      "away_player": "Hayata H.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-03 03:20:00",
+      "home_ranking": "81",
+      "away_ranking": "100",
+      "home_slug": "han-ying",
+      "away_slug": "hayata-hina",
+      "sets": []
+    },
+    {
+      "match_id": "0hs0Z8AN",
+      "tournament": "OTHERS - DOUBLES WOMEN: United States Smash (USA)",
+      "home_player": "Shin Y./Joo Cheonhui",
+      "away_player": "Harimoto M./Hayata H.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-02 19:00:00",
+      "home_ranking": "106",
+      "away_ranking": "100",
+      "home_slug": "shin-yubin",
+      "away_slug": "harimoto-miwa",
+      "sets": []
+    },
+    {
+      "match_id": "hGeLgin9",
+      "tournament": "OTHERS - DOUBLES WOMEN: United States Smash (USA)",
+      "home_player": "Wang M./Kuai M.",
+      "away_player": "Wang Yidi/Chen Y.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-03 01:00:00",
+      "home_ranking": "52",
+      "away_ranking": "52",
+      "home_slug": "wang-manyu",
+      "away_slug": "wang-yidi",
+      "sets": []
+    },
+    {
+      "match_id": "6LdjB3gJ",
+      "tournament": "OTHERS - MIXED DOUBLES: United States Smash (USA)",
+      "home_player": "Wen R./Kuai M.",
+      "away_player": "Matsushima S./Harimoto M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-02 04:05:00",
+      "home_ranking": "52",
+      "away_ranking": "100",
+      "home_slug": "wen-ruibo",
+      "away_slug": "matsushima-sora",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "j9lT63KN",
+      "tournament": "OTHERS - MIXED DOUBLES: United States Smash (USA)",
+      "home_player": "Lim J./Shin Y.",
+      "away_player": "Qiu D./Winter S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-02 04:25:00",
+      "home_ranking": "106",
+      "away_ranking": "81",
+      "home_slug": "lim-jonghoon",
+      "away_slug": "qiu-dang",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "zkzY7Bs0",
+      "tournament": "OTHERS - MIXED DOUBLES: United States Smash (USA)",
+      "home_player": "Wang C./Sun Y.",
+      "away_player": "Calderano H./Takahashi B.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-02 21:55:00",
+      "home_ranking": "52",
+      "away_ranking": "39",
+      "home_slug": "wang-chuqin",
+      "away_slug": "calderano-hugo",
+      "sets": []
+    },
+    {
+      "match_id": "YBngQr1K",
+      "tournament": "OTHERS - MIXED DOUBLES: United States Smash (USA)",
+      "home_player": "Lim J./Shin Y.",
+      "away_player": "Wen R./Kuai M.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-03 03:55:00",
+      "home_ranking": "106",
+      "away_ranking": "52",
+      "home_slug": "lim-jonghoon",
+      "away_slug": "wen-ruibo",
+      "sets": []
+    }
+  ]
+}
