@@ -1,0 +1,45 @@
+{
+  "date": "2026-07-06",
+  "match_count": 1,
+  "matches": [
+    {
+      "match_id": "vebX7fSa",
+      "tournament": "OTHERS - MEN: United States Smash (USA)",
+      "home_player": "Matsushima S.",
+      "away_player": "Sidorenko V.",
+      "score_home": "4",
+      "score_away": "2",
+      "time": "2026-07-06 03:45:00",
+      "home_ranking": "100",
+      "away_ranking": "158",
+      "home_slug": "matsushima-sora",
+      "away_slug": "sidorenko-vladimir",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    }
+  ]
+}
