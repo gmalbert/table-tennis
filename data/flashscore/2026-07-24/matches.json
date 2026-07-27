@@ -1,0 +1,1476 @@
+{
+  "date": "2026-07-24",
+  "match_count": 49,
+  "matches": [
+    {
+      "match_id": "KhWC85yO",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Yoshiyama R.",
+      "away_player": "An J.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-07-24 14:55:00",
+      "home_ranking": "100",
+      "away_ranking": "106",
+      "home_slug": "yoshiyama-ryoichi",
+      "away_slug": "an-jaehyun",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "dKfXaRNf",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Karlsson M.",
+      "away_player": "Pucar T.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 15:00:00",
+      "home_ranking": "181",
+      "away_ranking": "59",
+      "home_slug": "karlsson-mattias",
+      "away_slug": "pucar-tomislav",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8AK2RDrd",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Diaw I.",
+      "away_player": "Jarvis T.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 15:45:00",
+      "home_ranking": "166",
+      "away_ranking": "198",
+      "home_slug": "diaw-ibrahima",
+      "away_slug": "jarvis-tom",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "EBXJli6I",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Feng Y.-H.",
+      "away_player": "Seyfried J.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-24 16:05:00",
+      "home_ranking": "218",
+      "away_ranking": "77",
+      "home_slug": "feng-yi-hsin",
+      "away_slug": "seyfried-joe",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "b1nnV59S",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Chan B. H. W.",
+      "away_player": "Duda B.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 16:15:00",
+      "home_ranking": "222",
+      "away_ranking": "81",
+      "home_slug": "chan-baldwin-ho-wah",
+      "away_slug": "duda-benedikt",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8xcfXrAH",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Verdonschot W.",
+      "away_player": "Poret T.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-07-24 16:35:00",
+      "home_ranking": "81",
+      "away_ranking": "77",
+      "home_slug": "verdonschot-wim",
+      "away_slug": "poret-thibault",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "CSS4AR6B",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Kozul D.",
+      "away_player": "Shinozuka H.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 16:45:00",
+      "home_ranking": "172",
+      "away_ranking": "100",
+      "home_slug": "kozul-deni",
+      "away_slug": "shinozuka-hiroto",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Uo8xPQL4",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Jha K.",
+      "away_player": "Lam Siu Hang",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-24 17:10:00",
+      "home_ranking": "200",
+      "away_ranking": "222",
+      "home_slug": "jha-kanak",
+      "away_slug": "lam-siu-hang",
+      "sets": [
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "WhguTcMp",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Jorgic D.",
+      "away_player": "Teodoro G.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-24 20:05:00",
+      "home_ranking": "172",
+      "away_ranking": "39",
+      "home_slug": "jorgic-darko",
+      "away_slug": "guilherme-teodoro",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "SEoiKdyT",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Oh J.",
+      "away_player": "de Nodrest L.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-07-24 20:05:00",
+      "home_ranking": "106",
+      "away_ranking": "77",
+      "home_slug": "oh-junsung",
+      "away_slug": "de-nodrest-leo",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "bcxNEzaj",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Wong Chun Ting",
+      "away_player": "Arado F.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-24 20:30:00",
+      "home_ranking": "222",
+      "away_ranking": "39",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "arado-felipe",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "4EVOYejM",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Franziska P.",
+      "away_player": "Fujii D.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-24 21:05:00",
+      "home_ranking": "81",
+      "away_ranking": "39",
+      "home_slug": "franziska-patrick",
+      "away_slug": "fujii-davi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "IqMjwHtF",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Uda Y.",
+      "away_player": "Tanaka Y.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-07-24 21:10:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "uda-yukiya",
+      "away_slug": "tanaka-yuta",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "SKCHu3ym",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Calderano H.",
+      "away_player": "Bertelsmeier A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-24 21:15:00",
+      "home_ranking": "39",
+      "away_ranking": "81",
+      "home_slug": "calderano-hugo",
+      "away_slug": "bertelsmeier-andre",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "MyysBDFC",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Pistej L.",
+      "away_player": "Lebrun A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 21:50:00",
+      "home_ranking": "171",
+      "away_ranking": "77",
+      "home_slug": "pistej-lubomir",
+      "away_slug": "lebrun-alexis",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "OOetNqZJ",
+      "tournament": "OTHERS - MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Stumper K.",
+      "away_player": "Togami S.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-07-24 22:45:00",
+      "home_ranking": "81",
+      "away_ranking": "100",
+      "home_slug": "stumper-kay",
+      "away_slug": "togami-shunsuke",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "0KoTP07i",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Rios V.",
+      "away_player": "Zhang M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 15:25:00",
+      "home_ranking": "51",
+      "away_ranking": "47",
+      "home_slug": "rios-valentina",
+      "away_slug": "zhang-mo",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "thI3tpLR",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Nagasaki M.",
+      "away_player": "Takahashi G.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-24 15:40:00",
+      "home_ranking": "100",
+      "away_ranking": "39",
+      "home_slug": "nagasaki-miyu",
+      "away_slug": "takahashi-giulia",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "lOxZCZp0",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Strassburger V.",
+      "away_player": "Odo S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 15:40:00",
+      "home_ranking": "39",
+      "away_ranking": "100",
+      "home_slug": "strassburger-victoria",
+      "away_slug": "odo-satsuki",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "hMfJF1Rg",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Akae K.",
+      "away_player": "Lee K. M. H.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-24 15:55:00",
+      "home_ranking": "100",
+      "away_ranking": "222",
+      "home_slug": "akae-kaho",
+      "away_slug": "lee-karen-man-hoi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        }
+      ]
+    },
+    {
+      "match_id": "z1W3hZ6g",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Yokoi S.",
+      "away_player": "Codina A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-24 16:15:00",
+      "home_ranking": "100",
+      "away_ranking": "22",
+      "home_slug": "yokoi-sakura",
+      "away_slug": "codina-ana",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "pEEq5Cja",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Hashimoto H.",
+      "away_player": "Aoki S.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-24 16:25:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "hashimoto-honoka",
+      "away_slug": "aoki-sachi",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "vFUdCmxa",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Su T. T.",
+      "away_player": "Diaz A.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-07-24 17:00:00",
+      "home_ranking": "222",
+      "away_ranking": "236",
+      "home_slug": "su-tsz-tung",
+      "away_slug": "diaz-adriana",
+      "sets": []
+    },
+    {
+      "match_id": "Ecjqp3md",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Su T. T.",
+      "away_player": "Shibata S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 17:00:00",
+      "home_ranking": "222",
+      "away_ranking": "100",
+      "home_slug": "su-tsz-tung",
+      "away_slug": "shibata-saki",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "d8UWzjEo",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Lutz Ch.",
+      "away_player": "Sato H.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 17:10:00",
+      "home_ranking": "77",
+      "away_ranking": "100",
+      "home_slug": "lutz-charlotte",
+      "away_slug": "sato-hitomi",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "IPVdHZJe",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Hayata H.",
+      "away_player": "Ng W. L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-24 20:05:00",
+      "home_ranking": "100",
+      "away_ranking": "222",
+      "home_slug": "hayata-hina",
+      "away_slug": "ng-wing-lam",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "0QtJOHRL",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Watanabe L.",
+      "away_player": "Abraamian E.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 20:05:00",
+      "home_ranking": "39",
+      "away_ranking": "158",
+      "home_slug": "watanabe-laura",
+      "away_slug": "abraamian-elizabet",
+      "sets": [
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "0pHfTZDq",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Yoo Y.",
+      "away_player": "Doo H. K.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 20:25:00",
+      "home_ranking": "106",
+      "away_ranking": "222",
+      "home_slug": "yoo-yerin",
+      "away_slug": "doo-hoi-kem",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "2o9oZP12",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Ortega D.",
+      "away_player": "Takahashi B.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-07-24 20:40:00",
+      "home_ranking": "51",
+      "away_ranking": "39",
+      "home_slug": "ortega-daniela",
+      "away_slug": "takahashi-bruna",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "dlSGzIL9",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Huang Y.",
+      "away_player": "Schreiner F.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-24 21:00:00",
+      "home_ranking": "218",
+      "away_ranking": "81",
+      "home_slug": "huang-yu-jie",
+      "away_slug": "schreiner-franziska",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "rL6sZ1D1",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Mittelham N.",
+      "away_player": "Fiore B.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-24 21:35:00",
+      "home_ranking": "81",
+      "away_ranking": "39",
+      "home_slug": "mittelham-nina",
+      "away_slug": "fiore-beatriz",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ldYgDE42",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Akula S.",
+      "away_player": "Picard C.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-24 21:40:00",
+      "home_ranking": "93",
+      "away_ranking": "77",
+      "home_slug": "akula-sreeja",
+      "away_slug": "picard-claire",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "jiP8xvic",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Vivarelli D.",
+      "away_player": "Zhang L.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 22:20:00",
+      "home_ranking": "98",
+      "away_ranking": "200",
+      "home_slug": "vivarelli-debora",
+      "away_slug": "zhang-lily",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "WGLhPsi6",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Seyfried J./Picard V.",
+      "away_player": "Burgos N./Gomez G.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-07-24 14:05:00",
+      "home_ranking": "77",
+      "away_ranking": "51",
+      "home_slug": "seyfried-joe",
+      "away_slug": "burgos-nicolas",
+      "sets": [
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "jZF1hYTS",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Iizuka L. K./Teodoro G.",
+      "away_player": "Bertelsmeier A./Verdonschot W.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-07-24 14:05:00",
+      "home_ranking": "39",
+      "away_ranking": "81",
+      "home_slug": "iizuka-leonardo-kenzo",
+      "away_slug": "bertelsmeier-andre",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "lAkIEhGB",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Wong Chun Ting/Chan B. H. W.",
+      "away_player": "Jorgic D./Kozul D.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-07-24 14:45:00",
+      "home_ranking": "222",
+      "away_ranking": "172",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "jorgic-darko",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "fDNk1ZEp",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Lam Siu Hang/Yiu K. T.",
+      "away_player": "de Nodrest L./Rolland J.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 15:05:00",
+      "home_ranking": "222",
+      "away_ranking": "77",
+      "home_slug": "lam-siu-hang",
+      "away_slug": "de-nodrest-leo",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "x20dsnFO",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "de Nodrest L./Rolland J.",
+      "away_player": "Seyfried J./Picard V.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 22:00:00",
+      "home_ranking": "77",
+      "away_ranking": "77",
+      "home_slug": "de-nodrest-leo",
+      "away_slug": "seyfried-joe",
+      "sets": [
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "UBRMuZwK",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Wong Chun Ting/Chan B. H. W.",
+      "away_player": "Bertelsmeier A./Verdonschot W.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-07-24 22:35:00",
+      "home_ranking": "222",
+      "away_ranking": "81",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "bertelsmeier-andre",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "hdHKjgA0",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Hayata H./Akae K.",
+      "away_player": "Kukulkova T./Abraamian E.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-24 14:05:00",
+      "home_ranking": "100",
+      "away_ranking": "171",
+      "home_slug": "hayata-hina",
+      "away_slug": "kukulkova-tatiana",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        }
+      ]
+    },
+    {
+      "match_id": "n5LEn3c7",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Strassburger V./Kanashiro B.",
+      "away_player": "Doo H. K./Ng W. L.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 14:05:00",
+      "home_ranking": "39",
+      "away_ranking": "222",
+      "home_slug": "strassburger-victoria",
+      "away_slug": "doo-hoi-kem",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "dMZmMLYJ",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Cossio Aceves A./Bergand F.",
+      "away_player": "Yokoi S./Aoki S.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 14:40:00",
+      "home_ranking": "128",
+      "away_ranking": "100",
+      "home_slug": "cossio-aceves-arantxa",
+      "away_slug": "yokoi-sakura",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8zEExVXD",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Sato H./Shibata S.",
+      "away_player": "Vega P./Ortega D.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-07-24 14:45:00",
+      "home_ranking": "100",
+      "away_ranking": "51",
+      "home_slug": "sato-hitomi",
+      "away_slug": "vega-paulina",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        }
+      ]
+    },
+    {
+      "match_id": "zXAI3K95",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Sato H./Shibata S.",
+      "away_player": "Hayata H./Akae K.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 22:00:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "sato-hitomi",
+      "away_slug": "hayata-hina",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "6cUhmaPO",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Doo H. K./Ng W. L.",
+      "away_player": "Yokoi S./Aoki S.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-07-24 22:30:00",
+      "home_ranking": "222",
+      "away_ranking": "100",
+      "home_slug": "doo-hoi-kem",
+      "away_slug": "yokoi-sakura",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "KxYltnIp",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Oh J./Yoo Y.",
+      "away_player": "Togami S./Odo S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-07-24 17:10:00",
+      "home_ranking": "106",
+      "away_ranking": "100",
+      "home_slug": "oh-junsung",
+      "away_slug": "togami-shunsuke",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "pWe4ZE17",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Gomez G./Ortega D.",
+      "away_player": "Yiu K. T./Ng W. L.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 17:35:00",
+      "home_ranking": "51",
+      "away_ranking": "222",
+      "home_slug": "gomez-gustavo",
+      "away_slug": "yiu-kwan-to",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "d2o8kBCe",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Picard V./Abraamian E.",
+      "away_player": "Wong Chun Ting/Doo H. K.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-07-24 17:45:00",
+      "home_ranking": "77",
+      "away_ranking": "222",
+      "home_slug": "picard-vincent",
+      "away_slug": "wong-chun-ting",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "QgRj079G",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Sao Jose dos Campos (Brazil)",
+      "home_player": "Calderano H./Takahashi B.",
+      "away_player": "Teodoro G./Takahashi G.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-07-24 17:55:00",
+      "home_ranking": "39",
+      "away_ranking": "39",
+      "home_slug": "calderano-hugo",
+      "away_slug": "guilherme-teodoro",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    }
+  ]
+}
