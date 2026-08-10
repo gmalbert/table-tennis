@@ -1,0 +1,1665 @@
+{
+  "date": "2026-08-09",
+  "match_count": 53,
+  "matches": [
+    {
+      "match_id": "UFybI7zR",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Jarvis T.",
+      "away_player": "Desai H.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 08:05:00",
+      "home_ranking": "198",
+      "away_ranking": "93",
+      "home_slug": "jarvis-tom",
+      "away_slug": "desai-harmeet",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "pfGnxW1t",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Allegro M.",
+      "away_player": "Nuytinck C.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 08:40:00",
+      "home_ranking": "32",
+      "away_ranking": "32",
+      "home_slug": "allegro-martin",
+      "away_slug": "nuytinck-cedric",
+      "sets": [
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "16",
+          "away": "14"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Egx3FTeJ",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Freitas M.",
+      "away_player": "Chirita I.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 08:55:00",
+      "home_ranking": "155",
+      "away_ranking": "157",
+      "home_slug": "freitas-marcos",
+      "away_slug": "chirita-iulian",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "rshneZqh",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Ban I.",
+      "away_player": "Ursu V.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 09:20:00",
+      "home_ranking": "59",
+      "away_ranking": "130",
+      "home_slug": "ban-ivor",
+      "away_slug": "ursu-vladislav",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "SfmfiGnA",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Quek I.",
+      "away_player": "Pitchford L.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-08-09 09:55:00",
+      "home_ranking": "170",
+      "away_ranking": "197",
+      "home_slug": "quek-izaac",
+      "away_slug": "pitchford-liam",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "fo357mf5",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Jain P.",
+      "away_player": "Kubik M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 10:10:00",
+      "home_ranking": "93",
+      "away_ranking": "154",
+      "home_slug": "jain-payas",
+      "away_slug": "kubik-maciej",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ETAV9zHd",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Kao C.-J.",
+      "away_player": "Badowski M.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-08-09 10:25:00",
+      "home_ranking": "218",
+      "away_ranking": "154",
+      "home_slug": "kao-cheng-jui",
+      "away_slug": "badowski-marek",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "1"
+        }
+      ]
+    },
+    {
+      "match_id": "2e8yvLUq",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Levajac D.",
+      "away_player": "Ionescu O.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-08-09 11:10:00",
+      "home_ranking": "167",
+      "away_ranking": "157",
+      "home_slug": "levajac-dimitrije",
+      "away_slug": "ionescu-ovidiu",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "lCbhz9gS",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Gacina A.",
+      "away_player": "Green C.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-08-09 11:30:00",
+      "home_ranking": "59",
+      "away_ranking": "198",
+      "home_slug": "gacina-andrej",
+      "away_slug": "green-connor",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        }
+      ]
+    },
+    {
+      "match_id": "82Wav4r9",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Artemenko N.",
+      "away_player": "Robles A.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 11:40:00",
+      "home_ranking": "158",
+      "away_ranking": "176",
+      "home_slug": "artemenko-nikita",
+      "away_slug": "robles-alvaro",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "vTkzOrbS",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Kozul D.",
+      "away_player": "Levenko A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-08-09 12:15:00",
+      "home_ranking": "172",
+      "away_ranking": "25",
+      "home_slug": "kozul-deni",
+      "away_slug": "levenko-andreas",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "G6b2dcLi",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Walther R.",
+      "away_player": "Park G.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-08-09 12:50:00",
+      "home_ranking": "81",
+      "away_ranking": "106",
+      "home_slug": "walther-ricardo",
+      "away_slug": "park-gyuhyeon",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "trZnx3gJ",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Chan B. H. W.",
+      "away_player": "Hung J.-K.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 13:20:00",
+      "home_ranking": "222",
+      "away_ranking": "218",
+      "home_slug": "chan-baldwin-ho-wah",
+      "away_slug": "hung-jing-kai",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "SO8ap6pm",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Ly E.",
+      "away_player": "Andras C.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 13:55:00",
+      "home_ranking": "47",
+      "away_ranking": "91",
+      "home_slug": "ly-edward",
+      "away_slug": "andras-csaba",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "QaAVnple",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Verdonschot W.",
+      "away_player": "Teodoro G.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-08-09 14:20:00",
+      "home_ranking": "81",
+      "away_ranking": "39",
+      "home_slug": "verdonschot-wim",
+      "away_slug": "guilherme-teodoro",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "nsoEzjIE",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Walker S.",
+      "away_player": "Redzimski M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 14:20:00",
+      "home_ranking": "198",
+      "away_ranking": "154",
+      "home_slug": "walker-samuel",
+      "away_slug": "redzimsko-milosz",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "GrrWKofL",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Desai H.",
+      "away_player": "Nuytinck C.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-08-09 15:10:00",
+      "home_ranking": "93",
+      "away_ranking": "32",
+      "home_slug": "desai-harmeet",
+      "away_slug": "nuytinck-cedric",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "S4zIBsH7",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Chirita I.",
+      "away_player": "Ursu V.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-08-09 15:55:00",
+      "home_ranking": "157",
+      "away_ranking": "130",
+      "home_slug": "chirita-iulian",
+      "away_slug": "ursu-vladislav",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "15",
+          "away": "13"
+        }
+      ]
+    },
+    {
+      "match_id": "U3PTEs34",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Green C.",
+      "away_player": "Quek I.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-08-09 16:25:00",
+      "home_ranking": "198",
+      "away_ranking": "170",
+      "home_slug": "green-connor",
+      "away_slug": "quek-izaac",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "A1uC64hf",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Kubik M.",
+      "away_player": "Levajac D.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-08-09 17:05:00",
+      "home_ranking": "154",
+      "away_ranking": "167",
+      "home_slug": "kubik-maciej",
+      "away_slug": "levajac-dimitrije",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "xUSyDLXG",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Kao C.-J.",
+      "away_player": "Robles A.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 17:45:00",
+      "home_ranking": "218",
+      "away_ranking": "176",
+      "home_slug": "kao-cheng-jui",
+      "away_slug": "robles-alvaro",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "2RQNuB7K",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Kozul D.",
+      "away_player": "Park G.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-08-09 18:25:20",
+      "home_ranking": "172",
+      "away_ranking": "106",
+      "home_slug": "kozul-deni",
+      "away_slug": "park-gyuhyeon",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "E7y4ozet",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Hung J.-K.",
+      "away_player": "Redzimski M.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 18:45:00",
+      "home_ranking": "218",
+      "away_ranking": "154",
+      "home_slug": "hung-jing-kai",
+      "away_slug": "redzimsko-milosz",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        }
+      ]
+    },
+    {
+      "match_id": "0OZBqEPh",
+      "tournament": "OTHERS - MEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Verdonschot W.",
+      "away_player": "Andras C.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-08-09 19:10:00",
+      "home_ranking": "81",
+      "away_ranking": "91",
+      "home_slug": "verdonschot-wim",
+      "away_slug": "andras-csaba",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "2ZjbZr4k",
+      "tournament": "OTHERS - MEN: WTT Champions Yokohama (Japan)",
+      "home_player": "Oh J.",
+      "away_player": "Shinozuka H.",
+      "score_home": "4",
+      "score_away": "1",
+      "time": "2026-08-09 04:45:00",
+      "home_ranking": "106",
+      "away_ranking": "100",
+      "home_slug": "oh-junsung",
+      "away_slug": "shinozuka-hiroto",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "Sv9FGWFL",
+      "tournament": "OTHERS - MEN: WTT Champions Yokohama (Japan)",
+      "home_player": "Matsushima S.",
+      "away_player": "Harimoto T.",
+      "score_home": "2",
+      "score_away": "4",
+      "time": "2026-08-09 05:35:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "matsushima-sora",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "17",
+          "away": "15"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "h6Cl32ln",
+      "tournament": "OTHERS - MEN: WTT Champions Yokohama (Japan)",
+      "home_player": "Harimoto T.",
+      "away_player": "Oh J.",
+      "score_home": "4",
+      "score_away": "1",
+      "time": "2026-08-09 10:55:00",
+      "home_ranking": "100",
+      "away_ranking": "106",
+      "home_slug": "harimoto-tomokazu",
+      "away_slug": "oh-junsung",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "QoNTCobl",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Huang Y.",
+      "away_player": "Diaconu A.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-08-09 08:05:00",
+      "home_ranking": "218",
+      "away_ranking": "157",
+      "home_slug": "huang-yu-jie",
+      "away_slug": "diaconu-adina",
+      "sets": [
+        {
+          "home": "15",
+          "away": "17"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "0jpV5n4m",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Psihogios C.",
+      "away_player": "Su T. T.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-08-09 08:05:00",
+      "home_ranking": "24",
+      "away_ranking": "222",
+      "home_slug": "psihogios-constantina",
+      "away_slug": "su-tsz-tung",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "tr3zhZce",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Shao J.",
+      "away_player": "Ni X.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 08:55:00",
+      "home_ranking": "155",
+      "away_ranking": "117",
+      "home_slug": "shao-jieni",
+      "away_slug": "ni-xialian",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "zDvLvUqL",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Chien T.",
+      "away_player": "Wielgos Z.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-08-09 09:30:00",
+      "home_ranking": "218",
+      "away_ranking": "154",
+      "home_slug": "chien-tung-chuan",
+      "away_slug": "wielgos-zuzanna",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "K6ox4f9t",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Rakovac L.",
+      "away_player": "Peng Y.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 09:30:00",
+      "home_ranking": "59",
+      "away_ranking": "218",
+      "home_slug": "rakovac-lea",
+      "away_slug": "peng-yu-han",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "fRA7Iho9",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Arlia N.",
+      "away_player": "de Nutte S.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 09:55:00",
+      "home_ranking": "98",
+      "away_ranking": "117",
+      "home_slug": "arlia-nicole",
+      "away_slug": "de-nutte-sarah",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8jpFHnz3",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Zaharia E.",
+      "away_player": "Shan X.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-08-09 10:35:00",
+      "home_ranking": "157",
+      "away_ranking": "81",
+      "home_slug": "zaharia-elena",
+      "away_slug": "shan-xiaona",
+      "sets": [
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "0rbhDIQQ",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Ho T.T.",
+      "away_player": "Zarif A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 10:40:00",
+      "home_ranking": "197",
+      "away_ranking": "77",
+      "home_slug": "ho-tin-tin",
+      "away_slug": "zarif-audrey",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "l6sYUshT",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Paranang O.",
+      "away_player": "Takahashi G.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-08-09 11:15:00",
+      "home_ranking": "186",
+      "away_ranking": "39",
+      "home_slug": "paranang-orawan",
+      "away_slug": "takahashi-giulia",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "QoDNd6aT",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Tee A. X.",
+      "away_player": "Yang X.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 11:40:00",
+      "home_ranking": "121",
+      "away_ranking": "131",
+      "home_slug": "tee-ai-xin",
+      "away_slug": "yang-xiaoxin",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        }
+      ]
+    },
+    {
+      "match_id": "E1bXLeSs",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Ng W. L.",
+      "away_player": "Reyes Lai J.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-08-09 12:20:00",
+      "home_ranking": "222",
+      "away_ranking": "200",
+      "home_slug": "ng-wing-lam",
+      "away_slug": "reyes-lai-jessica",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "ltKcTbi5",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Monfardini G.",
+      "away_player": "Yoo Y.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 12:25:00",
+      "home_ranking": "98",
+      "away_ranking": "106",
+      "home_slug": "monfardini-gaia",
+      "away_slug": "yoo-yerin",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "2s3AaNX0",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Moyland S.",
+      "away_player": "Tan Z. Y.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-08-09 13:00:00",
+      "home_ranking": "200",
+      "away_ranking": "170",
+      "home_slug": "moyland-sally",
+      "away_slug": "tan-zhao-yun",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "vNYFIHdT",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Alhodaby M.",
+      "away_player": "Piccolin G.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 13:30:00",
+      "home_ranking": "69",
+      "away_ranking": "98",
+      "home_slug": "alhodaby-mariam",
+      "away_slug": "piccolin-giorgia",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "zkC7rpFa",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Chitale D. P.",
+      "away_player": "Bhowmick D.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-08-09 13:55:00",
+      "home_ranking": "93",
+      "away_ranking": "93",
+      "home_slug": "chitale-diya-parag",
+      "away_slug": "bhowmick-divyanshi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "xSL1w7jn",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Das S.",
+      "away_player": "Yang H.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-08-09 14:30:00",
+      "home_ranking": "93",
+      "away_ranking": "106",
+      "home_slug": "das-syndrela",
+      "away_slug": "yang-haeun",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "MmR98H4b",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Huang Y.",
+      "away_player": "Su T. T.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 15:10:00",
+      "home_ranking": "218",
+      "away_ranking": "222",
+      "home_slug": "huang-yu-jie",
+      "away_slug": "su-tsz-tung",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "xbCsS21l",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Ni X.",
+      "away_player": "Peng Y.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-08-09 15:45:00",
+      "home_ranking": "117",
+      "away_ranking": "218",
+      "home_slug": "ni-xialian",
+      "away_slug": "peng-yu-han",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "IVMmrFin",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Chien T.",
+      "away_player": "de Nutte S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-08-09 16:35:00",
+      "home_ranking": "218",
+      "away_ranking": "117",
+      "home_slug": "chien-tung-chuan",
+      "away_slug": "de-nutte-sarah",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "YJnXgR8l",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Zarif A.",
+      "away_player": "Zaharia E.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-08-09 17:05:00",
+      "home_ranking": "77",
+      "away_ranking": "157",
+      "home_slug": "zarif-audrey",
+      "away_slug": "zaharia-elena",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "KAm4bMIN",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Paranang O.",
+      "away_player": "Yang X.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-08-09 17:45:00",
+      "home_ranking": "186",
+      "away_ranking": "131",
+      "home_slug": "paranang-orawan",
+      "away_slug": "yang-xiaoxin",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "r5fvVEAa",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Moyland S.",
+      "away_player": "Piccolin G.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-08-09 18:15:00",
+      "home_ranking": "200",
+      "away_ranking": "98",
+      "home_slug": "moyland-sally",
+      "away_slug": "piccolin-giorgia",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "SfVTJTp1",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Ng W. L.",
+      "away_player": "Yoo Y.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-08-09 18:35:00",
+      "home_ranking": "222",
+      "away_ranking": "106",
+      "home_slug": "ng-wing-lam",
+      "away_slug": "yoo-yerin",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "O0mXyNNq",
+      "tournament": "OTHERS - WOMEN: Europe Smash - Sweden (Sweden) - Qualification",
+      "home_player": "Chitale D. P.",
+      "away_player": "Das S.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-08-09 18:55:00",
+      "home_ranking": "93",
+      "away_ranking": "93",
+      "home_slug": "chitale-diya-parag",
+      "away_slug": "das-syndrela",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "prpOUnHk",
+      "tournament": "OTHERS - WOMEN: WTT Champions Yokohama (Japan)",
+      "home_player": "Chen X.",
+      "away_player": "Kuai M.",
+      "score_home": "4",
+      "score_away": "1",
+      "time": "2026-08-09 03:45:00",
+      "home_ranking": "52",
+      "away_ranking": "52",
+      "home_slug": "chen-xingtong",
+      "away_slug": "kuai-man",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "EoSqVHx3",
+      "tournament": "OTHERS - WOMEN: WTT Champions Yokohama (Japan)",
+      "home_player": "Harimoto M.",
+      "away_player": "Chen X.",
+      "score_home": "4",
+      "score_away": "2",
+      "time": "2026-08-09 09:40:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "chen-xingtong",
+      "sets": [
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    }
+  ]
+}
