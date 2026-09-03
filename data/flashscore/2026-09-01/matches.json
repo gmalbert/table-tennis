@@ -1,0 +1,617 @@
+{
+  "date": "2026-09-01",
+  "match_count": 21,
+  "matches": [
+    {
+      "match_id": "UknfOp7D",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Toliev M.",
+      "away_player": "Kenzhigulov D.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 11:00:00",
+      "home_ranking": "202",
+      "away_ranking": "102",
+      "home_slug": "toliev-musobek",
+      "away_slug": "kenzhigulov-dastan",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Qe2bFkOr",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Markin A.",
+      "away_player": "Gulomiddinov S.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-01 11:05:00",
+      "home_ranking": "102",
+      "away_ranking": "202",
+      "home_slug": "markin-alexey",
+      "away_slug": "gulomiddinov-shahbozbek",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "f9uRXcvA",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Kenjaev Z.",
+      "away_player": "Torgaibekov A.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-01 11:35:00",
+      "home_ranking": "202",
+      "away_ranking": "102",
+      "home_slug": "kenjaev-zokhid",
+      "away_slug": "torgaibekov-amir",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "0"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "O6b1HxfT",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Neumann L.",
+      "away_player": "Jiyenbayev T.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 11:40:00",
+      "home_ranking": "128",
+      "away_ranking": "102",
+      "home_slug": "neumann-layan",
+      "away_slug": "jiyenbayev-temirlan",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "nqxJZJ9c",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Shi C.",
+      "away_player": "Kassym N.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 12:10:00",
+      "home_ranking": "102",
+      "away_ranking": "102",
+      "home_slug": "shi-chenyang",
+      "away_slug": "kassym-nurislam",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "CWj0ZAFE",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Oralkhanov A.",
+      "away_player": "Kurmambayev S.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 12:15:00",
+      "home_ranking": "102",
+      "away_ranking": "102",
+      "home_slug": "oralkhanov-arnur",
+      "away_slug": "kurmambayev-sagantay",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "WbtfJbPG",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Mamay A.",
+      "away_player": "Volin L.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 13:00:00",
+      "home_ranking": "102",
+      "away_ranking": "158",
+      "home_slug": "mamay-abdulla",
+      "away_slug": "volin-lev",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "6XvZzOjJ",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Vivarelli D.",
+      "away_player": "Elmurodova M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-01 11:00:00",
+      "home_ranking": "98",
+      "away_ranking": "202",
+      "home_slug": "vivarelli-debora",
+      "away_slug": "elmurodova-maftuna",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "1"
+        }
+      ]
+    },
+    {
+      "match_id": "Y32n20kI",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Amangeldi A.",
+      "away_player": "Vorobeva O.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 11:05:00",
+      "home_ranking": "102",
+      "away_ranking": "158",
+      "home_slug": "amangeldi-akniyet",
+      "away_slug": "vorobeva-olga",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "v3UJqhZj",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Zhaxylykova A.",
+      "away_player": "Akhmadaliyeva S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-01 11:35:00",
+      "home_ranking": "102",
+      "away_ranking": "102",
+      "home_slug": "zhaxylykova-albina",
+      "away_slug": "akhmadaliyeva-shakhzoda",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "rXO6kN5C",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Yuldosheva N.",
+      "away_player": "Kodirova S.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 11:40:00",
+      "home_ranking": "202",
+      "away_ranking": "202",
+      "home_slug": "yuldosheva-nigina",
+      "away_slug": "kodirova-shoira",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "YcPImMiM",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Abdukahhorova G.",
+      "away_player": "Tsvigun A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 12:15:00",
+      "home_ranking": "202",
+      "away_ranking": "102",
+      "home_slug": "abdukahhorova-guzaloy",
+      "away_slug": "tsvigun-alissa",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "QXLAkrN9",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Torshayeva G.",
+      "away_player": "Kotsiur V.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 12:20:00",
+      "home_ranking": "102",
+      "away_ranking": "158",
+      "home_slug": "torshayeva-guzel",
+      "away_slug": "kotsiur-valeriia",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "2gNjg56m",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Slautina A.",
+      "away_player": "Vishniakova O.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-01 12:55:00",
+      "home_ranking": "158",
+      "away_ranking": "158",
+      "home_slug": "slautina-arina",
+      "away_slug": "vishniakova-olga",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "YwXKbRrQ",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Nurman N.",
+      "away_player": "Tailakova M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 13:05:00",
+      "home_ranking": "102",
+      "away_ranking": "158",
+      "home_slug": "nurman-nursaya",
+      "away_slug": "tailakova-mariia",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "jcSEm1zP",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Ashkeyeva A.",
+      "away_player": "Zironova E.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 13:25:00",
+      "home_ranking": "102",
+      "away_ranking": "158",
+      "home_slug": "ashkeyeva-aray",
+      "away_slug": "zironova-ekaterina",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "z7Lbiqy0",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Gamova D.",
+      "away_player": "Okhmak Y.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-01 13:25:00",
+      "home_ranking": "102",
+      "away_ranking": "102",
+      "home_slug": "gamova-darya",
+      "away_slug": "okhmak-yekaterina",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "0j4v4MK5",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Shcherbatykh V.",
+      "away_player": "Zavarykina A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-01 13:25:00",
+      "home_ranking": "158",
+      "away_ranking": "158",
+      "home_slug": "shcherbatykh-valeria",
+      "away_slug": "zavarykina-alina",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "hKN2i4hc",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Adilgereyeva A.",
+      "away_player": "Lukyanova M.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-01 13:55:00",
+      "home_ranking": "102",
+      "away_ranking": "102",
+      "home_slug": "adilgereyeva-ainaz",
+      "away_slug": "lukyanova-mariya",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "692O74Lt",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Fu D.",
+      "away_player": "Khaniyazova N.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-01 14:00:00",
+      "home_ranking": "102",
+      "away_ranking": "102",
+      "home_slug": "fu-darya",
+      "away_slug": "khaniyazova-noila",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "hQ0W5rjg",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan) - Qualification",
+      "home_player": "Serikbay N.",
+      "away_player": "Panfilova M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-01 14:00:00",
+      "home_ranking": "102",
+      "away_ranking": "158",
+      "home_slug": "serikbay-nazym",
+      "away_slug": "panfilova-maria",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    }
+  ]
+}
