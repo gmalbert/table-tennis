@@ -1,0 +1,892 @@
+{
+  "date": "2026-09-04",
+  "match_count": 30,
+  "matches": [
+    {
+      "match_id": "hYvK36Fr",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Karlsson M.",
+      "away_player": "Hamada K.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-04 05:35:00",
+      "home_ranking": "181",
+      "away_ranking": "100",
+      "home_slug": "karlsson-mattias",
+      "away_slug": "hamada-kazuki",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "xWXHmbJ7",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Gerassimenko K.",
+      "away_player": "Fang B.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-04 06:10:00",
+      "home_ranking": "102",
+      "away_ranking": "102",
+      "home_slug": "gerassimenko-kirill",
+      "away_slug": "fang-bo",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "SU5uTMrf",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Picard V.",
+      "away_player": "Robles A.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-04 06:10:00",
+      "home_ranking": "77",
+      "away_ranking": "176",
+      "home_slug": "picard-vincent",
+      "away_slug": "robles-alvaro",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "vyK3ljMF",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Shah M. U.",
+      "away_player": "Ivonin D.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-04 07:05:00",
+      "home_ranking": "93",
+      "away_ranking": "158",
+      "home_slug": "shah-manush-utpalbhai",
+      "away_slug": "ivonin-denis",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "0W9UWv3B",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Kouraichi A.",
+      "away_player": "Karlsson K.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-04 11:00:00",
+      "home_ranking": "77",
+      "away_ranking": "181",
+      "home_slug": "kouraichi-alexis",
+      "away_slug": "karlsson-kristian",
+      "sets": [
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "dxpWE6sQ",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Togami S.",
+      "away_player": "Bourrassaud F.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-04 11:35:00",
+      "home_ranking": "100",
+      "away_ranking": "77",
+      "home_slug": "togami-shunsuke",
+      "away_slug": "bourrassaud-florian",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "dSOFC1bD",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Yoshiyama R.",
+      "away_player": "Tikhonov E.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-04 12:20:00",
+      "home_ranking": "100",
+      "away_ranking": "158",
+      "home_slug": "yoshiyama-ryoichi",
+      "away_slug": "tikhonov-evgeny",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        }
+      ]
+    },
+    {
+      "match_id": "QTRl2cY0",
+      "tournament": "OTHERS - MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Tanaka Y.",
+      "away_player": "Gauzy S.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-04 13:00:00",
+      "home_ranking": "100",
+      "away_ranking": "77",
+      "home_slug": "tanaka-yuta",
+      "away_slug": "gauzy-simon",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8vWH0GMF",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Ghorpade Y.",
+      "away_player": "Nagasaki M.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-04 05:30:00",
+      "home_ranking": "93",
+      "away_ranking": "100",
+      "home_slug": "ghorpade-yashaswini",
+      "away_slug": "nagasaki-miyu",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        }
+      ]
+    },
+    {
+      "match_id": "Chha7kA4",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Akae K.",
+      "away_player": "Vivarelli D.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-04 06:30:00",
+      "home_ranking": "100",
+      "away_ranking": "98",
+      "home_slug": "akae-kaho",
+      "away_slug": "vivarelli-debora",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "tOby3ky9",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Panfilova M.",
+      "away_player": "Kaufmann A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-04 06:50:00",
+      "home_ranking": "158",
+      "away_ranking": "81",
+      "home_slug": "panfilova-maria",
+      "away_slug": "kaufmann-annett",
+      "sets": [
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "fPNtaXLi",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Kallberg Ch.",
+      "away_player": "Abraamian E.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-04 07:05:00",
+      "home_ranking": "181",
+      "away_ranking": "158",
+      "home_slug": "kallberg-christina",
+      "away_slug": "abraamian-elizabet",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "h8V19p5m",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Hayata H.",
+      "away_player": "Chien T.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-04 11:00:00",
+      "home_ranking": "100",
+      "away_ranking": "218",
+      "home_slug": "hayata-hina",
+      "away_slug": "chien-tung-chuan",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "bchwTCUI",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Diaz A.",
+      "away_player": "Das S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-04 11:50:00",
+      "home_ranking": "236",
+      "away_ranking": "93",
+      "home_slug": "diaz-adriana",
+      "away_slug": "das-syndrela",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "SxMlcBj4",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Hirano M.",
+      "away_player": "Yang H.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-04 12:10:00",
+      "home_ranking": "100",
+      "away_ranking": "106",
+      "home_slug": "hirano-miu",
+      "away_slug": "yang-haeun",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "vgsObOR8",
+      "tournament": "OTHERS - WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Voronina V.",
+      "away_player": "Ghosh S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-04 12:45:00",
+      "home_ranking": "158",
+      "away_ranking": "93",
+      "home_slug": "voronina-vlada",
+      "away_slug": "ghosh-swastika",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "65YCw25D",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Karlsson M./Karlsson K.",
+      "away_player": "Tikhonov E./Vinogradov D.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-04 07:25:00",
+      "home_ranking": "181",
+      "away_ranking": "158",
+      "home_slug": "karlsson-mattias",
+      "away_slug": "tikhonov-evgeny",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "r5IaGqal",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Gerassimenko K./Kurmangaliyev A.",
+      "away_player": "Hamada K./Suzuki H.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-04 07:45:00",
+      "home_ranking": "102",
+      "away_ranking": "100",
+      "home_slug": "gerassimenko-kirill",
+      "away_slug": "hamada-kazuki",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "AHko88wH",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Bourrassaud F./Dorr E.",
+      "away_player": "Yoshiyama R./Yoshiyama K.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-04 07:55:00",
+      "home_ranking": "77",
+      "away_ranking": "100",
+      "home_slug": "bourrassaud-florian",
+      "away_slug": "yoshiyama-ryoichi",
+      "sets": [
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Isgg6n8T",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Kenzhigulov A./Zhubanov S.",
+      "away_player": "Katsman L./Grebnev M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-04 08:00:00",
+      "home_ranking": "102",
+      "away_ranking": "158",
+      "home_slug": "kenzhigulov-aidos",
+      "away_slug": "katsman-lev",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "KWEVIN2d",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Tailakova M./Zironova E.",
+      "away_player": "Chien T./Li Y.-J.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-04 07:20:00",
+      "home_ranking": "158",
+      "away_ranking": "218",
+      "home_slug": "tailakova-mariia",
+      "away_slug": "chien-tung-chuan",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "jBF79yn4",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Torshayeva G./Koshkumbayeva Z.",
+      "away_player": "Hirano M./Kihara M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-04 07:35:00",
+      "home_ranking": "102",
+      "away_ranking": "100",
+      "home_slug": "torshayeva-guzel",
+      "away_slug": "hirano-miu",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "2X7g0X8j",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Das S./Mukherjee S.",
+      "away_player": "Fu D./Lukyanova M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-04 07:55:00",
+      "home_ranking": "93",
+      "away_ranking": "102",
+      "home_slug": "das-syndrela",
+      "away_slug": "fu-darya",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "xpViQ5AM",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Chitale D. P./Ghorpade Y.",
+      "away_player": "Slautina A./Zavarykina A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-04 08:25:00",
+      "home_ranking": "93",
+      "away_ranking": "158",
+      "home_slug": "chitale-diya-parag",
+      "away_slug": "slautina-arina",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "GK7VjQV0",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Kurmangaliyev A./Fu D.",
+      "away_player": "Karlsson K./Kallberg Ch.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-04 05:00:00",
+      "home_ranking": "102",
+      "away_ranking": "181",
+      "home_slug": "kurmangaliyev-alan",
+      "away_slug": "karlsson-kristian",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "UPWAR92k",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Yoshiyama K./Ojio Y.",
+      "away_player": "Jain P./Das S.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-04 05:00:00",
+      "home_ranking": "100",
+      "away_ranking": "93",
+      "home_slug": "yoshiyama-kazuki",
+      "away_slug": "jain-payas",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "UoQpsA3S",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Shah M. U./Chitale D. P.",
+      "away_player": "Artemenko N./Abraamian E.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-04 05:05:00",
+      "home_ranking": "93",
+      "away_ranking": "158",
+      "home_slug": "shah-manush-utpalbhai",
+      "away_slug": "artemenko-nikita",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "YuCrt9Hr",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Togami S./Hayata H.",
+      "away_player": "Tikhonov E./Panfilova M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-04 05:05:00",
+      "home_ranking": "100",
+      "away_ranking": "158",
+      "home_slug": "togami-shunsuke",
+      "away_slug": "tikhonov-evgeny",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "t427xXmm",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Artemenko N./Abraamian E.",
+      "away_player": "Tikhonov E./Panfilova M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-04 13:20:00",
+      "home_ranking": "158",
+      "away_ranking": "158",
+      "home_slug": "artemenko-nikita",
+      "away_slug": "tikhonov-evgeny",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        }
+      ]
+    },
+    {
+      "match_id": "pYGyrgQP",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Almaty (Kazakhstan)",
+      "home_player": "Yoshiyama K./Ojio Y.",
+      "away_player": "Karlsson K./Kallberg Ch.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-04 13:45:00",
+      "home_ranking": "100",
+      "away_ranking": "181",
+      "home_slug": "yoshiyama-kazuki",
+      "away_slug": "karlsson-kristian",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        }
+      ]
+    }
+  ]
+}

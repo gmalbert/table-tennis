@@ -1,0 +1,62 @@
+{
+  "date": "2026-09-07",
+  "match_count": 4,
+  "matches": [
+    {
+      "match_id": "lUsTczRr",
+      "tournament": "OTHERS - MEN: WTT Champions Macao (Macao)",
+      "home_player": "Geraldo J.",
+      "away_player": "Lind A.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-09-08 03:35:00",
+      "home_ranking": "155",
+      "away_ranking": "63",
+      "home_slug": "geraldo-joao",
+      "away_slug": "lind-anders",
+      "sets": []
+    },
+    {
+      "match_id": "xEtimpDN",
+      "tournament": "OTHERS - MEN: WTT Champions Macao (Macao)",
+      "home_player": "Assar O.",
+      "away_player": "Chen Y.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-09-08 04:45:00",
+      "home_ranking": "69",
+      "away_ranking": "52",
+      "home_slug": "assar-omar",
+      "away_slug": "chen-yuanyu",
+      "sets": []
+    },
+    {
+      "match_id": "UJZ9ZKqH",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Chen Y.",
+      "away_player": "Yeh Y.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-09-08 03:00:00",
+      "home_ranking": "52",
+      "away_ranking": "218",
+      "home_slug": "chen-yi",
+      "away_slug": "yeh-yi-tian",
+      "sets": []
+    },
+    {
+      "match_id": "lnP3J8gJ",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Liu Y.",
+      "away_player": "Abraamian E.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-09-08 04:10:00",
+      "home_ranking": "24",
+      "away_ranking": "158",
+      "home_slug": "liu-yangzi",
+      "away_slug": "abraamian-elizabet",
+      "sets": []
+    }
+  ]
+}
