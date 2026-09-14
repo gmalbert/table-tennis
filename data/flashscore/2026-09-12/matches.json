@@ -1,0 +1,911 @@
+{
+  "date": "2026-09-12",
+  "match_count": 27,
+  "matches": [
+    {
+      "match_id": "QNKUfngn",
+      "tournament": "OTHERS - MEN: WTT Champions Macao (Macao)",
+      "home_player": "Zhou Q.",
+      "away_player": "Harimoto T.",
+      "score_home": "1",
+      "score_away": "4",
+      "time": "2026-09-12 04:05:00",
+      "home_ranking": "52",
+      "away_ranking": "100",
+      "home_slug": "zhou-qihao",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ENeO2wte",
+      "tournament": "OTHERS - MEN: WTT Champions Macao (Macao)",
+      "home_player": "Jorgic D.",
+      "away_player": "Moregard T.",
+      "score_home": "2",
+      "score_away": "4",
+      "time": "2026-09-12 05:35:00",
+      "home_ranking": "172",
+      "away_ranking": "181",
+      "home_slug": "jorgic-darko",
+      "away_slug": "moregard-truls",
+      "sets": [
+        {
+          "home": "17",
+          "away": "15"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "KAyCVbuI",
+      "tournament": "OTHERS - MEN: WTT Champions Macao (Macao)",
+      "home_player": "Kallberg A.",
+      "away_player": "Lebrun A.",
+      "score_home": "4",
+      "score_away": "3",
+      "time": "2026-09-12 10:40:00",
+      "home_ranking": "181",
+      "away_ranking": "77",
+      "home_slug": "kallberg-anton",
+      "away_slug": "lebrun-alexis",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "6RDIU4Fb",
+      "tournament": "OTHERS - MEN: WTT Champions Macao (Macao)",
+      "home_player": "Matsushima S.",
+      "away_player": "Calderano H.",
+      "score_home": "2",
+      "score_away": "4",
+      "time": "2026-09-12 13:15:00",
+      "home_ranking": "100",
+      "away_ranking": "39",
+      "home_slug": "matsushima-sora",
+      "away_slug": "calderano-hugo",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8vlM4ZUO",
+      "tournament": "OTHERS - MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Nuytinck C.",
+      "away_player": "Bertelsmeier A.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-12 08:45:00",
+      "home_ranking": "32",
+      "away_ranking": "81",
+      "home_slug": "nuytinck-cedric",
+      "away_slug": "bertelsmeier-andre",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "QVIRpypT",
+      "tournament": "OTHERS - MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Ranefur E.",
+      "away_player": "Redzimski M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-12 09:20:00",
+      "home_ranking": "181",
+      "away_ranking": "154",
+      "home_slug": "ranefur-elias",
+      "away_slug": "redzimsko-milosz",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "U7XwS2Sk",
+      "tournament": "OTHERS - MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Kawakami R.",
+      "away_player": "Ovtcharov D.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-12 09:45:00",
+      "home_ranking": "100",
+      "away_ranking": "81",
+      "home_slug": "kawakami-ryuusei",
+      "away_slug": "ovtcharov-dimitrij",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "14",
+          "away": "16"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "EuNxlyWP",
+      "tournament": "OTHERS - MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Poret T.",
+      "away_player": "Karlsson K.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-12 10:05:00",
+      "home_ranking": "77",
+      "away_ranking": "181",
+      "home_slug": "poret-thibault",
+      "away_slug": "karlsson-kristian",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        }
+      ]
+    },
+    {
+      "match_id": "tdtoRJA7",
+      "tournament": "OTHERS - MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Karlsson K.",
+      "away_player": "Ranefur E.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-12 14:40:00",
+      "home_ranking": "181",
+      "away_ranking": "181",
+      "home_slug": "karlsson-kristian",
+      "away_slug": "ranefur-elias",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        }
+      ]
+    },
+    {
+      "match_id": "OMlrSpwB",
+      "tournament": "OTHERS - MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Nuytinck C.",
+      "away_player": "Ovtcharov D.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-12 16:10:00",
+      "home_ranking": "32",
+      "away_ranking": "81",
+      "home_slug": "nuytinck-cedric",
+      "away_slug": "ovtcharov-dimitrij",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "KO6fnizA",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Odo S.",
+      "away_player": "Hayata H.",
+      "score_home": "1",
+      "score_away": "4",
+      "time": "2026-09-12 03:10:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "odo-satsuki",
+      "away_slug": "hayata-hina",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "15",
+          "away": "17"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "C0WB88CG",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Chen Y.",
+      "away_player": "Han Y.",
+      "score_home": "4",
+      "score_away": "0",
+      "time": "2026-09-12 04:50:00",
+      "home_ranking": "52",
+      "away_ranking": "81",
+      "home_slug": "chen-yi",
+      "away_slug": "han-ying",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "pOD8rFgm",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Meshref D.",
+      "away_player": "Chen X.",
+      "score_home": "0",
+      "score_away": "4",
+      "time": "2026-09-12 11:40:00",
+      "home_ranking": "69",
+      "away_ranking": "52",
+      "home_slug": "meshref-dina",
+      "away_slug": "chen-xingtong",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "80gGftR6",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Harimoto M.",
+      "away_player": "Szocs B.",
+      "score_home": "4",
+      "score_away": "1",
+      "time": "2026-09-12 12:30:00",
+      "home_ranking": "100",
+      "away_ranking": "157",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "szocs-bernadette",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "fLVyviyi",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Hayata H.",
+      "away_player": "Chen Y.",
+      "score_home": "3",
+      "score_away": "4",
+      "time": "2026-09-13 03:10:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "hayata-hina",
+      "away_slug": "chen-yi",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "18",
+          "away": "16"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "j1QNsDxJ",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Harimoto M.",
+      "away_player": "Chen X.",
+      "score_home": "4",
+      "score_away": "1",
+      "time": "2026-09-13 04:20:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "chen-xingtong",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "Icq0xUoB",
+      "tournament": "OTHERS - WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Aoki S.",
+      "away_player": "Huang Y.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-12 08:00:00",
+      "home_ranking": "100",
+      "away_ranking": "218",
+      "home_slug": "aoki-sachi",
+      "away_slug": "huang-yu-jie",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "fydlehwg",
+      "tournament": "OTHERS - WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Arapovic H.",
+      "away_player": "Yokoi S.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-12 08:00:00",
+      "home_ranking": "59",
+      "away_ranking": "100",
+      "home_slug": "arapovic-hana",
+      "away_slug": "yokoi-sakura",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "df1b9v4t",
+      "tournament": "OTHERS - WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Sato H.",
+      "away_player": "Hirano M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-12 08:35:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "sato-hitomi",
+      "away_slug": "hirano-miu",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "rorVOxGt",
+      "tournament": "OTHERS - WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Akae K.",
+      "away_player": "Nagasaki M.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-12 09:30:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "akae-kaho",
+      "away_slug": "nagasaki-miyu",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "d0AAzxiJ",
+      "tournament": "OTHERS - WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Sato H.",
+      "away_player": "Aoki S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-12 14:05:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "sato-hitomi",
+      "away_slug": "aoki-sachi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "Yafrky6C",
+      "tournament": "OTHERS - WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Yokoi S.",
+      "away_player": "Nagasaki M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-12 15:30:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "yokoi-sakura",
+      "away_slug": "nagasaki-miyu",
+      "sets": [
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "YZWmy3Bt",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Gunduz I./Yigenler A.",
+      "away_player": "Hamada K./Sakai Y.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-12 11:15:00",
+      "home_ranking": "191",
+      "away_ranking": "100",
+      "home_slug": "gunduz-ibrahim",
+      "away_slug": "hamada-kazuki",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "KQFj6rC6",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Bourrassaud F./Dorr E.",
+      "away_player": "Bertelsmeier A./Verdonschot W.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-12 11:30:00",
+      "home_ranking": "77",
+      "away_ranking": "81",
+      "home_slug": "bourrassaud-florian",
+      "away_slug": "bertelsmeier-andre",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "ncw4XKA5",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Yokoi S./Aoki S.",
+      "away_player": "Hirano M./Kihara M.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-12 10:30:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "yokoi-sakura",
+      "away_slug": "hirano-miu",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "WS1xhhid",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Arlia N./Monfardini G.",
+      "away_player": "Wan Y./Piccolin G.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-12 10:45:00",
+      "home_ranking": "98",
+      "away_ranking": "81",
+      "home_slug": "arlia-nicole",
+      "away_slug": "wan-yuan",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "z5E8QA8r",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Badowski M./Kukulkova T.",
+      "away_player": "Robles A./Xiao M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-12 16:45:00",
+      "home_ranking": "154",
+      "away_ranking": "176",
+      "home_slug": "badowski-marek",
+      "away_slug": "robles-alvaro",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    }
+  ]
+}

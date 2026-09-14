@@ -1,0 +1,376 @@
+{
+  "date": "2026-09-13",
+  "match_count": 10,
+  "matches": [
+    {
+      "match_id": "nZALjkxf",
+      "tournament": "OTHERS - MEN: WTT Champions Macao (Macao)",
+      "home_player": "Moregard T.",
+      "away_player": "Harimoto T.",
+      "score_home": "4",
+      "score_away": "3",
+      "time": "2026-09-13 05:30:00",
+      "home_ranking": "181",
+      "away_ranking": "100",
+      "home_slug": "moregard-truls",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "16",
+          "away": "14"
+        }
+      ]
+    },
+    {
+      "match_id": "KfDm3K4d",
+      "tournament": "OTHERS - MEN: WTT Champions Macao (Macao)",
+      "home_player": "Calderano H.",
+      "away_player": "Kallberg A.",
+      "score_home": "4",
+      "score_away": "0",
+      "time": "2026-09-13 06:35:00",
+      "home_ranking": "39",
+      "away_ranking": "181",
+      "home_slug": "calderano-hugo",
+      "away_slug": "kallberg-anton",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "MXGYoCLM",
+      "tournament": "OTHERS - MEN: WTT Champions Macao (Macao)",
+      "home_player": "Calderano H.",
+      "away_player": "Moregard T.",
+      "score_home": "1",
+      "score_away": "4",
+      "time": "2026-09-13 12:20:00",
+      "home_ranking": "39",
+      "away_ranking": "181",
+      "home_slug": "calderano-hugo",
+      "away_slug": "moregard-truls",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "fmUHXmW8",
+      "tournament": "OTHERS - MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Ranefur E.",
+      "away_player": "Ovtcharov D.",
+      "score_home": "4",
+      "score_away": "3",
+      "time": "2026-09-13 11:45:00",
+      "home_ranking": "181",
+      "away_ranking": "81",
+      "home_slug": "ranefur-elias",
+      "away_slug": "ovtcharov-dimitrij",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "15",
+          "away": "13"
+        }
+      ]
+    },
+    {
+      "match_id": "fLVyviyi",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Hayata H.",
+      "away_player": "Chen Y.",
+      "score_home": "3",
+      "score_away": "4",
+      "time": "2026-09-13 03:10:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "hayata-hina",
+      "away_slug": "chen-yi",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "18",
+          "away": "16"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "j1QNsDxJ",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Harimoto M.",
+      "away_player": "Chen X.",
+      "score_home": "4",
+      "score_away": "1",
+      "time": "2026-09-13 04:20:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "chen-xingtong",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "UuwMFmuR",
+      "tournament": "OTHERS - WOMEN: WTT Champions Macao (Macao)",
+      "home_player": "Harimoto M.",
+      "away_player": "Chen Y.",
+      "score_home": "4",
+      "score_away": "3",
+      "time": "2026-09-13 10:40:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "chen-yi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "n3fD4k2M",
+      "tournament": "OTHERS - WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Sato H.",
+      "away_player": "Yokoi S.",
+      "score_home": "4",
+      "score_away": "1",
+      "time": "2026-09-13 10:40:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "sato-hitomi",
+      "away_slug": "yokoi-sakura",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "8lycCFBa",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Bourrassaud F./Dorr E.",
+      "away_player": "Hamada K./Sakai Y.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-13 09:50:00",
+      "home_ranking": "77",
+      "away_ranking": "100",
+      "home_slug": "bourrassaud-florian",
+      "away_slug": "hamada-kazuki",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "UTWOwRUg",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Panagyurishte (Bulgaria)",
+      "home_player": "Hirano M./Kihara M.",
+      "away_player": "Arlia N./Monfardini G.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-13 09:00:00",
+      "home_ranking": "100",
+      "away_ranking": "98",
+      "home_slug": "hirano-miu",
+      "away_slug": "arlia-nicole",
+      "sets": [
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    }
+  ]
+}
