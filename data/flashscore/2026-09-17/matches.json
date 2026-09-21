@@ -7,784 +7,1716 @@
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Artemenko N.",
       "away_player": "Ionescu O.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "1",
       "time": "2026-09-17 06:00:00",
       "home_ranking": "158",
       "away_ranking": "157",
       "home_slug": "artemenko-nikita",
       "away_slug": "ionescu-ovidiu",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
     },
     {
       "match_id": "vJQrk0Ki",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Ma Y.",
       "away_player": "Robles A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 07:10:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 07:20:00",
       "home_ranking": "106",
       "away_ranking": "176",
       "home_slug": "ma-yeongmin",
       "away_slug": "robles-alvaro",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "SQDC9pb2",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Xue F.",
       "away_player": "Levenko A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 07:45:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-17 07:50:00",
       "home_ranking": "52",
       "away_ranking": "25",
       "home_slug": "xue-fei",
       "away_slug": "levenko-andreas",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "ITJwg9LP",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Stumper K.",
       "away_player": "Tanaka Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 08:20:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-17 08:40:00",
       "home_ranking": "81",
       "away_ranking": "100",
       "home_slug": "stumper-kay",
       "away_slug": "tanaka-yuta",
-      "sets": []
-    },
-    {
-      "match_id": "EuZdRdSp",
-      "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Oikawa M.",
-      "away_player": "Kozul D.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 08:55:00",
-      "home_ranking": "100",
-      "away_ranking": "172",
-      "home_slug": "oikawa-mizuki",
-      "away_slug": "kozul-deni",
-      "sets": []
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
     },
     {
       "match_id": "84o4FznL",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Sakai Y.",
       "away_player": "Yoshiyama R.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 08:55:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-09-17 09:05:00",
       "home_ranking": "100",
       "away_ranking": "100",
       "home_slug": "sakai-yuhi",
       "away_slug": "yoshiyama-ryoichi",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
     },
     {
-      "match_id": "AqQyZmUg",
+      "match_id": "EuZdRdSp",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Kawakami R.",
-      "away_player": "Bertelsmeier A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 13:10:00",
+      "home_player": "Oikawa M.",
+      "away_player": "Kozul D.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-17 09:15:00",
       "home_ranking": "100",
-      "away_ranking": "81",
-      "home_slug": "kawakami-ryuusei",
-      "away_slug": "bertelsmeier-andre",
-      "sets": []
+      "away_ranking": "172",
+      "home_slug": "oikawa-mizuki",
+      "away_slug": "kozul-deni",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "K0A4B6Tk",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Nuytinck C.",
       "away_player": "Hamada K.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 13:10:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-17 13:00:00",
       "home_ranking": "32",
       "away_ranking": "100",
       "home_slug": "nuytinck-cedric",
       "away_slug": "hamada-kazuki",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
     },
     {
-      "match_id": "QZWiV5TI",
+      "match_id": "AqQyZmUg",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Gunduz I.",
-      "away_player": "Chirita I.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 13:45:00",
-      "home_ranking": "191",
-      "away_ranking": "157",
-      "home_slug": "gunduz-ibrahim",
-      "away_slug": "chirita-iulian",
-      "sets": []
+      "home_player": "Kawakami R.",
+      "away_player": "Bertelsmeier A.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-17 13:05:00",
+      "home_ranking": "100",
+      "away_ranking": "81",
+      "home_slug": "kawakami-ryuusei",
+      "away_slug": "bertelsmeier-andre",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "C0zr8hve",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Walther R.",
       "away_player": "Rassenfosse A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 13:45:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 13:30:00",
       "home_ranking": "81",
       "away_ranking": "32",
       "home_slug": "walther-ricardo",
       "away_slug": "rassenfosse-adrien",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "QZWiV5TI",
+      "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
+      "home_player": "Gunduz I.",
+      "away_player": "Chirita I.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 13:55:00",
+      "home_ranking": "191",
+      "away_ranking": "157",
+      "home_slug": "gunduz-ibrahim",
+      "away_slug": "chirita-iulian",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "MmmdHdH8",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "de Nodrest L.",
       "away_player": "Tikhonov E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 14:20:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 14:15:00",
       "home_ranking": "77",
       "away_ranking": "158",
       "home_slug": "de-nodrest-leo",
       "away_slug": "tikhonov-evgeny",
-      "sets": []
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "I9TqXRb6",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Movileanu D.",
       "away_player": "Fang B.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 14:20:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-17 14:15:00",
       "home_ranking": "157",
       "away_ranking": "102",
       "home_slug": "movileanu-darius",
       "away_slug": "fang-bo",
-      "sets": []
-    },
-    {
-      "match_id": "S259mmqm",
-      "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Park G.",
-      "away_player": "Meng F. B.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 14:55:00",
-      "home_ranking": "106",
-      "away_ranking": "81",
-      "home_slug": "park-ganghyeon",
-      "away_slug": "meng-fanbo",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "8t7Pq5rC",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Vinogradov D.",
       "away_player": "Allegro M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 14:55:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-17 14:35:00",
       "home_ranking": "158",
       "away_ranking": "32",
       "home_slug": "vinogradov-dmitrii",
       "away_slug": "allegro-martin",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
-      "match_id": "CWOjmvk4",
+      "match_id": "S259mmqm",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Bardet L.",
-      "away_player": "Li T.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 15:30:00",
-      "home_ranking": "77",
-      "away_ranking": "52",
-      "home_slug": "bardet-lilian",
-      "away_slug": "li-tianyang",
-      "sets": []
+      "home_player": "Park G.",
+      "away_player": "Meng F. B.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 15:05:00",
+      "home_ranking": "106",
+      "away_ranking": "81",
+      "home_slug": "park-ganghyeon",
+      "away_slug": "meng-fanbo",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "zT8HoRDa",
       "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Xu Yingbin",
       "away_player": "Ionescu E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 15:30:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-17 15:35:00",
       "home_ranking": "52",
       "away_ranking": "157",
       "home_slug": "xu-yingbin",
       "away_slug": "ionescu-eduard",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "CWOjmvk4",
+      "tournament": "OTHERS - MEN: WTT Star Contender Astana (Kazakhstan)",
+      "home_player": "Bardet L.",
+      "away_player": "Li T.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 15:40:00",
+      "home_ranking": "77",
+      "away_ranking": "52",
+      "home_slug": "bardet-lilian",
+      "away_slug": "li-tianyang",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "tEJawl3k",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Zhu S.",
       "away_player": "Monfardini G.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "1",
       "time": "2026-09-17 06:35:00",
       "home_ranking": "52",
       "away_ranking": "98",
       "home_slug": "zhu-sibing",
       "away_slug": "monfardini-gaia",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "MoOGtDpK",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Xiao M.",
       "away_player": "Kutumbale A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 07:45:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-17 08:05:00",
       "home_ranking": "176",
       "away_ranking": "93",
       "home_slug": "xiao-maria",
       "away_slug": "kutumbale-anusha",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
     },
     {
       "match_id": "xIULpWAF",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Batra M.",
       "away_player": "Cossio Aceves A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 08:20:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-17 08:35:00",
       "home_ranking": "93",
       "away_ranking": "128",
       "home_slug": "batra-manika",
       "away_slug": "cossio-aceves-arantxa",
-      "sets": []
-    },
-    {
-      "match_id": "CdUSOlld",
-      "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Tailakova M.",
-      "away_player": "Yoo Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 08:55:00",
-      "home_ranking": "158",
-      "away_ranking": "106",
-      "home_slug": "tailakova-mariia",
-      "away_slug": "yoo-yerin",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
     },
     {
       "match_id": "hUEnyi8s",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Zong G.",
       "away_player": "Yang H.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 08:55:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-17 09:15:00",
       "home_ranking": "52",
       "away_ranking": "106",
       "home_slug": "zong-geman",
       "away_slug": "yang-haeun",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "15",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "CdUSOlld",
+      "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
+      "home_player": "Tailakova M.",
+      "away_player": "Yoo Y.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-17 09:20:00",
+      "home_ranking": "158",
+      "away_ranking": "106",
+      "home_slug": "tailakova-mariia",
+      "away_slug": "yoo-yerin",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "WEpyUZ0E",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Zaharia E.",
       "away_player": "Zhang S.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "2",
       "time": "2026-09-17 12:35:00",
       "home_ranking": "157",
       "away_ranking": "176",
       "home_slug": "zaharia-elena",
       "away_slug": "zhang-sofia-xuan",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
     },
     {
       "match_id": "p4yRtN9s",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Cristobal A.",
       "away_player": "Li Y.-J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 13:10:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-17 13:05:00",
       "home_ranking": "176",
       "away_ranking": "218",
       "home_slug": "cristobal-ainhoa",
       "away_slug": "li-yu-jhun",
-      "sets": []
+      "sets": [
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "rywNKVN0",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Wani S.",
       "away_player": "Slautina A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 13:10:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-17 13:25:00",
       "home_ranking": "93",
       "away_ranking": "158",
       "home_slug": "wani-sayali",
       "away_slug": "slautina-arina",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "prYTrAuS",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Kim S.",
       "away_player": "Han F.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 13:45:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 13:40:00",
       "home_ranking": "106",
       "away_ranking": "52",
       "home_slug": "kim-seongjin",
       "away_slug": "han-feier",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "GlyVI9hD",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Yoo S.",
       "away_player": "Harac E.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "0",
+      "score_away": "3",
       "time": "2026-09-17 13:45:00",
       "home_ranking": "106",
       "away_ranking": "191",
       "home_slug": "yoo-siwoo",
       "away_slug": "harac-ece",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "4jHEnht3",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Rad E.",
       "away_player": "Lutz Ch.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 14:20:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 14:00:00",
       "home_ranking": "176",
       "away_ranking": "77",
       "home_slug": "rad-elvira",
       "away_slug": "lutz-charlotte",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "QsDfZUxf",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Wang X.",
       "away_player": "Dragoman A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 14:20:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-17 14:30:00",
       "home_ranking": "52",
       "away_ranking": "157",
       "home_slug": "wang-xiaotong",
       "away_slug": "dragoman-andreea",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
     },
     {
       "match_id": "zBZEMigl",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Bergand F.",
       "away_player": "Panfilova M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 14:55:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-17 14:50:00",
       "home_ranking": "181",
       "away_ranking": "158",
       "home_slug": "bergand-filippa",
       "away_slug": "panfilova-maria",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "4SrqSDVQ",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Vivarelli D.",
       "away_player": "Voronina V.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "0",
+      "score_away": "3",
       "time": "2026-09-17 14:55:00",
       "home_ranking": "98",
       "away_ranking": "158",
       "home_slug": "vivarelli-debora",
       "away_slug": "voronina-vlada",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "lvN7ySX1",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Yao R.",
       "away_player": "Yang Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 15:30:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-17 15:10:00",
       "home_ranking": "52",
       "away_ranking": "52",
       "home_slug": "yao-ruixuan",
       "away_slug": "yang-yiyun",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
     },
     {
       "match_id": "EHEgaVP8",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Zhu Z.",
       "away_player": "Zironova E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 15:30:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-17 15:20:00",
       "home_ranking": "52",
       "away_ranking": "158",
       "home_slug": "zhu-ziyu",
       "away_slug": "zironova-ekaterina",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "15",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
     },
     {
       "match_id": "v5JAVnxJ",
       "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Qiu D./Duda B.",
       "away_player": "Fang B./Park G.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "2",
       "time": "2026-09-17 06:00:00",
       "home_ranking": "81",
       "away_ranking": "102",
       "home_slug": "qiu-dang",
       "away_slug": "fang-bo",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "19",
+          "away": "17"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
     },
     {
       "match_id": "2scSmUim",
       "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Gunduz I./Yigenler A.",
       "away_player": "Tikhonov E./Vinogradov D.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-09-17 06:35:00",
       "home_ranking": "191",
       "away_ranking": "158",
       "home_slug": "gunduz-ibrahim",
       "away_slug": "tikhonov-evgeny",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "lUe3McSs",
       "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Li H./Zhou G.",
       "away_player": "Chen J./Chen Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 06:35:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-17 07:00:00",
       "home_ranking": "52",
       "away_ranking": "52",
       "home_slug": "li-hechen",
       "away_slug": "chen-junsong",
-      "sets": []
+      "sets": [
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "Wb6dgjUP",
       "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Coton F./Poret T.",
       "away_player": "Ionescu E./Movileanu D.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "0",
+      "score_away": "3",
       "time": "2026-09-17 07:10:00",
       "home_ranking": "77",
       "away_ranking": "157",
       "home_slug": "cotton-flavien",
       "away_slug": "ionescu-eduard",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "rBcJIFR6",
       "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Artukmetov I./Kurmambayev S.",
       "away_player": "Allegro M./Rassenfosse A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 07:45:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-17 08:15:00",
       "home_ranking": "102",
       "away_ranking": "32",
       "home_slug": "artukmetov-irisbek",
       "away_slug": "allegro-martin",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "GOeRGgdJ",
       "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Kim G./Ma Y.",
       "away_player": "Kobayashi H./Hamada K.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "0",
+      "score_away": "3",
       "time": "2026-09-17 08:20:00",
       "home_ranking": "106",
       "away_ranking": "100",
       "home_slug": "kim-gaon",
       "away_slug": "kobayashi-hiromu",
-      "sets": []
-    },
-    {
-      "match_id": "zofBKycf",
-      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Artemenko N./Ivonin D.",
-      "away_player": "Yu H./Tang Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 12:35:00",
-      "home_ranking": "158",
-      "away_ranking": "52",
-      "home_slug": "artemenko-nikita",
-      "away_slug": "yu-haiyang",
-      "sets": []
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "Y7G2X876",
       "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Franziska P./Ovtcharov D.",
       "away_player": "Zhou Q./Xue F.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 12:35:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 12:30:00",
       "home_ranking": "81",
       "away_ranking": "52",
       "home_slug": "franziska-patrick",
       "away_slug": "zhou-qihao",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "zofBKycf",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Astana (Kazakhstan)",
+      "home_player": "Artemenko N./Ivonin D.",
+      "away_player": "Yu H./Tang Y.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-17 12:35:00",
+      "home_ranking": "158",
+      "away_ranking": "52",
+      "home_slug": "artemenko-nikita",
+      "away_slug": "yu-haiyang",
+      "sets": [
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "AqWLar9E",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Hashimoto H./Diaz A.",
       "away_player": "Ashkeyeva A./Torshayeva G.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "0",
       "time": "2026-09-17 06:00:00",
       "home_ranking": "100",
       "away_ranking": "102",
       "home_slug": "hashimoto-honoka",
       "away_slug": "ashkeyeva-aray",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
     },
     {
       "match_id": "A70zn8Ma",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Qin Y./Zong G.",
       "away_player": "Yoo Y./Kim S.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "1",
       "time": "2026-09-17 06:00:00",
       "home_ranking": "52",
       "away_ranking": "106",
       "home_slug": "qin-yuxuan",
       "away_slug": "yoo-yerin",
-      "sets": []
+      "sets": [
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "2ilTcMwR",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Szocs B./Samara E.",
       "away_player": "Tailakova M./Zironova E.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-09-17 06:35:00",
       "home_ranking": "157",
       "away_ranking": "158",
       "home_slug": "szocs-bernadette",
       "away_slug": "tailakova-mariia",
-      "sets": []
-    },
-    {
-      "match_id": "rwvzxuH7",
-      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Rad E./Cristobal A.",
-      "away_player": "Abraamian E./Voronina V.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 07:10:00",
-      "home_ranking": "176",
-      "away_ranking": "158",
-      "home_slug": "rad-elvira",
-      "away_slug": "abraamian-elizabet",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "rLbrpniC",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Zhu Z./Yang Y.",
       "away_player": "Panfilova M./Slautina A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 07:10:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-17 07:30:00",
       "home_ranking": "52",
       "away_ranking": "158",
       "home_slug": "zhu-ziyu",
       "away_slug": "panfilova-maria",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "ELzFRwyo",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Dragoman A./Zaharia E.",
       "away_player": "Wang Yidi/Han F.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 07:45:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-09-17 07:40:00",
       "home_ranking": "157",
       "away_ranking": "52",
       "home_slug": "dragoman-andreea",
       "away_slug": "wang-yidi",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "rwvzxuH7",
+      "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Astana (Kazakhstan)",
+      "home_player": "Rad E./Cristobal A.",
+      "away_player": "Abraamian E./Voronina V.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-09-17 07:45:00",
+      "home_ranking": "176",
+      "away_ranking": "158",
+      "home_slug": "rad-elvira",
+      "away_slug": "abraamian-elizabet",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "14",
+          "away": "16"
+        }
+      ]
     },
     {
       "match_id": "tSS0ksTi",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Hirano M./Kihara M.",
       "away_player": "Wang X./Shi X.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 08:20:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-17 08:50:00",
       "home_ranking": "100",
       "away_ranking": "52",
       "home_slug": "hirano-miu",
       "away_slug": "wang-xiaotong",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "bNZbh01l",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Monfardini G./Bergand F.",
       "away_player": "Kamilzhanova O./Adilgereyeva A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 12:35:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-17 12:40:00",
       "home_ranking": "98",
       "away_ranking": "102",
       "home_slug": "monfardini-gaia",
       "away_slug": "kamilzhanova-oidin",
-      "sets": []
-    },
-    {
-      "match_id": "S2XOqwcT",
-      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Artemenko N./Abraamian E.",
-      "away_player": "Lebrun A./Lutz Ch.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 09:30:00",
-      "home_ranking": "158",
-      "away_ranking": "77",
-      "home_slug": "artemenko-nikita",
-      "away_slug": "lebrun-alexis",
-      "sets": []
-    },
-    {
-      "match_id": "MBTAJwS6",
-      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Tikhonov E./Panfilova M.",
-      "away_player": "Li T./Zhu S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 09:30:00",
-      "home_ranking": "158",
-      "away_ranking": "52",
-      "home_slug": "tikhonov-evgeny",
-      "away_slug": "li-tianyang",
-      "sets": []
-    },
-    {
-      "match_id": "joAzzaCm",
-      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
-      "home_player": "Li H./Yao R.",
-      "away_player": "Yigenler A./Harac E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 09:30:00",
-      "home_ranking": "52",
-      "away_ranking": "191",
-      "home_slug": "li-hechen",
-      "away_slug": "yigenler-abdullah",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        }
+      ]
     },
     {
       "match_id": "M5UGoaSG",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Park G./Yoo S.",
       "away_player": "Franziska P./Diaz A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-09-17 09:30:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-17 09:25:00",
       "home_ranking": "106",
       "away_ranking": "81",
       "home_slug": "park-ganghyeon",
       "away_slug": "franziska-patrick",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "S2XOqwcT",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
+      "home_player": "Artemenko N./Abraamian E.",
+      "away_player": "Lebrun A./Lutz Ch.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-09-17 09:45:00",
+      "home_ranking": "158",
+      "away_ranking": "77",
+      "home_slug": "artemenko-nikita",
+      "away_slug": "lebrun-alexis",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "joAzzaCm",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
+      "home_player": "Li H./Yao R.",
+      "away_player": "Yigenler A./Harac E.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-09-17 09:45:00",
+      "home_ranking": "52",
+      "away_ranking": "191",
+      "home_slug": "li-hechen",
+      "away_slug": "yigenler-abdullah",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "MBTAJwS6",
+      "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
+      "home_player": "Tikhonov E./Panfilova M.",
+      "away_player": "Li T./Zhu S.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-09-17 10:10:00",
+      "home_ranking": "158",
+      "away_ranking": "52",
+      "home_slug": "tikhonov-evgeny",
+      "away_slug": "li-tianyang",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "UyXIHHdJ",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Movileanu D./Dragoman A.",
       "away_player": "Chen J./Wang Yidi",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-09-17 12:00:00",
       "home_ranking": "157",
       "away_ranking": "52",
       "home_slug": "movileanu-darius",
       "away_slug": "chen-junsong",
-      "sets": []
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "fFO4uLlQ",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Kobayashi H./Kihara M.",
       "away_player": "Grebnev M./Voronina V.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "0",
       "time": "2026-09-17 12:00:00",
       "home_ranking": "100",
       "away_ranking": "158",
       "home_slug": "kobayashi-hiromu",
       "away_slug": "grebnev-maksim",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
     },
     {
       "match_id": "EuR8mLc4",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Robles A./Xiao M.",
       "away_player": "Duda B./Mittelham N.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "0",
       "time": "2026-09-17 12:00:00",
       "home_ranking": "176",
       "away_ranking": "81",
       "home_slug": "robles-alvaro",
       "away_slug": "duda-benedikt",
-      "sets": []
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "OYIfvHKj",
       "tournament": "OTHERS - MIXED DOUBLES: WTT Star Contender Astana (Kazakhstan)",
       "home_player": "Fang B./Yuan J. N.",
       "away_player": "Ionescu E./Szocs B.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "1",
       "time": "2026-09-17 12:00:00",
       "home_ranking": "102",
       "away_ranking": "157",
       "home_slug": "fang-bo",
       "away_slug": "ionescu-eduard",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
     }
   ]
 }
