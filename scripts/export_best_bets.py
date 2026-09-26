@@ -32,6 +32,16 @@ def _parse_win_pct(val: str | float | None) -> float:
     """Convert '65%' or 0.65 to 0.65."""
     if val is None:
         return 0.5
+
+
+def _parse_edge(val: str | float | None) -> float | None:
+    if val is None or str(val).strip() in {"", "—"}:
+        return None
+    try:
+        parsed = float(str(val).strip().replace("%", "").replace("+", ""))
+        return parsed / 100.0 if abs(parsed) > 1.0 else parsed
+    except ValueError:
+        return None
     if isinstance(val, (int, float)):
         v = float(val)
         return v / 100.0 if v > 1.0 else v
@@ -82,8 +92,13 @@ def main() -> None:
             win_pct = _parse_win_pct(rec.get("Win %"))
             if win_pct < MIN_WIN_PCT:
                 continue
-            # Approximate edge: model prob minus vig-adjusted break-even (~52%)
-            edge = round(max(win_pct - 0.52, 0.0), 4)
+            # A betting edge requires an archived price; never substitute a
+            # generic break-even assumption for a missing market snapshot.
+            edge_value = _parse_edge(rec.get("Model Edge"))
+            odds_value = str(rec.get("DraftKings Odds", "")).strip()
+            if edge_value is None or odds_value in {"", "—"}:
+                continue
+            edge = round(edge_value, 4)
             if edge >= 0.06:
                 tier = "Elite"
             elif edge >= 0.03:
@@ -107,9 +122,9 @@ def main() -> None:
                 "pick":       favourite,
                 "confidence": round(win_pct, 4),
                 "edge":       edge,
-                "odds":       None,
+                "odds":       odds_value,
                 "tier":       tier,
-                "notes":      tournament,
+                "notes":      f"{tournament} · paper-only · {rec.get('Value Alert', '')}",
             })
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)

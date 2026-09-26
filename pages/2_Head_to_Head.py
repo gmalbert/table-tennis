@@ -13,39 +13,23 @@ if not db.db_ready():
 
 # ── Player selectors ──────────────────────────────────────────────────────────
 players_df = db.all_player_names()
-names      = players_df["name"].tolist()
+names = players_df["full_name"].tolist()
+name_to_slug = dict(zip(players_df["full_name"], players_df["slug"]))
 
 col1, col2 = st.columns(2)
 
 with col1:
-    s1 = st.text_input("Player 1", placeholder="e.g. Ma Long")
+    s1 = st.selectbox("Player 1", names, index=None, placeholder="Type to search…")
 with col2:
-    s2 = st.text_input("Player 2", placeholder="e.g. Fan Zhendong")
+    s2 = st.selectbox("Player 2", names, index=None, placeholder="Type to search…", key="h2h_p2")
 
 if not s1 or not s2:
-    st.info("Enter both player names to see head-to-head history.")
+    st.info("Select both players to see head-to-head history.")
     add_betting_oracle_footer()
     st.stop()
 
-def pick(search: str) -> tuple[str, str] | None:
-    hits = players_df[players_df["name"].str.contains(search, case=False, na=False)]
-    if hits.empty:
-        return None
-    return hits.iloc[0]["name"], hits.iloc[0]["slug"]
-
-r1, r2 = pick(s1), pick(s2)
-
-if r1 is None:
-    st.error(f"No player found matching **{s1}**.")
-    add_betting_oracle_footer()
-    st.stop()
-if r2 is None:
-    st.error(f"No player found matching **{s2}**.")
-    add_betting_oracle_footer()
-    st.stop()
-
-name1, slug1 = r1
-name2, slug2 = r2
+name1, slug1 = s1, name_to_slug[s1]
+name2, slug2 = s2, name_to_slug[s2]
 
 if slug1 == slug2:
     st.warning("Please select two different players.")
@@ -73,6 +57,13 @@ c1, c2, c3 = st.columns(3)
 c1.metric(name1, f"{w1} wins")
 c2.metric("Total matches", len(df))
 c3.metric(name2, f"{w2} wins")
+
+home_margin = df["home_sets_won"].fillna(0) - df["away_sets_won"].fillna(0)
+df["p1_set_margin"] = home_margin.where(df["home_slug"] == slug1, -home_margin)
+st.caption(
+    f"Average set margin for {name1}: {df['p1_set_margin'].mean():+.2f} · "
+    f"Latest meeting: {df['date'].max()}"
+)
 
 # ── Donut chart ───────────────────────────────────────────────────────────────
 fig_donut = go.Figure(go.Pie(
@@ -104,6 +95,23 @@ fig_yr = px.bar(yr, x="year", y="wins", color="winner_name",
 fig_yr.update_layout(height=280, margin=dict(t=10, b=10),
                      legend=dict(orientation="h", y=1.05))
 st.plotly_chart(fig_yr, width="stretch")
+
+st.subheader("Tournament-level breakdown")
+breakdown = (
+    df.groupby("tournament_name")
+    .agg(Matches=("winner", "size"), Avg_set_margin=("p1_set_margin", "mean"))
+    .sort_values("Matches", ascending=False)
+    .head(15)
+    .reset_index()
+)
+breakdown["Player 1 wins"] = breakdown["tournament_name"].map(
+    df[df["winner_name"] == name1].groupby("tournament_name").size()
+).fillna(0).astype(int)
+st.dataframe(
+    breakdown.rename(columns={"tournament_name": "Tournament", "Avg_set_margin": "Avg set margin"}),
+    width="stretch",
+    hide_index=True,
+)
 
 st.divider()
 

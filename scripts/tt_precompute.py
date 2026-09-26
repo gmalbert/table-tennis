@@ -22,8 +22,8 @@ Or from the repo root after scraping:
 from __future__ import annotations
 
 import argparse
+from hashlib import sha256
 import json
-import math
 import sqlite3
 import sys
 from datetime import date, datetime, timedelta, timezone
@@ -41,11 +41,30 @@ OUT_PATH  = ROOT / "processed" / "upcoming_enriched.json"
 IDENTITY_MAP_PATH = ROOT / "processed" / "player_identity_map.json"
 PRECOMP_CACHE_PATH = ROOT / "processed" / "precompute_cache.json"
 
+sys.path.insert(0, str(ROOT))
+from models.frontier_model import (
+    FrontierElo,
+    canonical_event_key,
+    fatigue_adjustment,
+    replay_matches,
+    set_score_distribution,
+    source_reliability,
+    tournament_context,
+)
+from models.audit_store import append_predictions
+
 _FINISHED_CODES = {100, 70}   # SofaScore: 100=Ended, 70=Cancelled
 
 
 def _norm_name(v: str) -> str:
     return " ".join(str(v or "").strip().lower().split())
+
+
+def _parse_utc(value: str) -> datetime:
+    parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    if parsed.tzinfo is None:
+        return parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc)
 
 
 def _load_identity_map(conn: sqlite3.Connection) -> dict[str, str]:
@@ -188,6 +207,54 @@ def enrich(rows: list[dict]) -> list[dict]:
     if not rows:
         return []
 
+    for row in rows:
+        row["_event_key"] = canonical_event_key(
+            str(row.get("time", "")),
+            str(row.get("home_player", "")),
+            str(row.get("away_player", "")),
+            str(row.get("tournament", "")),
+        )
+
+    odds_by_event: dict[str, dict[str, dict[str, object]]] = {}
+    try:
+        from models.audit_store import DEFAULT_STORE_PATH
+
+        if DEFAULT_STORE_PATH.exists():
+            odds_conn = sqlite3.connect(DEFAULT_STORE_PATH)
+            event_keys = sorted({str(row["_event_key"]) for row in rows})
+            placeholders = ",".join("?" for _ in event_keys)
+            odds_cutoff = datetime.now(timezone.utc).isoformat()
+            snapshots = odds_conn.execute(
+                f"SELECT event_key,observed_at,bookmaker,market,selection,american_odds,decimal_odds "
+                f"FROM odds_snapshots WHERE event_key IN ({placeholders}) AND observed_at<=? ORDER BY observed_at",
+                [*event_keys, odds_cutoff],
+            ).fetchall() if event_keys else []
+            odds_conn.close()
+            for event_key, observed_at, bookmaker, market, selection, american, decimal in snapshots:
+                if "draftkings" not in str(bookmaker).casefold():
+                    continue
+                if str(market).casefold() not in {"match_winner", "h2h", "moneyline"}:
+                    continue
+                selection_key = _norm_name(str(selection))
+                price = odds_by_event.setdefault(str(event_key), {}).setdefault(
+                    selection_key,
+                    {
+                        "bookmaker": bookmaker,
+                        "opening_american": american,
+                        "opening_decimal": decimal,
+                        "opening_at": observed_at,
+                    },
+                )
+                price.update(
+                    {
+                        "current_american": american,
+                        "current_decimal": decimal,
+                        "current_at": observed_at,
+                    }
+                )
+    except Exception:
+        odds_by_event = {}
+
     conn = sqlite3.connect(str(DB_PATH), check_same_thread=False)
     conn.execute("PRAGMA journal_mode=WAL")
     conn.execute("PRAGMA cache_size=-64000")
@@ -292,6 +359,39 @@ def enrich(rows: list[dict]) -> list[dict]:
             }
         )
 
+    # Build one current rating state using only completed events with timestamps
+    # before this precompute run. Replay itself sorts by event time and treats
+    # simultaneous events as a batch, so same-day results cannot leak forward.
+    history_cutoff = datetime.now(timezone.utc)
+    history_rows = pd.read_sql(
+        "SELECT source,event_id,date,start_time_utc,home_slug,away_slug,winner,tournament_name "
+        "FROM matches WHERE status_description IN ('Ended','finished') "
+        "AND date >= ? AND home_slug <> '' AND away_slug <> '' "
+        "AND winner IN ('home','away')",
+        conn,
+        params=[(date.today() - timedelta(days=3 * 365)).isoformat()],
+    ).to_dict("records")
+    historical_rows = []
+    for row in history_rows:
+        raw_start = str(row.get("start_time_utc") or "")
+        if raw_start:
+            try:
+                is_past = _parse_utc(raw_start) < history_cutoff
+            except ValueError:
+                is_past = str(row.get("date", ""))[:10] < history_cutoff.date().isoformat()
+        else:
+            # Date-only records from today have no ordering information; keep
+            # them out to avoid using a same-day result before it is known.
+            is_past = str(row.get("date", ""))[:10] < history_cutoff.date().isoformat()
+        if is_past:
+            historical_rows.append(row)
+    frontier_model = FrontierElo()
+    replay_matches(
+        historical_rows,
+        evaluation_start="9999-12-31T00:00:00+00:00",
+        model=frontier_model,
+    )
+
     conn.close()
 
     def _to_rank(v: str | int | float | None) -> int | None:
@@ -305,14 +405,9 @@ def enrich(rows: list[dict]) -> list[dict]:
         except Exception:
             return None
 
-    def _rank_prob_home(home_rank: int, away_rank: int) -> float:
-        # Lower ranking number means stronger player.
-        diff = away_rank - home_rank
-        p = 1.0 / (1.0 + math.exp(-diff / 60.0))
-        return min(0.85, max(0.15, p))
-
     enriched = []
-    for m in rows:
+    same_day_counts: dict[tuple[str, str], int] = {}
+    for m in sorted(rows, key=lambda r: (str(r.get("_date", "")), str(r.get("time", "")))):
         slug1 = m.get("home_slug", "")
         slug2 = m.get("away_slug", "")
         name1 = m.get("home_player", "?")
@@ -328,7 +423,6 @@ def enrich(rows: list[dict]) -> list[dict]:
 
         h2h_total = 0
         h2h_w1 = 0
-        h2h_rate1 = 0.5
         if slug1 and slug2:
             key = "|".join(sorted((slug1, slug2)))
             ps = pair_cache.get(key)
@@ -336,25 +430,36 @@ def enrich(rows: list[dict]) -> list[dict]:
                 h2h_total = int(ps.get("total", 0))
                 if key.split("|", 1)[0] == slug1:
                     h2h_w1 = int(ps.get("wins_s1", 0))
-                    h2h_rate1 = float(ps.get("rate_s1", 0.5))
                 else:
                     wins_for_first = int(ps.get("wins_s1", 0))
                     h2h_w1 = h2h_total - wins_for_first
-                    h2h_rate1 = (h2h_w1 / h2h_total) if h2h_total else 0.5
 
         if h2h_total >= 5:   w_h2h, w_r, w_o = 0.50, 0.25, 0.25
         elif h2h_total >= 1: w_h2h, w_r, w_o = 0.25, 0.375, 0.375
         else:                w_h2h, w_r, w_o = 0.00, 0.50, 0.50
 
-        prob1 = w_h2h * h2h_rate1 + w_r * recent1 + w_o * overall1
+        hr = _to_rank(m.get("home_ranking"))
+        ar = _to_rank(m.get("away_ranking"))
+        rank_used = bool(hr and ar)
 
-        # When both players are unknown to slug history/H2H, use ranking signal
-        # to avoid flat 50/50 predictions.
-        if h2h_total == 0 and overall1 == 0.5 and overall2 == 0.5 and recent1 == 0.5 and recent2 == 0.5:
-            hr = _to_rank(m.get("home_ranking"))
-            ar = _to_rank(m.get("away_ranking"))
-            if hr and ar:
-                prob1 = _rank_prob_home(hr, ar)
+        home_key = slug1 or _norm_name(name1)
+        away_key = slug2 or _norm_name(name2)
+        home_fatigue_key = (str(m.get("_date", "")), home_key)
+        away_fatigue_key = (str(m.get("_date", "")), away_key)
+        home_prior = same_day_counts.get(home_fatigue_key, 0)
+        away_prior = same_day_counts.get(away_fatigue_key, 0)
+        model_prediction = frontier_model.predict(
+            home_key,
+            away_key,
+            tournament=str(m.get("tournament", "")),
+            rank_home=hr,
+            rank_away=ar,
+            fatigue_home=fatigue_adjustment(home_prior),
+            fatigue_away=fatigue_adjustment(away_prior),
+        )
+        prob1 = float(model_prediction["probability_home"])
+        same_day_counts[home_fatigue_key] = home_prior + 1
+        same_day_counts[away_fatigue_key] = away_prior + 1
 
         prob2 = 1 - prob1
         fav      = name1 if prob1 >= prob2 else name2
@@ -365,15 +470,61 @@ def enrich(rows: list[dict]) -> list[dict]:
         else:                conf_label, conf_icon = "Low",    "🔴"
 
         h2h_l = h2h_total - h2h_w1
-        player_cov = min(1.0, (int(s1_stats.get("matches", 0)) + int(s2_stats.get("matches", 0))) / 200.0)
-        h2h_cov = min(1.0, h2h_total / 10.0)
-        coverage_score = round(100.0 * (0.7 * player_cov + 0.3 * h2h_cov), 1)
+        sample_size = frontier_model.counts.get(home_key, 0) + frontier_model.counts.get(away_key, 0)
+        coverage_score = round(100.0 * float(model_prediction["coverage"]), 1)
         if coverage_score >= 75:
             coverage_tier = "High"
         elif coverage_score >= 40:
             coverage_tier = "Medium"
         else:
             coverage_tier = "Low"
+
+        context = tournament_context(str(m.get("tournament", "")))
+        reliability = source_reliability(str(m.get("_source", "")))
+        interval = {
+            "low": float(model_prediction["interval_low"]),
+            "high": float(model_prediction["interval_high"]),
+            "abstain": bool(model_prediction["abstain"]),
+        }
+        set_prob_home = 0.5 + 0.72 * (prob1 - 0.5)
+        score_distribution = set_score_distribution(set_prob_home, 3)
+        best_score = max(score_distribution, key=score_distribution.get)
+        event_key = str(m["_event_key"])
+        price = odds_by_event.get(event_key, {}).get(_norm_name(fav), {})
+        current_american = price.get("current_american")
+        current_decimal = price.get("current_decimal")
+        opening_american = price.get("opening_american")
+        opening_decimal = price.get("opening_decimal")
+
+        def _display_price(american: object, decimal: object) -> str:
+            if american is not None:
+                return f"{float(american):+.0f}"
+            if decimal is not None:
+                return f"{float(decimal):.2f}"
+            return "—"
+
+        if current_american is not None:
+            american_value = float(current_american)
+            market_probability = (
+                -american_value / (-american_value + 100.0)
+                if american_value < 0 else 100.0 / (american_value + 100.0)
+            )
+        elif current_decimal is not None and float(current_decimal) > 1.0:
+            market_probability = 1.0 / float(current_decimal)
+        else:
+            market_probability = None
+        entry_decimal = None
+        if current_decimal is not None and float(current_decimal) > 1.0:
+            entry_decimal = float(current_decimal)
+        elif current_american is not None and float(current_american) != 0:
+            american = float(current_american)
+            entry_decimal = 100.0 / abs(american) + 1.0 if american < 0 else american / 100.0 + 1.0
+        model_edge = fav_prob - market_probability if market_probability is not None else None
+        value_alert = (
+            "Upset/value alert (>15%)" if model_edge is not None and model_edge >= 0.15
+            else "Value (>3%)" if model_edge is not None and model_edge >= 0.03
+            else "—"
+        )
 
         explain_parts = [
             f"h2h={h2h_total}",
@@ -382,10 +533,11 @@ def enrich(rows: list[dict]) -> list[dict]:
             f"h2h_w={w_h2h:.3f}",
             f"cover={coverage_score:.1f}",
         ]
-        if h2h_total == 0 and overall1 == 0.5 and overall2 == 0.5 and recent1 == 0.5 and recent2 == 0.5:
-            explain_parts.append("rank_fallback=1")
+        if rank_used:
+            explain_parts.append("rank_primary_w=0.500")
 
         enriched.append({
+            "Event Key":       event_key,
             "_date":          m["_date"],
             "_source":        m.get("_source", ""),
             "_conf_label":    conf_label,
@@ -393,17 +545,41 @@ def enrich(rows: list[dict]) -> list[dict]:
             "Date":           m["_date"],
             "Time":           sched[11:16] if len(sched) >= 16 else "",
             "Tournament":     m.get("tournament", ""),
+            "Tournament Tier": context["tier"],
+            "Context":        context["badge"],
             "Home":           name1,
             "Away":           name2,
+            "Home Slug":      slug1,
+            "Away Slug":      slug2,
             "Home Rank":      m.get("home_ranking", "") or "–",
             "Away Rank":      m.get("away_ranking", "") or "–",
             "Favourite":      fav,
+            "Home Win Probability": round(prob1, 6),
             "Win %":          f"{fav_prob * 100:.0f}%",
             "Confidence":     f"{conf_icon} {conf_label}",
             "Coverage":       f"{coverage_score:.1f}",
             "Coverage Tier":  coverage_tier,
-            "Sample Size":    int(s1_stats.get("matches", 0)) + int(s2_stats.get("matches", 0)),
+            "Interval":       f"{interval['low'] * 100:.0f}%–{interval['high'] * 100:.0f}%",
+            "Abstain":        bool(interval["abstain"]),
+            "Sample Size":    sample_size,
             "Model Explain":  " | ".join(explain_parts),
+            "Best Set Score": best_score,
+            "Same-day Fatigue": f"{home_prior}–{away_prior} prior matches",
+            "Reliability":    reliability["label"],
+            "Reliability Score": reliability["score"],
+            "Market Mode":    "Paper-only",
+            "DraftKings Opening": _display_price(opening_american, opening_decimal),
+            "DraftKings Odds": _display_price(current_american, current_decimal),
+            "Market Implied %": f"{market_probability * 100:.1f}%" if market_probability is not None else "—",
+            "Model Edge":     f"{model_edge * 100:+.1f}%" if model_edge is not None else "—",
+            "Value Alert":    value_alert,
+            "_entry_decimal_odds": None if interval["abstain"] else entry_decimal,
+            "_entry_implied_probability": None if interval["abstain"] else market_probability,
+            "_entry_bookmaker": price.get("bookmaker"),
+            "AI Preview":     (
+                f"{fav} is the model favorite at {fav_prob * 100:.0f}% in {context['label']} context; "
+                f"coverage is {coverage_tier.lower()} and the leading score proxy is {best_score}."
+            ),
             "H2H (home W-L)": f"{h2h_w1}-{h2h_l} ({h2h_total})" if h2h_total else "–",
             "Home Recent":    f"{recent1 * 100:.0f}%",
             "Away Recent":    f"{recent2 * 100:.0f}%",
@@ -456,13 +632,49 @@ def main() -> None:
     enriched = enrich(fixtures)
     print(f"  Enriched {len(enriched)} fixtures")
 
+    generated_at = datetime.now(tz=timezone.utc).isoformat()
     out = {
-        "generated_at": datetime.now(tz=timezone.utc).isoformat(),
+        "generated_at": generated_at,
         "fixtures": enriched,
     }
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"  ✓ Written → {OUT_PATH}")
+
+    frozen = []
+    for row in enriched:
+        prediction_id = "pred_" + sha256(
+            f"{row['Event Key']}|{generated_at}|frontier-precompute-v1".encode("utf-8")
+        ).hexdigest()[:24]
+        event_time = f"{row['_date']}T{row['Time'] or '00:00'}:00+00:00"
+        if datetime.fromisoformat(event_time) <= datetime.fromisoformat(generated_at):
+            continue
+        frozen.append(
+            {
+                "prediction_id": prediction_id,
+                "event_key": row["Event Key"],
+                "generated_at": generated_at,
+                "event_time": event_time,
+                "model_version": "frontier-precompute-v1",
+                "probability_home": row["Home Win Probability"],
+                "coverage": float(row["Coverage"]) / 100.0,
+                "abstained": row["Abstain"],
+                "feature_cutoff": generated_at,
+                "features": {
+                    "tournament_tier": row["Tournament Tier"],
+                    "source": row["_source"],
+                    "home": row["Home"],
+                    "away": row["Away"],
+                    "favourite": row["Favourite"],
+                    "entry_decimal_odds": row["_entry_decimal_odds"],
+                    "entry_implied_probability": row["_entry_implied_probability"],
+                    "entry_bookmaker": row["_entry_bookmaker"],
+                    "sample_size": row["Sample Size"],
+                    "same_day_fatigue": row["Same-day Fatigue"],
+                },
+            }
+        )
+    print(f"  ✓ Frozen {append_predictions(frozen)} forecasts in the append-only audit store")
 
 
 if __name__ == "__main__":

@@ -1,5 +1,9 @@
 # Pong Odds — 6-Month Feature Roadmap
 
+## Implementation status (2026-08)
+
+All roadmap surfaces and workflows now have implementations. Features that require unavailable evidence or credentials are exposed behind explicit gates: odds value requires archived prices; live probability requires point state plus measured latency; email/Discord require webhooks; betting remains flat-stake paper tracking until the audit release thresholds pass.
+
 ## Month 1: Match Day
 
 - **Today's fixtures** — All upcoming WTT/ITTF matches with model win probabilities and DraftKings odds.
