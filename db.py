@@ -417,6 +417,9 @@ def top_upcoming_bets(
         df["Model Explain"] = ""
     if "Coverage" not in df.columns:
         df["Coverage"] = "0.0"
+    for column in ("DraftKings Opening", "DraftKings Odds", "Market Implied %", "Model Edge", "Value Alert"):
+        if column not in df.columns:
+            df[column] = "—"
 
     min_conf_rank = _CONF_ORDER.get(str(min_confidence), 2)
     min_cov_rank = _COVER_ORDER.get(str(min_coverage_tier), 2)
@@ -474,13 +477,20 @@ def top_upcoming_bets(
     df["_win_pct_num"] = pd.to_numeric(
         df["Win %"].astype(str).str.rstrip("%"), errors="coerce"
     ).fillna(0)
+    df["_edge_num"] = pd.to_numeric(
+        df["Model Edge"].astype(str).str.replace("%", "", regex=False).str.replace("+", "", regex=False),
+        errors="coerce",
+    )
+    df["_priced"] = df["_edge_num"].notna().astype(int)
     df = df.sort_values(
-        ["_league_rank", "_conf_rank", "_date", "Time", "_win_pct_num"],
-        ascending=[True, True, True, True, False],
+        ["_priced", "_edge_num", "_league_rank", "_conf_rank", "_date", "Time", "_win_pct_num"],
+        ascending=[False, False, True, True, True, True, False],
     ).head(n)
 
     out = df[
-        ["_date", "Time", "Home", "Away", "Favourite", "Win %", "Confidence", "Coverage", "Model Explain", "Tournament"]
+        ["_date", "Time", "Home", "Away", "Favourite", "Win %", "Confidence", "Coverage",
+         "DraftKings Opening", "DraftKings Odds", "Market Implied %", "Model Edge", "Value Alert",
+         "Model Explain", "Tournament"]
     ].copy()
     out = out.rename(columns={"_date": "Date", "Favourite": "Favorite", "Model Explain": "Why"})
     return out.reset_index(drop=True)
@@ -488,35 +498,60 @@ def top_upcoming_bets(
 
 @st.cache_data(ttl=3600)
 def backtest_prediction_report(window_days: int = 180) -> tuple[pd.DataFrame, dict]:
-    """Backtest a simple form+H2H model over recent ended matches."""
+    """Leakage-safe replay with a warm-up period and honest audit metrics."""
     from datetime import timedelta
+    from models.frontier_model import prediction_metrics, replay_matches
 
     conn = get_conn()
-    cutoff = (date.today() - timedelta(days=max(30, int(window_days)))).isoformat()
+    anchor_row = pd.read_sql(
+        "SELECT MAX(date) latest FROM matches WHERE status_description IN (?, ?)",
+        conn,
+        params=list(ENDED_STATUSES),
+    )
+    latest = anchor_row.iloc[0, 0] if not anchor_row.empty else None
+    if not latest:
+        return pd.DataFrame(), {"matches": 0, "accuracy": 0.0, "brier": 0.0, "log_loss": 0.0, "ece": 0.0, "coverage": 0.0}
+    cutoff = (date.fromisoformat(str(latest)[:10]) - timedelta(days=max(30, int(window_days)))).isoformat()
+    warmup = (date.fromisoformat(cutoff) - timedelta(days=365)).isoformat()
     sql = (
-        "SELECT date, home_slug, away_slug, winner, tournament_name "
+        "SELECT source,event_id,date,start_time_utc,home_slug,away_slug,winner,tournament_name "
         "FROM matches "
         "WHERE status_description IN (?, ?) AND date >= ? AND home_slug <> '' AND away_slug <> '' "
-        "ORDER BY date ASC"
+        "AND winner IN ('home','away') ORDER BY date ASC,event_id ASC"
     )
-    df = pd.read_sql(sql, conn, params=[*ENDED_STATUSES, cutoff])
+    df = pd.read_sql(sql, conn, params=[*ENDED_STATUSES, warmup])
     if df.empty:
-        return pd.DataFrame(), {"matches": 0, "accuracy": 0.0, "brier": 0.0}
+        return pd.DataFrame(), {"matches": 0, "accuracy": 0.0, "brier": 0.0, "log_loss": 0.0, "ece": 0.0, "coverage": 0.0}
 
-    history: dict[str, list[int]] = {}
+    quarantined_count = 0
+    try:
+        from models.audit_store import DEFAULT_STORE_PATH
+        from models.frontier_model import canonical_event_key
+
+        if DEFAULT_STORE_PATH.exists():
+            audit_conn = sqlite3.connect(DEFAULT_STORE_PATH)
+            quarantined = {
+                str(row[0])
+                for row in audit_conn.execute(
+                    "SELECT entity_key FROM quality_flags WHERE status='open' AND severity IN ('high','critical')"
+                )
+            }
+            audit_conn.close()
+            keep = df.apply(
+                lambda row: canonical_event_key(row["start_time_utc"], row["home_slug"], row["away_slug"])
+                not in quarantined,
+                axis=1,
+            )
+            quarantined_count = int((~keep).sum())
+            df = df[keep]
+    except Exception:
+        quarantined_count = 0
+
+    predictions = replay_matches(df.to_dict("records"), evaluation_start=cutoff)
     results = []
-    for row in df.itertuples(index=False):
-        h = row.home_slug
-        a = row.away_slug
-        h_hist = history.get(h, [])
-        a_hist = history.get(a, [])
-        h_recent = (sum(h_hist[-20:]) / len(h_hist[-20:])) if h_hist else 0.5
-        a_recent = (sum(a_hist[-20:]) / len(a_hist[-20:])) if a_hist else 0.5
-
-        p_home = 0.5 + 0.6 * (h_recent - a_recent)
-        p_home = min(0.9, max(0.1, p_home))
-        pred_home = p_home >= 0.5
-        actual_home = row.winner == "home"
+    for prediction in predictions:
+        p_home = prediction.probability_home
+        actual_home = prediction.actual_home
         conf = abs(p_home - 0.5)
         if conf >= 0.15:
             bucket = "High"
@@ -527,32 +562,42 @@ def backtest_prediction_report(window_days: int = 180) -> tuple[pd.DataFrame, di
 
         results.append(
             {
-                "date": row.date,
+                "date": prediction.event_time,
                 "bucket": bucket,
                 "pred_prob_home": p_home,
-                "pred_correct": int(pred_home == actual_home),
-                "actual_home": int(actual_home),
+                "pred_correct": int((p_home >= 0.5) == bool(actual_home)),
+                "actual_home": actual_home,
                 "brier": (p_home - float(actual_home)) ** 2,
+                "log_loss": -(
+                    actual_home * __import__("math").log(max(1e-9, p_home))
+                    + (1 - actual_home) * __import__("math").log(max(1e-9, 1 - p_home))
+                ),
+                "abstained": prediction.abstained,
+                "tier": prediction.tournament_tier,
             }
         )
 
-        history.setdefault(h, []).append(1 if actual_home else 0)
-        history.setdefault(a, []).append(0 if actual_home else 1)
-
     res = pd.DataFrame(results)
+    if res.empty:
+        return pd.DataFrame(), {"matches": 0, "accuracy": 0.0, "brier": 0.0, "log_loss": 0.0, "ece": 0.0, "coverage": 0.0}
     by_bucket = (
         res.groupby("bucket", as_index=False)
-        .agg(matches=("pred_correct", "size"), accuracy=("pred_correct", "mean"), brier=("brier", "mean"))
+        .agg(
+            matches=("pred_correct", "size"),
+            accuracy=("pred_correct", "mean"),
+            brier=("brier", "mean"),
+            log_loss=("log_loss", "mean"),
+            coverage=("abstained", lambda values: 1.0 - values.mean()),
+        )
     )
     order = {"High": 0, "Medium": 1, "Low": 2}
     by_bucket["_o"] = by_bucket["bucket"].map(order).fillna(9)
     by_bucket = by_bucket.sort_values("_o").drop(columns=["_o"]).reset_index(drop=True)
 
-    summary = {
-        "matches": int(len(res)),
-        "accuracy": float(res["pred_correct"].mean()),
-        "brier": float(res["brier"].mean()),
-    }
+    summary = prediction_metrics(predictions)
+    summary["method"] = "event-time replay; 365-day warm-up; forecast before settlement"
+    summary["evaluation_start"] = cutoff
+    summary["quarantined_rows_excluded"] = quarantined_count
     return by_bucket, summary
 
 def slug_to_full_name(slug: str) -> str:
@@ -658,3 +703,100 @@ def recent_win_rate(slug: str, last_n: int = 20) -> float:
         return 0.5
     w, l = player_record(df, slug)
     return w / (w + l) if (w + l) > 0 else 0.5
+
+
+# ── Audit and integrity helpers ──────────────────────────────────────────────
+
+def audit_latest_odds() -> pd.DataFrame:
+    from models.audit_store import DEFAULT_STORE_PATH
+
+    if not DEFAULT_STORE_PATH.exists():
+        return pd.DataFrame()
+    conn = sqlite3.connect(DEFAULT_STORE_PATH)
+    try:
+        return pd.read_sql(
+            "WITH ranked AS (SELECT *, ROW_NUMBER() OVER ("
+            "PARTITION BY event_key,bookmaker,market,selection,line ORDER BY observed_at DESC) rn "
+            "FROM odds_snapshots) SELECT event_key,observed_at,bookmaker,market,selection,line,"
+            "american_odds,decimal_odds FROM ranked WHERE rn=1",
+            conn,
+        )
+    finally:
+        conn.close()
+
+
+def audit_odds_movement() -> pd.DataFrame:
+    from models.audit_store import DEFAULT_STORE_PATH
+
+    if not DEFAULT_STORE_PATH.exists():
+        return pd.DataFrame()
+    conn = sqlite3.connect(DEFAULT_STORE_PATH)
+    try:
+        return pd.read_sql(
+            "SELECT event_key,bookmaker,market,selection,line,MIN(observed_at) opening_at,"
+            "MAX(observed_at) current_at,COUNT(*) snapshots,"
+            "(SELECT decimal_odds FROM odds_snapshots o2 WHERE o2.event_key=o.event_key "
+            "AND o2.bookmaker=o.bookmaker AND o2.market=o.market AND o2.selection=o.selection "
+            "AND o2.line IS o.line "
+            "ORDER BY observed_at ASC LIMIT 1) opening_decimal,"
+            "(SELECT decimal_odds FROM odds_snapshots o3 WHERE o3.event_key=o.event_key "
+            "AND o3.bookmaker=o.bookmaker AND o3.market=o.market AND o3.selection=o.selection "
+            "AND o3.line IS o.line "
+            "ORDER BY observed_at DESC LIMIT 1) current_decimal "
+            "FROM odds_snapshots o GROUP BY event_key,bookmaker,market,selection,line",
+            conn,
+        )
+    finally:
+        conn.close()
+
+
+def paper_roi_by_day() -> pd.DataFrame:
+    from models.audit_store import DEFAULT_STORE_PATH
+
+    if not DEFAULT_STORE_PATH.exists():
+        return pd.DataFrame()
+    conn = sqlite3.connect(DEFAULT_STORE_PATH)
+    try:
+        return pd.read_sql(
+            "WITH ranked AS (SELECT s.settled_at,s.paper_profit_units, "
+            "ROW_NUMBER() OVER(PARTITION BY p.event_key ORDER BY p.generated_at DESC,p.prediction_id DESC) rn "
+            "FROM prediction_records p JOIN prediction_settlements s USING(prediction_id) "
+            "WHERE s.settlement_status='settled' AND s.paper_profit_units IS NOT NULL) "
+            "SELECT substr(settled_at,1,10) day,SUM(paper_profit_units) profit "
+            "FROM ranked WHERE rn=1 GROUP BY day ORDER BY day",
+            conn,
+        )
+    finally:
+        conn.close()
+
+
+def data_quality_overview() -> pd.DataFrame:
+    return pd.read_sql(
+        "SELECT COUNT(*) total, "
+        "SUM(CASE WHEN home_slug IS NULL OR home_slug='' OR away_slug IS NULL OR away_slug='' THEN 1 ELSE 0 END) missing_identity, "
+        "SUM(CASE WHEN home_slug=away_slug AND home_slug<>'' THEN 1 ELSE 0 END) identity_collisions, "
+        "SUM(CASE WHEN lower(status_description) IN ('walkover','retired','cancelled') THEN 1 ELSE 0 END) nonstandard "
+        "FROM matches",
+        get_conn(),
+    )
+
+
+def audit_ranking_trends() -> pd.DataFrame:
+    from models.audit_store import DEFAULT_STORE_PATH
+
+    if not DEFAULT_STORE_PATH.exists():
+        return pd.DataFrame()
+    conn = sqlite3.connect(DEFAULT_STORE_PATH)
+    try:
+        return pd.read_sql(
+            "WITH dated AS (SELECT DISTINCT observed_at FROM rankings ORDER BY observed_at DESC LIMIT 2), "
+            "snap AS (SELECT r.*, DENSE_RANK() OVER (ORDER BY r.observed_at DESC) snapshot_number "
+            "FROM rankings r JOIN dated d USING(observed_at)) "
+            "SELECT current.stable_id,current.category,current.rank current_rank,previous.rank previous_rank "
+            "FROM snap current LEFT JOIN snap previous ON previous.stable_id=current.stable_id "
+            "AND previous.category=current.category AND previous.snapshot_number=2 "
+            "WHERE current.snapshot_number=1",
+            conn,
+        )
+    finally:
+        conn.close()

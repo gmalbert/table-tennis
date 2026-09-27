@@ -2,9 +2,13 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import date
+import pandas as pd
 
 import db
 from footer import add_betting_oracle_footer
+from models.elo_model import expected_score, new_rating
+from models.frontier_model import tournament_context
+from frontier_data import load_rankings
 
 st.title("👤 Player Stats")
 
@@ -76,6 +80,76 @@ with tabs[1]:
     c2.metric("Wins",   f"{wins:,}")
     c3.metric("Losses", f"{losses:,}")
     c4.metric("Win rate", f"{win_pct:.1f}%")
+    team_event_mask = df["tournament_name"].str.contains(
+        "world championship|olympic|team", case=False, na=False
+    )
+    team_df = df[team_event_mask]
+    team_wins, team_losses = db.player_record(team_df, slug) if not team_df.empty else (0, 0)
+    st.caption(
+        f"National/team-event record proxy: {team_wins}–{team_losses} · "
+        "Style: Unknown (point/rally features are not available for evidence-based classification)"
+    )
+    final_rows = df[df["round_name"].astype(str).str.contains(r"\bfinal\b", case=False, regex=True, na=False)]
+    final_wins = int(
+        (((final_rows["home_slug"] == slug) & (final_rows["winner"] == "home")) |
+         ((final_rows["away_slug"] == slug) & (final_rows["winner"] == "away"))).sum()
+    )
+    rankings, _ = load_rankings()
+    peak_rank = None
+    if not rankings.empty:
+        slug_guess = rankings["player"].astype(str).str.casefold().str.replace(r"[^a-z0-9]+", "-", regex=True).str.strip("-")
+        ranks = pd.to_numeric(rankings.loc[slug_guess == slug, "rank"], errors="coerce").dropna()
+        peak_rank = int(ranks.min()) if not ranks.empty else None
+    st.caption(
+        f"Recorded finals won: {final_wins} · peak synced ITTF rank: {peak_rank if peak_rank else 'not resolved'}"
+    )
+
+    tier_rows = df.copy()
+    tier_rows["Competition tier"] = tier_rows["tournament_name"].map(
+        lambda name: tournament_context(str(name))["badge"]
+    )
+    tier_rows["Won"] = (
+        ((tier_rows["home_slug"] == slug) & (tier_rows["winner"] == "home")) |
+        ((tier_rows["away_slug"] == slug) & (tier_rows["winner"] == "away"))
+    )
+    tier_record = tier_rows.groupby("Competition tier")["Won"].agg(Matches="size", Wins="sum").reset_index()
+    tier_record["Win %"] = 100.0 * tier_record["Wins"] / tier_record["Matches"]
+    st.dataframe(tier_record, width="stretch", hide_index=True)
+
+    st.divider()
+
+    st.subheader("Rating history and rolling form")
+    chronological = df.sort_values("date").copy()
+    rating = 2000.0
+    ratings = []
+    outcomes = []
+    for row in chronological.itertuples(index=False):
+        won = (row.home_slug == slug and row.winner == "home") or (row.away_slug == slug and row.winner == "away")
+        expected = expected_score(rating, 2000.0)
+        rating = new_rating(rating, 1.0 if won else 0.0, expected, 28.0)
+        ratings.append(rating)
+        outcomes.append(int(won))
+    chronological["Elo"] = ratings
+    chronological["Won"] = outcomes
+    chronological["date_dt"] = pd.to_datetime(chronological["date"], errors="coerce")
+    form = (
+        chronological.dropna(subset=["date_dt"])
+        .set_index("date_dt")["Won"]
+        .rolling("90D", min_periods=1)
+        .mean()
+        .mul(100)
+    )
+    rc1, rc2 = st.columns(2)
+    with rc1:
+        fig_elo = px.line(chronological, x="date", y="Elo", title="Opponent-neutral Elo trajectory")
+        st.plotly_chart(fig_elo, width="stretch")
+    with rc2:
+        form_df = form.reset_index(name="Rolling 90-day win %")
+        fig_form = px.line(form_df, x="date_dt", y="Rolling 90-day win %", title="Three-month form")
+        st.plotly_chart(fig_form, width="stretch")
+    st.caption(
+        "The profile Elo is an opponent-neutral history visualization; official/ranking-calibrated replay ratings live in the model audit."
+    )
 
     st.divider()
 

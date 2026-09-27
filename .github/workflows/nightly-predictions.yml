@@ -1,5 +1,9 @@
 name: Nightly Predictions
 
+concurrency:
+  group: frontier-audit-store
+  cancel-in-progress: false
+
 on:
   schedule:
     # Run at 05:00 UTC every day — before most morning fixtures start.
@@ -39,6 +43,16 @@ jobs:
             --dir processed \
             --clobber
 
+      - name: Restore append-only audit store
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download frontier-latest \
+            --repo gmalbert/table-tennis \
+            --pattern frontier_audit.db \
+            --dir processed \
+            --clobber || python scripts/init_frontier_store.py
+
       - name: Compute date range (today → today+3)
         id: dates
         run: |
@@ -62,9 +76,33 @@ jobs:
             --start "$SOFA_START" \
             --end   "$SOFA_END"   \
             --no-stats
+        continue-on-error: true
+
+      - name: Scrape upcoming fixtures from Flashscore
+        env:
+          HEADLESS: "1"
+          PYTHONIOENCODING: "utf-8"
+        run: |
+          echo "Fetching Flashscore $SOFA_START → $SOFA_END"
+          python scripts/tt_scraper.py flash \
+            --start "$SOFA_START" \
+            --end   "$SOFA_END"
 
       - name: Pre-compute enriched predictions
-        run: python scripts/tt_precompute.py
+        run: |
+          python scripts/audit_data_quality.py
+          python scripts/settle_predictions.py
+          python scripts/tt_precompute.py
+
+      - name: Publish append-only audit store
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view frontier-latest --repo gmalbert/table-tennis >/dev/null 2>&1 || \
+            gh release create frontier-latest --repo gmalbert/table-tennis \
+              --title "Frontier audit store" --notes "Append-only odds and forecast archive"
+          gh release upload frontier-latest processed/frontier_audit.db \
+            --repo gmalbert/table-tennis --clobber
 
       - name: Commit and push updated data
         run: |
@@ -92,4 +130,11 @@ jobs:
             git commit -m "chore: update best_bets_today [skip ci]"
             git push
           fi
+        continue-on-error: true
+
+      - name: Send configured paper-pick notifications
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          EMAIL_WEBHOOK_URL: ${{ secrets.EMAIL_WEBHOOK_URL }}
+        run: python scripts/notify_picks.py --discord-only
         continue-on-error: true

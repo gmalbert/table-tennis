@@ -1,5 +1,9 @@
 # Pong Odds — Model Suggested Enhancements
 
+## Implemented status
+
+The shared frontier model implements style matchup adjustment, momentum-adjusted competition-tier Elo, equipment-change flags, H2H set margins in the comparison UI, tournament pressure tiers, an Elo/logistic blend, forward candidate comparison, and sigmoid calibration for gradient boosting. Price-based calibration remains gated until immutable odds snapshots and settlements accumulate.
+
 ## Priority 1: Elo Model
 
 ### Service-Style Adjustment

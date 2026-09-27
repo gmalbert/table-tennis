@@ -54,6 +54,7 @@ with left:
     df["year"] = df["date"].str[:4]
     yr = df.groupby("year").size().reset_index(name="matches")
     fig = px.bar(yr, x="year", y="matches", labels={"year": "", "matches": "Matches"})
+    fig.update_xaxes(dtick=1, tickformat="d")
     fig.update_layout(height=280, margin=dict(t=10, b=10))
     st.plotly_chart(fig, width="stretch")
 

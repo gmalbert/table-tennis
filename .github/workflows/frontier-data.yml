@@ -1,0 +1,84 @@
+name: Frontier Rankings and Odds
+
+on:
+  schedule:
+    - cron: "17 0,6,12,18 * * *"
+    - cron: "15 8 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: frontier-audit-store
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Restore audit store
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p processed
+          gh release download frontier-latest \
+            --repo gmalbert/table-tennis \
+            --pattern frontier_audit.db \
+            --dir processed \
+            --clobber || python scripts/init_frontier_store.py
+
+      - name: Archive odds snapshot
+        env:
+          ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
+          ODDS_API_IO_URL: ${{ vars.ODDS_API_IO_URL }}
+        run: |
+          if [ -n "$ODDS_API_IO_KEY" ]; then
+            python scripts/odds_sync.py
+          else
+            echo "ODDS_API_IO_KEY not configured; odds sync remains gated."
+          fi
+
+      - name: Sync weekly ITTF rankings
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 8 * * 1'
+        env:
+          ITTF_RANKINGS_URL: ${{ vars.ITTF_RANKINGS_URL }}
+        run: python scripts/ittf_rankings.py
+        continue-on-error: true
+
+      - name: Publish audit store
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release view frontier-latest --repo gmalbert/table-tennis >/dev/null 2>&1 || \
+            gh release create frontier-latest --repo gmalbert/table-tennis \
+              --title "Frontier audit store" --notes "Append-only odds and forecast archive"
+          gh release upload frontier-latest processed/frontier_audit.db \
+            --repo gmalbert/table-tennis --clobber
+
+      - name: Commit ranking snapshot
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 8 * * 1'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add processed/ittf_rankings.json || true
+          if ! git diff --staged --quiet; then
+            git commit -m "data: weekly ITTF rankings [skip ci]"
+            git push
+          fi
+
+      - name: Send event-week preview
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '15 8 * * 1'
+        env:
+          EMAIL_WEBHOOK_URL: ${{ secrets.EMAIL_WEBHOOK_URL }}
+        run: python scripts/notify_picks.py --email-only
+        continue-on-error: true

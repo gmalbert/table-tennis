@@ -1,4 +1,6 @@
 🏓 Table Tennis Data Sources
+
+Implementation update: SofaScore and Flashscore collectors are active; official ITTF ranking sync is configurable; odds-api.io has an immutable two-hour archive workflow; and normalized licensed/Apify OddsPortal or BetExplorer exports can be imported with `scripts/import_frontier_feed.py`. Point-level imports use the same boundary and do not enable live mode until volume and latency-coverage gates pass.
 1. ITTF Official Data — results.ittf.link
 Type: Scrapable website
 The official ITTF results portal at results.ittf.link provides WTT results, statistics, head-to-head records, player profiles, world rankings, and historical data — this is gold for official match results going back years. No official API, but the site is structured and scrapable with Python (requests + BeautifulSoup or Playwright for JS-rendered pages). There's also a GitHub project (romanzdk/ittf-data-scrape) specifically built for scraping ITTF data — a strong starting point.

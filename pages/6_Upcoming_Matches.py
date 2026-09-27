@@ -39,6 +39,25 @@ def load_enriched() -> tuple[pd.DataFrame, str]:
         return pd.DataFrame(), generated_at
 
     df = pd.DataFrame(fixtures)
+    defaults = {
+        "Context": "Tier 4 · Domestic",
+        "Tournament Tier": 4,
+        "Reliability": "Low",
+        "Interval": "—",
+        "Abstain": True,
+        "Best Set Score": "—",
+        "Same-day Fatigue": "—",
+        "Market Mode": "Paper-only",
+        "AI Preview": "",
+        "DraftKings Opening": "—",
+        "DraftKings Odds": "—",
+        "Market Implied %": "—",
+        "Model Edge": "—",
+        "Value Alert": "—",
+    }
+    for column, default in defaults.items():
+        if column not in df.columns:
+            df[column] = default
 
     # Convert UTC times to US/Eastern; rebuild _date from ET datetime so
     # late-UTC matches land on the right ET calendar day.
@@ -101,6 +120,39 @@ if generated_at:
     ts = generated_at[:16].replace("T", " ")
     st.caption(f"Last updated: {ts} UTC")
 
+
+@st.fragment(run_every=60)
+def live_score_ticker() -> None:
+    """Refresh major-event scores without recomputing model forecasts."""
+    live_path = Path(__file__).parent.parent / "data" / "flashscore" / _date.today().isoformat() / "matches.json"
+    if not live_path.exists():
+        st.caption("Live ticker: no major-event feed file for today · forecast probabilities remain pre-match only")
+        return
+    try:
+        live = json.loads(live_path.read_text(encoding="utf-8")).get("matches", [])
+    except Exception:
+        st.caption("Live ticker: today's feed is quarantined because it is not valid JSON")
+        return
+    majors = [m for m in live if any(k in str(m.get("tournament", "")).casefold() for k in ("grand smash", "world tour", "champions"))]
+    if not majors:
+        st.caption("Live ticker: no Grand Smash, World Tour, or Champions matches in today's feed")
+        return
+    ticker = pd.DataFrame(
+        [
+            {
+                "Event": m.get("tournament", ""),
+                "Match": f"{m.get('home_player', '')} vs {m.get('away_player', '')}",
+                "Score": f"{m.get('score_home', '—')}–{m.get('score_away', '—')}",
+                "Feed": "Flashscore · 60s refresh",
+            }
+            for m in majors
+        ]
+    )
+    st.dataframe(ticker, width="stretch", hide_index=True)
+
+
+live_score_ticker()
+
 # -- Sidebar filters -----------------------------------------------------------
 
 all_dates = sorted(df_all["_date"].unique())
@@ -144,6 +196,25 @@ if df.empty:
     st.info("No matches match the current filters.")
     st.stop()
 
+eligible = df[~df["Abstain"].astype(bool)] if "Abstain" in df.columns else df
+if not eligible.empty:
+    edge_values = pd.to_numeric(
+        eligible["Model Edge"].astype(str).str.replace("%", "", regex=False).str.replace("+", "", regex=False),
+        errors="coerce",
+    )
+    best_index = (
+        edge_values.idxmax()
+        if edge_values.notna().any()
+        else pd.to_numeric(eligible["Win %"].astype(str).str.rstrip("%"), errors="coerce").idxmax()
+    )
+    best = eligible.loc[best_index]
+    st.success(
+        f"Best paper forecast: **{best['Favourite']}** · {best['Win %']} · "
+        f"{best['Context']} · edge {best['Model Edge']} · {best['Reliability']} reliability"
+    )
+else:
+    st.warning("All current fixtures are abstentions because coverage intervals cross 50% or data coverage is sparse.")
+
 # -- Summary metrics -----------------------------------------------------------
 
 c1, c2, c3, c4 = st.columns(4)
@@ -153,6 +224,12 @@ c3.metric("Days",            df["_date"].nunique())
 c4.metric("High confidence", (df["_conf_label"] == "High").sum())
 
 st.divider()
+
+with st.expander("Same-day fatigue timeline"):
+    fatigue_rows = df[["_date", "Time", "Home", "Away", "Same-day Fatigue", "Tournament"]].copy()
+    fatigue_rows = fatigue_rows.sort_values(["_date", "Time"])
+    st.dataframe(fatigue_rows, width="stretch", hide_index=True)
+    st.caption("Counts are prior scheduled matches for each participant on the same calendar day; travel distance is used only when a verified venue sequence exists.")
 
 # -- Layout: tabs by date, then expanders by tournament -----------------------
 #
@@ -169,7 +246,9 @@ tab_labels    = [
 display_cols = [
     "Time ET", "Home", "Away",
     "Favorite", "Win %", "Confidence",
-    "Coverage", "Coverage Tier", "Sample Size", "Model Explain",
+    "Context", "Reliability", "Coverage", "Coverage Tier", "Interval", "Abstain",
+    "DraftKings Opening", "DraftKings Odds", "Market Implied %", "Model Edge", "Value Alert",
+    "Sample Size", "Model Explain", "Best Set Score", "Same-day Fatigue", "Market Mode", "AI Preview",
     "H2H (home W-L)", "Home Recent", "Away Recent",
     "Home Overall", "Away Overall",
 ]
