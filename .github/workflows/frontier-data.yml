@@ -41,6 +41,7 @@ jobs:
         env:
           ODDS_API_IO_KEY: ${{ secrets.ODDS_API_IO_KEY }}
           ODDS_API_IO_URL: ${{ vars.ODDS_API_IO_URL }}
+          ODDS_API_IO_BOOKMAKERS: ${{ vars.ODDS_API_IO_BOOKMAKERS }}
         run: |
           if [ -n "$ODDS_API_IO_KEY" ]; then
             python scripts/odds_sync.py
