@@ -26,6 +26,8 @@ from models.frontier_model import canonical_event_key
 
 DEFAULT_API_URL = "https://api.odds-api.io/v3"
 EVENT_BATCH_SIZE = 10
+MAX_ODDS_BATCHES_PER_RUN = 95
+EVENTS_PER_RUN = EVENT_BATCH_SIZE * MAX_ODDS_BATCHES_PER_RUN
 
 
 def _records(payload: object, label: str) -> list[dict[str, Any]]:
@@ -264,17 +266,31 @@ def main() -> None:
     if base_url.endswith("/odds"):
         base_url = base_url[: -len("/odds")]
     bookmakers_setting = os.getenv("ODDS_API_IO_BOOKMAKERS", "").strip()
+    # The free API plan allows 100 requests per hour. Leave room for the
+    # events and selected-bookmakers calls, and rotate pages on the four
+    # six-hourly scheduled runs so later events are covered too.
+    schedule_slot = datetime.now(timezone.utc).hour // 6
+    event_offset = schedule_slot * EVENTS_PER_RUN
     with requests.Session() as session:
         events_payload = _get_json(
             session,
             base_url,
             "/events",
-            {"apiKey": key, "sport": "table-tennis", "limit": 5000},
+            {
+                "apiKey": key,
+                "sport": "table-tennis",
+                "limit": EVENTS_PER_RUN,
+                "skip": event_offset,
+            },
         )
         events = _records(events_payload, "events")
         if not events:
             print("No upcoming table-tennis events found; no odds snapshots to archive.")
             return
+        print(
+            f"Fetched {len(events)} events from offset {event_offset}; "
+            f"odds requests capped at {MAX_ODDS_BATCHES_PER_RUN} batches per run."
+        )
 
         if bookmakers_setting:
             bookmakers = [name.strip() for name in bookmakers_setting.split(",") if name.strip()]
