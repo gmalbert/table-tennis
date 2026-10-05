@@ -1,0 +1,9 @@
+{
+  "observed_at": "2026-10-05T08:45:48.225933+00:00",
+  "source": "https://www.ittf.com/rankings/",
+  "rankings": [],
+  "errors": [
+    "mens_singles: 403 Client Error: Forbidden for url: https://www.ittf.com/rankings/",
+    "womens_singles: 403 Client Error: Forbidden for url: https://www.ittf.com/rankings/"
+  ]
+}
