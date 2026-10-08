@@ -1,6 +1,6 @@
 {
   "date": "2026-10-05",
-  "match_count": 75,
+  "match_count": 50,
   "matches": [
     {
       "match_id": "UiNxzKCb",
@@ -233,7 +233,7 @@
       "home_player": "Jha K.",
       "away_player": "Matsushima S.",
       "score_home": "0",
-      "score_away": "2",
+      "score_away": "3",
       "time": "2026-10-05 06:00:00",
       "home_ranking": "200",
       "away_ranking": "100",
@@ -249,8 +249,8 @@
           "away": "11"
         },
         {
-          "home": "6",
-          "away": "4"
+          "home": "11",
+          "away": "13"
         }
       ]
     },
@@ -259,252 +259,302 @@
       "tournament": "OTHERS - MEN: China Smash (China)",
       "home_player": "Moregard T.",
       "away_player": "Chan B. H. W.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "2",
       "time": "2026-10-05 10:35:00",
       "home_ranking": "181",
       "away_ranking": "222",
       "home_slug": "moregard-truls",
       "away_slug": "chan-baldwin-ho-wah",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "20",
+          "away": "18"
+        }
+      ]
     },
     {
       "match_id": "SvBq9Voo",
       "tournament": "OTHERS - MEN: China Smash (China)",
       "home_player": "Xiang P.",
       "away_player": "Poret T.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 10:35:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-05 10:50:00",
       "home_ranking": "52",
       "away_ranking": "77",
       "home_slug": "xiang-peng",
       "away_slug": "poret-thibault",
-      "sets": []
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "vuW0zT1s",
       "tournament": "OTHERS - MEN: China Smash (China)",
       "home_player": "Jancarik L.",
       "away_player": "Rassenfosse A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 11:10:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-05 11:15:00",
       "home_ranking": "62",
       "away_ranking": "32",
       "home_slug": "jancarik-lubomir",
       "away_slug": "rassenfosse-adrien",
-      "sets": []
-    },
-    {
-      "match_id": "KYHCWPq9",
-      "tournament": "OTHERS - MEN: China Smash (China)",
-      "home_player": "Qiu D.",
-      "away_player": "Feng Y.-H.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 11:10:00",
-      "home_ranking": "81",
-      "away_ranking": "218",
-      "home_slug": "qiu-dang",
-      "away_slug": "feng-yi-hsin",
-      "sets": []
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "8xkyK7H0",
       "tournament": "OTHERS - MEN: China Smash (China)",
       "home_player": "Ranefur E.",
       "away_player": "Kuo G.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 11:10:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-05 11:20:00",
       "home_ranking": "181",
       "away_ranking": "218",
       "home_slug": "ranefur-elias",
       "away_slug": "kuo-guan-hong",
-      "sets": []
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "KYHCWPq9",
+      "tournament": "OTHERS - MEN: China Smash (China)",
+      "home_player": "Qiu D.",
+      "away_player": "Feng Y.-H.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-05 11:30:00",
+      "home_ranking": "81",
+      "away_ranking": "218",
+      "home_slug": "qiu-dang",
+      "away_slug": "feng-yi-hsin",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "ljN5Lay8",
       "tournament": "OTHERS - MEN: China Smash (China)",
       "home_player": "Thakkar M. V.",
       "away_player": "Gauzy S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 11:45:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-05 12:20:00",
       "home_ranking": "93",
       "away_ranking": "77",
       "home_slug": "thakkar-manav-vikash",
       "away_slug": "gauzy-simon",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
     },
     {
       "match_id": "MLjTLTnl",
       "tournament": "OTHERS - MEN: China Smash (China)",
       "home_player": "Lebrun A.",
       "away_player": "Redzimski M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 12:20:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-05 12:30:00",
       "home_ranking": "77",
       "away_ranking": "154",
       "home_slug": "lebrun-alexis",
       "away_slug": "redzimsko-milosz",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        }
+      ]
     },
     {
       "match_id": "KYcVWYwh",
       "tournament": "OTHERS - MEN: China Smash (China)",
       "home_player": "Sidorenko V.",
       "away_player": "Liang J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 12:55:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-05 13:30:00",
       "home_ranking": "158",
       "away_ranking": "52",
       "home_slug": "sidorenko-vladimir",
       "away_slug": "liang-jingkun",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "A3I8EB5F",
       "tournament": "OTHERS - MEN: China Smash (China)",
       "home_player": "An J.",
       "away_player": "Calderano H.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-06 03:50:00",
       "home_ranking": "106",
       "away_ranking": "39",
       "home_slug": "an-jaehyun",
       "away_slug": "calderano-hugo",
-      "sets": []
-    },
-    {
-      "match_id": "Khdyidjf",
-      "tournament": "OTHERS - MEN: China Smash (China)",
-      "home_player": "Duda B.",
-      "away_player": "Wen R.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "81",
-      "away_ranking": "52",
-      "home_slug": "duda-benedikt",
-      "away_slug": "wen-ruibo",
-      "sets": []
-    },
-    {
-      "match_id": "jcpNJoQc",
-      "tournament": "OTHERS - MEN: China Smash (China)",
-      "home_player": "Franziska P.",
-      "away_player": "Yuan L.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "81",
-      "away_ranking": "52",
-      "home_slug": "franziska-patrick",
-      "away_slug": "yuan-licen",
-      "sets": []
-    },
-    {
-      "match_id": "bFalTjg3",
-      "tournament": "OTHERS - MEN: China Smash (China)",
-      "home_player": "Huang Y.",
-      "away_player": "Lin Y.-J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "52",
-      "away_ranking": "218",
-      "home_slug": "huang-youzheng",
-      "away_slug": "lin-yun-ju",
-      "sets": []
-    },
-    {
-      "match_id": "MNRoUJQj",
-      "tournament": "OTHERS - MEN: China Smash (China)",
-      "home_player": "Kallberg A.",
-      "away_player": "Jang W.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "181",
-      "away_ranking": "106",
-      "home_slug": "kallberg-anton",
-      "away_slug": "jang-woojin",
-      "sets": []
-    },
-    {
-      "match_id": "8GuH8LHd",
-      "tournament": "OTHERS - MEN: China Smash (China)",
-      "home_player": "Lebrun F.",
-      "away_player": "Coton F.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "77",
-      "away_ranking": "77",
-      "home_slug": "lebrun-felix",
-      "away_slug": "cotton-flavien",
-      "sets": []
-    },
-    {
-      "match_id": "pOibrxHc",
-      "tournament": "OTHERS - MEN: China Smash (China)",
-      "home_player": "Oh J.",
-      "away_player": "Karlsson K.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "106",
-      "away_ranking": "181",
-      "home_slug": "oh-junsung",
-      "away_slug": "karlsson-kristian",
-      "sets": []
-    },
-    {
-      "match_id": "xdun8XWq",
-      "tournament": "OTHERS - MEN: China Smash (China)",
-      "home_player": "Park G.",
-      "away_player": "Harimoto T.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "106",
-      "away_ranking": "100",
-      "home_slug": "park-ganghyeon",
-      "away_slug": "harimoto-tomokazu",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "vudBbsgd",
       "tournament": "OTHERS - MEN: China Smash (China)",
       "home_player": "Pucar T.",
       "away_player": "Movileanu D.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-06 04:10:00",
       "home_ranking": "59",
       "away_ranking": "157",
       "home_slug": "pucar-tomislav",
       "away_slug": "movileanu-darius",
-      "sets": []
-    },
-    {
-      "match_id": "dvongspT",
-      "tournament": "OTHERS - MEN: China Smash (China)",
-      "home_player": "Wang Y.",
-      "away_player": "Verdonschot W.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "171",
-      "away_ranking": "81",
-      "home_slug": "wang-yang",
-      "away_slug": "verdonschot-wim",
-      "sets": []
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
     },
     {
       "match_id": "fciuFPTQ",
@@ -708,252 +758,356 @@
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Diaz A.",
       "away_player": "Odo S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 06:30:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-05 06:35:00",
       "home_ranking": "236",
       "away_ranking": "100",
       "home_slug": "diaz-adriana",
       "away_slug": "odo-satsuki",
-      "sets": []
+      "sets": [
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "pQWNmSDU",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Chien T.",
       "away_player": "Hursey A.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "1",
       "time": "2026-10-05 10:35:00",
       "home_ranking": "218",
       "away_ranking": "207",
       "home_slug": "chien-tung-chuan",
       "away_slug": "hursey-anna",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "17",
+          "away": "15"
+        }
+      ]
     },
     {
       "match_id": "EaDm4mbB",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Kim N.",
       "away_player": "Dragoman A.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "2",
       "time": "2026-10-05 10:35:00",
       "home_ranking": "106",
       "away_ranking": "157",
       "home_slug": "kim-nayeong",
       "away_slug": "dragoman-andreea",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "bTAi48F8",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Yeh Y.",
       "away_player": "Sun Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 11:10:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-05 11:30:00",
       "home_ranking": "218",
       "away_ranking": "52",
       "home_slug": "yeh-yi-tian",
       "away_slug": "sun-yingsha",
-      "sets": []
-    },
-    {
-      "match_id": "0x7X7Vbn",
-      "tournament": "OTHERS - WOMEN: China Smash (China)",
-      "home_player": "Hashimoto H.",
-      "away_player": "Zhang L.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 11:45:00",
-      "home_ranking": "100",
-      "away_ranking": "200",
-      "home_slug": "hashimoto-honoka",
-      "away_slug": "zhang-lily",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "4QDa2npL",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Lutz Ch.",
       "away_player": "Jee M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 11:45:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-05 11:50:00",
       "home_ranking": "77",
       "away_ranking": "24",
       "home_slug": "lutz-charlotte",
       "away_slug": "jee-minhyung",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "8npb4MN6",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Ser Lin Qian",
       "away_player": "Shan X.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 11:45:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-05 11:55:00",
       "home_ranking": "170",
       "away_ranking": "81",
       "home_slug": "ser-lin-qian",
       "away_slug": "shan-xiaona",
-      "sets": []
+      "sets": [
+        {
+          "home": "16",
+          "away": "14"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "0x7X7Vbn",
+      "tournament": "OTHERS - WOMEN: China Smash (China)",
+      "home_player": "Hashimoto H.",
+      "away_player": "Zhang L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-05 12:05:00",
+      "home_ranking": "100",
+      "away_ranking": "200",
+      "home_slug": "hashimoto-honoka",
+      "away_slug": "zhang-lily",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
     },
     {
       "match_id": "IZdCDQ0K",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Goda H.",
       "away_player": "Zong G.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "2",
+      "score_away": "3",
       "time": "2026-10-05 12:20:00",
       "home_ranking": "69",
       "away_ranking": "52",
       "home_slug": "goda-hana",
       "away_slug": "zong-geman",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "hWTM50ZF",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Winter S.",
       "away_player": "Jiang Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 12:20:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-05 13:05:00",
       "home_ranking": "81",
       "away_ranking": "52",
       "home_slug": "winter-sabine",
       "away_slug": "jiang-yiyi",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "8zIhNulm",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Bajor N.",
       "away_player": "Shi X.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-06 03:35:00",
       "home_ranking": "154",
       "away_ranking": "52",
       "home_slug": "bajor-natalia",
       "away_slug": "shi-xunyao",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "QFpDI2pS",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Cheng I-C.",
       "away_player": "Wang Yidi",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-06 04:35:00",
       "home_ranking": "218",
       "away_ranking": "52",
       "home_slug": "cheng-i-ching",
       "away_slug": "wang-yidi",
-      "sets": []
-    },
-    {
-      "match_id": "lSnzKnGk",
-      "tournament": "OTHERS - WOMEN: China Smash (China)",
-      "home_player": "Chen Y.",
-      "away_player": "Yuan J. N.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "52",
-      "away_ranking": "77",
-      "home_slug": "chen-yi",
-      "away_slug": "yuan-jia-nan",
-      "sets": []
-    },
-    {
-      "match_id": "K6mCA0ac",
-      "tournament": "OTHERS - WOMEN: China Smash (China)",
-      "home_player": "Fan S.",
-      "away_player": "Hayata H.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "52",
-      "away_ranking": "100",
-      "home_slug": "fan-shuhan",
-      "away_slug": "hayata-hina",
-      "sets": []
-    },
-    {
-      "match_id": "b1WMS1QP",
-      "tournament": "OTHERS - WOMEN: China Smash (China)",
-      "home_player": "Harimoto M.",
-      "away_player": "Su T. T.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "100",
-      "away_ranking": "222",
-      "home_slug": "harimoto-miwa",
-      "away_slug": "su-tsz-tung",
-      "sets": []
-    },
-    {
-      "match_id": "nVxf1PJa",
-      "tournament": "OTHERS - WOMEN: China Smash (China)",
-      "home_player": "Liu Z.",
-      "away_player": "Sato H.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "52",
-      "away_ranking": "100",
-      "home_slug": "liu-ziling",
-      "away_slug": "sato-hitomi",
-      "sets": []
+      "sets": [
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "W8725m1d",
       "tournament": "OTHERS - WOMEN: China Smash (China)",
       "home_player": "Shin Y.",
       "away_player": "Lee E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-06 04:40:00",
       "home_ranking": "106",
       "away_ranking": "106",
       "home_slug": "shin-yubin",
       "away_slug": "lee-eunhye",
-      "sets": []
-    },
-    {
-      "match_id": "4KjwG3PM",
-      "tournament": "OTHERS - WOMEN: China Smash (China)",
-      "home_player": "Wang M.",
-      "away_player": "Batra M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "52",
-      "away_ranking": "93",
-      "home_slug": "wang-manyu",
-      "away_slug": "batra-manika",
-      "sets": []
-    },
-    {
-      "match_id": "EPpMnxjg",
-      "tournament": "OTHERS - WOMEN: China Smash (China)",
-      "home_player": "Wang X.",
-      "away_player": "He Z.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "52",
-      "away_ranking": "52",
-      "home_slug": "wang-xiaotong",
-      "away_slug": "he-zhuojia",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "nifXLXtB",
@@ -1022,84 +1176,93 @@
       "tournament": "OTHERS - DOUBLES MEN: China Smash (China)",
       "home_player": "Freitas M./Apolonia T.",
       "away_player": "Matsushima S./Togami S.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-10-05 10:00:00",
       "home_ranking": "155",
       "away_ranking": "100",
       "home_slug": "freitas-marcos",
       "away_slug": "matsushima-sora",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "EwdPNgCb",
       "tournament": "OTHERS - DOUBLES MEN: China Smash (China)",
       "home_player": "Burgos N./Gomez G.",
       "away_player": "Jorgic D./Kozul D.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 12:55:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-05 12:50:00",
       "home_ranking": "51",
       "away_ranking": "172",
       "home_slug": "burgos-nicolas",
       "away_slug": "jorgic-darko",
-      "sets": []
-    },
-    {
-      "match_id": "WGsDYAQG",
-      "tournament": "OTHERS - DOUBLES MEN: China Smash (China)",
-      "home_player": "Jarvis T./Green C.",
-      "away_player": "Chen J./Zhou Q.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "198",
-      "away_ranking": "52",
-      "home_slug": "jarvis-tom",
-      "away_slug": "chen-junsong",
-      "sets": []
-    },
-    {
-      "match_id": "GQzcxgRi",
-      "tournament": "OTHERS - DOUBLES MEN: China Smash (China)",
-      "home_player": "Zhou G./Li H.",
-      "away_player": "Pistej L./Zelinka J.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "52",
-      "away_ranking": "171",
-      "home_slug": "zhou-guanhong",
-      "away_slug": "pistej-lubomir",
-      "sets": []
-    },
-    {
-      "match_id": "fHcuKBBN",
-      "tournament": "OTHERS - DOUBLES MEN: China Smash (China)",
-      "home_player": "Liang J./Xiang P.",
-      "away_player": "Abdelaziz Y./El-Beiali M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "52",
-      "away_ranking": "69",
-      "home_slug": "liang-jingkun",
-      "away_slug": "abdelaziz-youssef",
-      "sets": []
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "OWmBEkZp",
       "tournament": "OTHERS - DOUBLES MEN: China Smash (China)",
       "home_player": "Jha K./Xue F.",
       "away_player": "Kallberg A./Karlsson K.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-06 04:50:00",
       "home_ranking": "200",
       "away_ranking": "181",
       "home_slug": "jha-kanak",
       "away_slug": "kallberg-anton",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "zqeD24cm",
@@ -1137,7 +1300,7 @@
       "tournament": "OTHERS - DOUBLES WOMEN: China Smash (China)",
       "home_player": "Loy M. Y./Ser Lin Qian",
       "away_player": "Takahashi G./Watanabe L.",
-      "score_home": "1",
+      "score_home": "3",
       "score_away": "1",
       "time": "2026-10-05 05:55:00",
       "home_ranking": "170",
@@ -1154,8 +1317,12 @@
           "away": "13"
         },
         {
-          "home": "7",
-          "away": "3"
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
         }
       ]
     },
@@ -1164,196 +1331,178 @@
       "tournament": "OTHERS - DOUBLES WOMEN: China Smash (China)",
       "home_player": "Shan X./Zeng J.",
       "away_player": "Wang Yidi/Jiang Y.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "0",
+      "score_away": "3",
       "time": "2026-10-05 10:00:00",
       "home_ranking": "81",
       "away_ranking": "52",
       "home_slug": "shan-xiaona",
       "away_slug": "wang-yidi",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "nsPg2e34",
       "tournament": "OTHERS - DOUBLES WOMEN: China Smash (China)",
       "home_player": "Harac E./Altinkaya S.",
       "away_player": "Szocs B./Samara E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-05 12:55:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-05 13:10:00",
       "home_ranking": "191",
       "away_ranking": "157",
       "home_slug": "harac-ece",
       "away_slug": "szocs-bernadette",
-      "sets": []
-    },
-    {
-      "match_id": "hvS10ZXG",
-      "tournament": "OTHERS - DOUBLES WOMEN: China Smash (China)",
-      "home_player": "Zhang L./Moyland S.",
-      "away_player": "Goda H./Meshref D.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "200",
-      "away_ranking": "69",
-      "home_slug": "zhang-lily",
-      "away_slug": "goda-hana",
-      "sets": []
-    },
-    {
-      "match_id": "nNYatEto",
-      "tournament": "OTHERS - DOUBLES WOMEN: China Smash (China)",
-      "home_player": "Liu Y./Wan Y.",
-      "away_player": "Bajor N./Kukulkova T.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "24",
-      "away_ranking": "154",
-      "home_slug": "liu-yangzi",
-      "away_slug": "bajor-natalia",
-      "sets": []
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        }
+      ]
     },
     {
       "match_id": "vHLo4HYi",
       "tournament": "OTHERS - DOUBLES WOMEN: China Smash (China)",
       "home_player": "Gao Y./Xiang J.",
       "away_player": "Ortega D./Vega P.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-06 03:05:00",
       "home_ranking": "52",
       "away_ranking": "51",
       "home_slug": "gao-yuxin",
       "away_slug": "ortega-daniela",
-      "sets": []
+      "sets": [
+        {
+          "home": "16",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
     },
     {
       "match_id": "tO6SbMdC",
       "tournament": "OTHERS - DOUBLES WOMEN: China Smash (China)",
       "home_player": "Wang X./Xu Yi",
       "away_player": "Chen Y./Li Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-06 03:35:00",
       "home_ranking": "52",
       "away_ranking": "52",
       "home_slug": "wang-xiaotong",
       "away_slug": "chen-yi",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
     },
     {
-      "match_id": "IHaCKYOj",
-      "tournament": "OTHERS - MIXED DOUBLES: China Smash (China)",
-      "home_player": "Lin Y.-J./Cheng I-C.",
-      "away_player": "Green C./Ho T.T.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "218",
-      "away_ranking": "198",
-      "home_slug": "lin-yun-ju",
-      "away_slug": "green-connor",
-      "sets": []
-    },
-    {
-      "match_id": "hbQq0hPG",
-      "tournament": "OTHERS - MIXED DOUBLES: China Smash (China)",
-      "home_player": "Huang Y./Chen Y.",
-      "away_player": "Yuan L./Wang Yidi",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "52",
-      "away_ranking": "52",
-      "home_slug": "huang-youzheng",
-      "away_slug": "yuan-licen",
-      "sets": []
-    },
-    {
-      "match_id": "COIuYd25",
-      "tournament": "OTHERS - MIXED DOUBLES: China Smash (China)",
-      "home_player": "Shah M. U./Chitale D. P.",
-      "away_player": "Abdelaziz Y./Alhodaby M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "93",
+      "match_id": "hvS10ZXG",
+      "tournament": "OTHERS - DOUBLES WOMEN: China Smash (China)",
+      "home_player": "Zhang L./Moyland S.",
+      "away_player": "Goda H./Meshref D.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-06 04:10:00",
+      "home_ranking": "200",
       "away_ranking": "69",
-      "home_slug": "shah-manush-utpalbhai",
-      "away_slug": "abdelaziz-youssef",
-      "sets": []
-    },
-    {
-      "match_id": "x8JT3zQi",
-      "tournament": "OTHERS - MIXED DOUBLES: China Smash (China)",
-      "home_player": "Lind A./Hursey A.",
-      "away_player": "Qiu D./Winter S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "63",
-      "away_ranking": "81",
-      "home_slug": "lind-anders",
-      "away_slug": "qiu-dang",
-      "sets": []
+      "home_slug": "zhang-lily",
+      "away_slug": "goda-hana",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
     },
     {
       "match_id": "tYi3I79l",
       "tournament": "OTHERS - MIXED DOUBLES: China Smash (China)",
       "home_player": "Chan B. H. W./Kim N.",
       "away_player": "Matsushima S./Harimoto M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-06 03:10:00",
       "home_ranking": "222",
       "away_ranking": "100",
       "home_slug": "chan-baldwin-ho-wah",
       "away_slug": "matsushima-sora",
-      "sets": []
-    },
-    {
-      "match_id": "hW31qdV1",
-      "tournament": "OTHERS - MIXED DOUBLES: China Smash (China)",
-      "home_player": "Lebrun A./Lutz Ch.",
-      "away_player": "Wong Chun Ting/Doo H. K.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "77",
-      "away_ranking": "222",
-      "home_slug": "lebrun-alexis",
-      "away_slug": "wong-chun-ting",
-      "sets": []
-    },
-    {
-      "match_id": "8SsElbLt",
-      "tournament": "OTHERS - MIXED DOUBLES: China Smash (China)",
-      "home_player": "Lim J./Shin Y.",
-      "away_player": "Liang J./Moyland S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "106",
-      "away_ranking": "200",
-      "home_slug": "lim-jonghoon",
-      "away_slug": "liang-jishan",
-      "sets": []
-    },
-    {
-      "match_id": "h2KeUE1U",
-      "tournament": "OTHERS - MIXED DOUBLES: China Smash (China)",
-      "home_player": "Ionescu E./Szocs B.",
-      "away_player": "Calderano H./Takahashi B.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-10-06 03:00:00",
-      "home_ranking": "157",
-      "away_ranking": "39",
-      "home_slug": "ionescu-eduard",
-      "away_slug": "calderano-hugo",
-      "sets": []
+      "sets": [
+        {
+          "home": "17",
+          "away": "15"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
     }
   ]
 }
