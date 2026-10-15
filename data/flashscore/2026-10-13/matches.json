@@ -1,0 +1,3920 @@
+{
+  "date": "2026-10-13",
+  "match_count": 130,
+  "matches": [
+    {
+      "match_id": "63HlNAY0",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Abiodun T.",
+      "away_player": "Ocal G.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 11:25:00",
+      "home_ranking": "155",
+      "away_ranking": "191",
+      "home_slug": "abiodun-tiago",
+      "away_slug": "ocal-gorkem",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8AGRXRZi",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Apolonia T.",
+      "away_player": "Benko L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 11:25:00",
+      "home_ranking": "155",
+      "away_ranking": "59",
+      "home_slug": "apolonia-tiago",
+      "away_slug": "benko-leon",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "f5BTdZ8K",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Gardos R.",
+      "away_player": "Lehtola L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 11:25:00",
+      "home_ranking": "25",
+      "away_ranking": "76",
+      "home_slug": "gardos-robert",
+      "away_slug": "lehtola-lassi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "xSu2MhX7",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Haug B.",
+      "away_player": "Vovk Petrovski B.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 11:25:00",
+      "home_ranking": "145",
+      "away_ranking": "172",
+      "home_slug": "haug-borgar",
+      "away_slug": "vovk-petrovski-brin",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "vyz2H6kB",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Ionescu O.",
+      "away_player": "Kogans D.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 11:25:00",
+      "home_ranking": "157",
+      "away_ranking": "110",
+      "home_slug": "ionescu-ovidiu",
+      "away_slug": "kogans-daniels",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "8Yhx1o5U",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Perez J.",
+      "away_player": "Froseth M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 11:25:00",
+      "home_ranking": "176",
+      "away_ranking": "145",
+      "home_slug": "perez-juan",
+      "away_slug": "froseth-martin",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "z5GkSN3T",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Verdonschot W.",
+      "away_player": "Andersen M.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 11:25:00",
+      "home_ranking": "81",
+      "away_ranking": "63",
+      "home_slug": "verdonschot-wim",
+      "away_slug": "andersen-martin",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "QgckjUjC",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Mladenovic L.",
+      "away_player": "Devos L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 11:35:00",
+      "home_ranking": "117",
+      "away_ranking": "32",
+      "home_slug": "mladenovic-luka",
+      "away_slug": "devos-laurens",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "dYiltVwm",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Andras C.",
+      "away_player": "Sisanovas I.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 12:00:00",
+      "home_ranking": "91",
+      "away_ranking": "116",
+      "home_slug": "andras-csaba",
+      "away_slug": "sisanovas-ignas",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "4b3FmVV6",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Ban I.",
+      "away_player": "Lehtlaan P. M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 12:00:00",
+      "home_ranking": "59",
+      "away_ranking": "73",
+      "home_slug": "ban-ivor",
+      "away_slug": "lehtlaan-pert-marten",
+      "sets": [
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "EBwxinh5",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Gionis P.",
+      "away_player": "Van Dessel M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 12:00:00",
+      "home_ranking": "83",
+      "away_ranking": "117",
+      "home_slug": "gionis-panagiotis",
+      "away_slug": "van-dessel-mael",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "pxcCzR7O",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Green C.",
+      "away_player": "Shushan E.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 12:00:00",
+      "home_ranking": "198",
+      "away_ranking": "97",
+      "home_slug": "green-connor",
+      "away_slug": "shushan-eitay",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "nLHRxEHl",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Movileanu D.",
+      "away_player": "Naumi A.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 12:00:00",
+      "home_ranking": "157",
+      "away_ranking": "76",
+      "home_slug": "movileanu-darius",
+      "away_slug": "naumi-alex",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "AsqkoHLq",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Zeljko F.",
+      "away_player": "Elia S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 12:00:00",
+      "home_ranking": "59",
+      "away_ranking": "61",
+      "home_slug": "zeljko-filip",
+      "away_slug": "elia-sharpel",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "bLj3fLbc",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Levenko A.",
+      "away_player": "Lillo D.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 12:10:00",
+      "home_ranking": "25",
+      "away_ranking": "176",
+      "home_slug": "levenko-andreas",
+      "away_slug": "lillo-diego",
+      "sets": [
+        {
+          "home": "0",
+          "away": "11"
+        },
+        {
+          "home": "0",
+          "away": "11"
+        },
+        {
+          "home": "0",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "67cFrqlA",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Ranefur E.",
+      "away_player": "Rasmussen T.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 12:15:00",
+      "home_ranking": "181",
+      "away_ranking": "63",
+      "home_slug": "ranefur-elias",
+      "away_slug": "rasmussen-tobias",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "MZHewNOb",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Kubik M.",
+      "away_player": "Lam K.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 12:35:00",
+      "home_ranking": "154",
+      "away_ranking": "145",
+      "home_slug": "kubik-maciej",
+      "away_slug": "lam-khai",
+      "sets": [
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "CMZFQqug",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Oyebode J.",
+      "away_player": "Sgouropoulos I.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 12:35:00",
+      "home_ranking": "98",
+      "away_ranking": "83",
+      "home_slug": "oyebode-john",
+      "away_slug": "sgouropoulos-ioannis",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "8jG3y1gB",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Pantoja Andrade M.",
+      "away_player": "Petersen P.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 12:35:00",
+      "home_ranking": "176",
+      "away_ranking": "483",
+      "home_slug": "pantoja-andrade-miguel",
+      "away_slug": "petersen-poul",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "OOL1CgKr",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Pitchford L.",
+      "away_player": "Faso D.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 12:35:00",
+      "home_ranking": "197",
+      "away_ranking": "98",
+      "home_slug": "pitchford-liam",
+      "away_slug": "faso-danilo",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "Ygo2gZEd",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Stoll L.",
+      "away_player": "Lomia L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 12:35:00",
+      "home_ranking": "182",
+      "away_ranking": "80",
+      "home_slug": "stoll-loic",
+      "away_slug": "lomia-lasha",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "fTwF6kyg",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Wang Y.",
+      "away_player": "Frizel M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 12:35:00",
+      "home_ranking": "171",
+      "away_ranking": "116",
+      "home_slug": "wang-yang",
+      "away_slug": "frizel-martin",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "QTsfeepp",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Istrate A.",
+      "away_player": "Gunduz I.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 12:40:00",
+      "home_ranking": "157",
+      "away_ranking": "191",
+      "home_slug": "istrate-andrei",
+      "away_slug": "gunduz-ibrahim",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "29ij5xDF",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Monteiro J.",
+      "away_player": "Kolodziejczyk M.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 12:40:00",
+      "home_ranking": "155",
+      "away_ranking": "25",
+      "home_slug": "monteiro-joao",
+      "away_slug": "kolodziejczyk-maciej",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "hfSw8gom",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Giardi F.",
+      "away_player": "Stanojkovski K.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 13:10:00",
+      "home_ranking": "163",
+      "away_ranking": "118",
+      "home_slug": "giardi-federico",
+      "away_slug": "stanojkovski-kristijan",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "hMvxdYZ1",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Olah B.",
+      "away_player": "Arpas S.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 13:10:00",
+      "home_ranking": "76",
+      "away_ranking": "171",
+      "home_slug": "olah-benedek",
+      "away_slug": "arpas-samuel",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "UuF3WEBE",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Szudi A.",
+      "away_player": "Shutov N.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 13:10:00",
+      "home_ranking": "91",
+      "away_ranking": "31",
+      "home_slug": "szudi-adam",
+      "away_slug": "shutov-nikon",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "MBy8DFNP",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Tikhonov E.",
+      "away_player": "Berzosa D.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 13:10:00",
+      "home_ranking": "158",
+      "away_ranking": "176",
+      "home_slug": "tikhonov-evgeny",
+      "away_slug": "berzosa-daniel",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "2qrYAG2K",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Badowski M.",
+      "away_player": "de Nodrest L.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 13:15:00",
+      "home_ranking": "154",
+      "away_ranking": "77",
+      "home_slug": "badowski-marek",
+      "away_slug": "de-nodrest-leo",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "CIT35fQs",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Tretyak N.",
+      "away_player": "Krastev P.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 13:15:00",
+      "home_ranking": "195",
+      "away_ranking": "41",
+      "home_slug": "tretyak-nazar",
+      "away_slug": "krastev-petyo",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "CbgS0xvK",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Trevisan F.",
+      "away_player": "Mahmuti K.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 13:20:00",
+      "home_ranking": "98",
+      "away_ranking": "212",
+      "home_slug": "trevisan-francesco",
+      "away_slug": "mahmuti-kreshnik",
+      "sets": [
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "KjiswZoD",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Zalewski M.",
+      "away_player": "Stumper K.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 13:25:00",
+      "home_ranking": "154",
+      "away_ranking": "81",
+      "home_slug": "zalewski-mateusz",
+      "away_slug": "stumper-kay",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "rR5JKWUh",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Levajac D.",
+      "away_player": "Brhel S.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 13:45:00",
+      "home_ranking": "167",
+      "away_ranking": "62",
+      "home_slug": "levajac-dimitrije",
+      "away_slug": "brhel-stepan",
+      "sets": [
+        {
+          "home": "15",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "lrFRNds2",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Schultz R.",
+      "away_player": "Limonov A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 13:45:00",
+      "home_ranking": "483",
+      "away_ranking": "195",
+      "home_slug": "schultz-rune",
+      "away_slug": "limonov-anton",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "W4TwDuTq",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Dilas N.",
+      "away_player": "Podobnik M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 13:50:00",
+      "home_ranking": "167",
+      "away_ranking": "172",
+      "home_slug": "dilas-nemanja",
+      "away_slug": "podobnik-miha",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "ji9RIAa5",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Liu Z.",
+      "away_player": "Ragni L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 13:50:00",
+      "home_ranking": "25",
+      "away_ranking": "163",
+      "home_slug": "liu-zhenlong",
+      "away_slug": "ragni-lorenzo",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "tIBJPICk",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Yigenler A.",
+      "away_player": "Putuntica A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 13:55:00",
+      "home_ranking": "191",
+      "away_ranking": "130",
+      "home_slug": "yigenler-abdullah",
+      "away_slug": "putuntica-andrei",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "hWahbwJE",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Eriksson A.",
+      "away_player": "Yilmaz T.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 14:00:00",
+      "home_ranking": "181",
+      "away_ranking": "191",
+      "home_slug": "eriksson-anders",
+      "away_slug": "yilmaz-turgay",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "QP76zzR7",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Walker S.",
+      "away_player": "Artemenko N.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 14:00:00",
+      "home_ranking": "198",
+      "away_ranking": "158",
+      "home_slug": "walker-samuel",
+      "away_slug": "artemenko-nikita",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "nF66VmqB",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Walther R.",
+      "away_player": "Velichkov Y.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 14:05:00",
+      "home_ranking": "81",
+      "away_ranking": "41",
+      "home_slug": "walther-ricardo",
+      "away_slug": "velichkov-yoan",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "4EDrlvwH",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Camara G.",
+      "away_player": "Mutti M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 14:20:00",
+      "home_ranking": "139",
+      "away_ranking": "98",
+      "home_slug": "camara-gabrielius",
+      "away_slug": "mutti-matteo",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "CvHjnI7T",
+      "tournament": "OTHERS - MEN: European Championships (Europe) - Qualification",
+      "home_player": "Gillen A.",
+      "away_player": "Johnson M.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 14:20:00",
+      "home_ranking": "96",
+      "away_ranking": "199",
+      "home_slug": "gillen-alexander",
+      "away_slug": "johnson-martin",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "A9XN1Xt4",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Abraamian E.",
+      "away_player": "Miashchanskaya U.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 07:00:00",
+      "home_ranking": "158",
+      "away_ranking": "31",
+      "home_slug": "abraamian-elizabet",
+      "away_slug": "miashchanskaya-ulyana",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "OjAzT9u3",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Diaconu A.",
+      "away_player": "Fuchs E.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 07:00:00",
+      "home_ranking": "157",
+      "away_ranking": "25",
+      "home_slug": "diaconu-adina",
+      "away_slug": "fuchs-elina",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "4r9bF5Tg",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Men S.",
+      "away_player": "Leal J.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 07:00:00",
+      "home_ranking": "139",
+      "away_ranking": "155",
+      "home_slug": "men-shuohan",
+      "away_slug": "leal-julia",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "v3KmNv9s",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Ni X.",
+      "away_player": "Silcock H.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 07:00:00",
+      "home_ranking": "117",
+      "away_ranking": "452",
+      "home_slug": "ni-xialian",
+      "away_slug": "silcock-hannah",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "Yq2MJ52k",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Schreiner F.",
+      "away_player": "Girlea M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 07:00:00",
+      "home_ranking": "81",
+      "away_ranking": "76",
+      "home_slug": "schreiner-franziska",
+      "away_slug": "girlea-maria",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "KvcOrDyI",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Singeorzan I.",
+      "away_player": "Donner M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 07:00:00",
+      "home_ranking": "157",
+      "away_ranking": "76",
+      "home_slug": "singeorzan-ioana",
+      "away_slug": "donner-marina",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "K2P9hT3j",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Wegrzyn K.",
+      "away_player": "Yu T.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 07:00:00",
+      "home_ranking": "154",
+      "away_ranking": "198",
+      "home_slug": "wegrzyn-katarzyna",
+      "away_slug": "yu-tianer",
+      "sets": [
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "SnJBCleM",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Wielgos Z.",
+      "away_player": "Toftaker M.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 07:00:00",
+      "home_ranking": "154",
+      "away_ranking": "145",
+      "home_slug": "wielgos-zuzanna",
+      "away_slug": "toftaker-martine",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "MsGzYeNa",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Bergand F.",
+      "away_player": "Dohoczki N.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 07:40:00",
+      "home_ranking": "181",
+      "away_ranking": "91",
+      "home_slug": "bergand-filippa",
+      "away_slug": "dohoczki-nora",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "lYql4K3e",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Harac E.",
+      "away_player": "Avameri A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 07:40:00",
+      "home_ranking": "191",
+      "away_ranking": "73",
+      "home_slug": "harac-ece",
+      "away_slug": "avameri-airi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "lEwlaYLb",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Massart L.",
+      "away_player": "Riliskyte K.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 07:40:00",
+      "home_ranking": "32",
+      "away_ranking": "116",
+      "home_slug": "massart-lilou",
+      "away_slug": "riliskyte-kornelija",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "0zWZkUro",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Pinto M.",
+      "away_player": "Tsimashkova L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 07:40:00",
+      "home_ranking": "155",
+      "away_ranking": "31",
+      "home_slug": "pinto-matilde",
+      "away_slug": "tsimashkova-lizaveta",
+      "sets": [
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "hpc0lH7t",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Skerbinz N.",
+      "away_player": "Nagy R.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 07:40:00",
+      "home_ranking": "25",
+      "away_ranking": "91",
+      "home_slug": "skerbinz-nina",
+      "away_slug": "nagy-rebeka",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "KCpQfYn3",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Tofant A.",
+      "away_player": "Rad E.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 07:40:00",
+      "home_ranking": "172",
+      "away_ranking": "176",
+      "home_slug": "tofant-ana",
+      "away_slug": "rad-elvira",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "z9YkOueR",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Yaremchuk S.",
+      "away_player": "Juchnaite L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 07:40:00",
+      "home_ranking": "195",
+      "away_ranking": "116",
+      "home_slug": "yaremchuk-solomiya",
+      "away_slug": "juchnaite-lukrecija",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "6cKBHzwJ",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Zhang S.",
+      "away_player": "Santa M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 07:40:00",
+      "home_ranking": "176",
+      "away_ranking": "155",
+      "home_slug": "zhang-sofia-xuan",
+      "away_slug": "santa-mariana",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "6V7DTel4",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Carey Ch.",
+      "away_player": "Georgieva T.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 08:10:00",
+      "home_ranking": "207",
+      "away_ranking": "41",
+      "home_slug": "carey-charlotte",
+      "away_slug": "georgieva-tsvetelina",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "0CknQMsC",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Sadikovic E.",
+      "away_player": "Grofova K.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 08:10:00",
+      "home_ranking": "117",
+      "away_ranking": "62",
+      "home_slug": "sadikovic-enisa",
+      "away_slug": "adamkova-karin",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "rgAbKiBj",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Toliou A.",
+      "away_player": "Tailakova M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 08:10:00",
+      "home_ranking": "83",
+      "away_ranking": "158",
+      "home_slug": "toliou-aikaterini",
+      "away_slug": "tailakova-mariia",
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "bm9013VN",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Arlia N.",
+      "away_player": "Kalvatn C.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 08:20:00",
+      "home_ranking": "98",
+      "away_ranking": "145",
+      "home_slug": "arlia-nicole",
+      "away_slug": "kalvatn-christine",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "WCuyFyID",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Berzosa M.",
+      "away_player": "Kelly D.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 08:20:00",
+      "home_ranking": "176",
+      "away_ranking": "207",
+      "home_slug": "berzosa-maria",
+      "away_slug": "kelly-danielle",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "APXBoU9k",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Polakova V.",
+      "away_player": "Guo Zheng N.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 08:20:00",
+      "home_ranking": "62",
+      "away_ranking": "77",
+      "home_slug": "polakova-veronika",
+      "away_slug": "guo-zheng-nina",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "xCi2DOt9",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Tokic S.",
+      "away_player": "Kodetova H.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 08:25:00",
+      "home_ranking": "172",
+      "away_ranking": "62",
+      "home_slug": "tokic-sara",
+      "away_slug": "kodetova-hanka",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "2itD5k1L",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Chiriacova A.",
+      "away_player": "Doutaz F.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 08:30:00",
+      "home_ranking": "130",
+      "away_ranking": "182",
+      "home_slug": "chiriacova-alexandra",
+      "away_slug": "doutaz-fanny",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "jJc0ZQKP",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Maksuti A.",
+      "away_player": "Brzyska A.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 08:55:00",
+      "home_ranking": "167",
+      "away_ranking": "154",
+      "home_slug": "maksuti-aneta",
+      "away_slug": "brzyska-anna",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "YLZzAkzH",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Mei Rosu B.",
+      "away_player": "Dymytrenko A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 08:55:00",
+      "home_ranking": "157",
+      "away_ranking": "195",
+      "home_slug": "mei-rosu-bianca",
+      "away_slug": "dymytrenko-anastasiya",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "8zU5CcE5",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Mischek K.",
+      "away_player": "Van Hauwaert J.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 08:55:00",
+      "home_ranking": "25",
+      "away_ranking": "32",
+      "home_slug": "mischek-karoline",
+      "away_slug": "van-hauwaert-julie",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "G0XDAyqI",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Petery J.",
+      "away_player": "Stasevska P.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 08:55:00",
+      "home_ranking": "91",
+      "away_ranking": "110",
+      "home_slug": "petery-johanna",
+      "away_slug": "stasevska-polina",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "bNoQaKUa",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Stoffregen M.",
+      "away_player": "Labosova E.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 08:55:00",
+      "home_ranking": "63",
+      "away_ranking": "171",
+      "home_slug": "stoffregen-mille",
+      "away_slug": "labosova-ema",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Aq4x771n",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Zaharia E.",
+      "away_player": "Lewyckyj L.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 08:55:00",
+      "home_ranking": "157",
+      "away_ranking": "32",
+      "home_slug": "zaharia-elena",
+      "away_slug": "lewyckyj-lessia",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        }
+      ]
+    },
+    {
+      "match_id": "lA30vD2M",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Nodin A.",
+      "away_player": "Clement E. V.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 09:00:00",
+      "home_ranking": "77",
+      "away_ranking": "63",
+      "home_slug": "nodin-alexia",
+      "away_slug": "clement-emma-vendelbo",
+      "sets": [
+        {
+          "home": "11",
+          "away": "0"
+        },
+        {
+          "home": "11",
+          "away": "0"
+        },
+        {
+          "home": "11",
+          "away": "0"
+        }
+      ]
+    },
+    {
+      "match_id": "EDYbdoO7",
+      "tournament": "OTHERS - WOMEN: European Championships (Europe) - Qualification",
+      "home_player": "Yilmaz O.",
+      "away_player": "Cosic D.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 09:00:00",
+      "home_ranking": "191",
+      "away_ranking": "59",
+      "home_slug": "yilmaz-ozge",
+      "away_slug": "cosic-dora",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "bqFpFskg",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Rassenfosse A./Allegro M.",
+      "away_player": "Kolodziejczyk M./Gardos R.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 17:35:00",
+      "home_ranking": "32",
+      "away_ranking": "25",
+      "home_slug": "rassenfosse-adrien",
+      "away_slug": "kolodziejczyk-maciej",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "fmtD5UHd",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Istrate A./Chirita I.",
+      "away_player": "Moregard T./Ranefur E.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 17:35:00",
+      "home_ranking": "157",
+      "away_ranking": "181",
+      "home_slug": "istrate-andrei",
+      "away_slug": "moregard-truls",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "lWW4245m",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Jarvis T./Green C.",
+      "away_player": "Ursu V./Putuntica A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 17:35:00",
+      "home_ranking": "198",
+      "away_ranking": "130",
+      "home_slug": "jarvis-tom",
+      "away_slug": "ursu-vladislav",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "U9YKbM4C",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Van Dessel M./Mladenovic L.",
+      "away_player": "Freitas M./Apolonia T.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 17:35:00",
+      "home_ranking": "117",
+      "away_ranking": "155",
+      "home_slug": "van-dessel-mael",
+      "away_slug": "freitas-marcos",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        }
+      ]
+    },
+    {
+      "match_id": "vcoZ7QsQ",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Olah B./Naumi A.",
+      "away_player": "Movileanu D./Ionescu E.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 17:35:00",
+      "home_ranking": "76",
+      "away_ranking": "157",
+      "home_slug": "olah-benedek",
+      "away_slug": "movileanu-darius",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "69IhDLJ5",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Yilmaz T./Ocal G.",
+      "away_player": "Zelinka J./Pistej L.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 17:35:00",
+      "home_ranking": "191",
+      "away_ranking": "171",
+      "home_slug": "yilmaz-turgay",
+      "away_slug": "zelinka-jakub",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "xzxTd0ZO",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Abiodun T./Zalewski M.",
+      "away_player": "Verdonschot W./Bertelsmeier A.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 17:35:00",
+      "home_ranking": "155",
+      "away_ranking": "81",
+      "home_slug": "abiodun-tiago",
+      "away_slug": "verdonschot-wim",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "xUpJGfQc",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Kahn I./Camara G.",
+      "away_player": "Dorr E./Bourrassaud F.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 17:45:00",
+      "home_ranking": "139",
+      "away_ranking": "77",
+      "home_slug": "kahn-ivan",
+      "away_slug": "dorr-esteban",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "pMrYhiYj",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Rasmussen T./Andersen M.",
+      "away_player": "Gacina A./Ban I.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 18:50:00",
+      "home_ranking": "63",
+      "away_ranking": "59",
+      "home_slug": "rasmussen-tobias",
+      "away_slug": "gacina-andrej",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ljw57jmp",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Perez J./Berzosa D.",
+      "away_player": "Brhel S./Benko L.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 18:50:00",
+      "home_ranking": "176",
+      "away_ranking": "62",
+      "home_slug": "perez-juan",
+      "away_slug": "brhel-stepan",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "pflREYfA",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Shutov N./Kunats H.",
+      "away_player": "Qiu D./Duda B.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 18:50:00",
+      "home_ranking": "31",
+      "away_ranking": "81",
+      "home_slug": "shutov-nikon",
+      "away_slug": "qiu-dang",
+      "sets": [
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "lAFdDty3",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Lebrun F./Lebrun A.",
+      "away_player": "Szantosi D./De Boer M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 18:50:00",
+      "home_ranking": "77",
+      "away_ranking": "91",
+      "home_slug": "lebrun-felix",
+      "away_slug": "szantosi-david",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "QVGxH3Kt",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Tikhonov E./Sidorenko V.",
+      "away_player": "Lam K./Haug B.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 18:50:00",
+      "home_ranking": "158",
+      "away_ranking": "145",
+      "home_slug": "tikhonov-evgeny",
+      "away_slug": "lam-khai",
+      "sets": [
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "I7nZCCPM",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Yigenler A./Gunduz I.",
+      "away_player": "Zsolt P./Ninkovic U.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 18:55:00",
+      "home_ranking": "191",
+      "away_ranking": "167",
+      "home_slug": "yigenler-abdullah",
+      "away_slug": "zsolt-peto",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "EZL0BalI",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Szudi A./Andras C.",
+      "away_player": "Jorgic D./Kozul D.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 19:05:00",
+      "home_ranking": "91",
+      "away_ranking": "172",
+      "home_slug": "szudi-adam",
+      "away_slug": "jorgic-darko",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ddzD0rz0",
+      "tournament": "OTHERS - DOUBLES MEN: European Championships (Europe)",
+      "home_player": "Karlsson K./Kallberg A.",
+      "away_player": "Lillo D./De las Heras R.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 19:05:00",
+      "home_ranking": "181",
+      "away_ranking": "176",
+      "home_slug": "karlsson-kristian",
+      "away_slug": "lillo-diego",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "EDpeVEdl",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Monfardini G./Arlia N.",
+      "away_player": "Tokic S./Tofant A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 17:00:00",
+      "home_ranking": "98",
+      "away_ranking": "172",
+      "home_slug": "monfardini-gaia",
+      "away_slug": "tokic-sara",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "n7dpOckL",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Wegrzyn K./Avameri A.",
+      "away_player": "Leal J./Pinto M.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 17:00:00",
+      "home_ranking": "154",
+      "away_ranking": "155",
+      "home_slug": "wegrzyn-katarzyna",
+      "away_slug": "leal-julia",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "rB3VEgC7",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Kukulkova T./Bajor N.",
+      "away_player": "Maksuti A./Bezeg R.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 17:00:00",
+      "home_ranking": "171",
+      "away_ranking": "167",
+      "home_slug": "kukulkova-tatiana",
+      "away_slug": "maksuti-aneta",
+      "sets": [
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "Cp4xV525",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Wielgos Z./Brzyska A.",
+      "away_player": "Yovkova M./Persova V.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 17:00:00",
+      "home_ranking": "154",
+      "away_ranking": "41",
+      "home_slug": "wielgos-zuzanna",
+      "away_slug": "yovkova-maria",
+      "sets": [
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "8fnBRWeD",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Malobabic I./Cosic D.",
+      "away_player": "Surjan S./Lupulesku I.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 17:00:00",
+      "home_ranking": "59",
+      "away_ranking": "167",
+      "home_slug": "malobabic-ivana",
+      "away_slug": "surjan-sabina",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "EgbxQJK8",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Vasendova J./Grofova K.",
+      "away_player": "Winter S./Han Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 17:00:00",
+      "home_ranking": "62",
+      "away_ranking": "81",
+      "home_slug": "vasendova-jana",
+      "away_slug": "winter-sabine",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "IkmGIyDr",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Skerbinz N./Mischek K.",
+      "away_player": "Hursey A./Ho T.T.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 17:00:00",
+      "home_ranking": "25",
+      "away_ranking": "207",
+      "home_slug": "skerbinz-nina",
+      "away_slug": "hursey-anna",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "40MC9bzS",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Szocs B./Samara E.",
+      "away_player": "Wiltschkova D./Labosova E.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 17:00:00",
+      "home_ranking": "157",
+      "away_ranking": "171",
+      "home_slug": "szocs-bernadette",
+      "away_slug": "wiltschkova-dominika",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "bNcMYm3t",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Kallberg Ch./Bergand F.",
+      "away_player": "Matiunina V./Dymytrenko A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 18:15:00",
+      "home_ranking": "181",
+      "away_ranking": "195",
+      "home_slug": "kallberg-christina",
+      "away_slug": "matiunina-veronika",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "0W7r4xbk",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Ni X./de Nutte S.",
+      "away_player": "Papadimitriou M./Georgieva T.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 18:15:00",
+      "home_ranking": "117",
+      "away_ranking": "83",
+      "home_slug": "ni-xialian",
+      "away_slug": "papadimitriou-malamatenia",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "Ac5NGFse",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Dragoman A./Diaconu A.",
+      "away_player": "Chiriacova A./Berzosa M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 18:15:00",
+      "home_ranking": "157",
+      "away_ranking": "130",
+      "home_slug": "dragoman-andreea",
+      "away_slug": "chiriacova-alexandra",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "6m1UWRXh",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Toliou A./Gerasimatou I.",
+      "away_player": "Mittelham N./Kaufmann A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 18:15:00",
+      "home_ranking": "83",
+      "away_ranking": "81",
+      "home_slug": "toliou-aikaterini",
+      "away_slug": "mittelham-nina",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "0Ur3ThR0",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Yuan J. N./Guo Zheng N.",
+      "away_player": "Tailakova M./Abraamian E.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 18:15:00",
+      "home_ranking": "77",
+      "away_ranking": "158",
+      "home_slug": "yuan-jia-nan",
+      "away_slug": "tailakova-mariia",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "nm6j2GS1",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Van Hauwaert J./Massart L.",
+      "away_player": "Pavade P./Lutz Ch.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 18:15:00",
+      "home_ranking": "32",
+      "away_ranking": "77",
+      "home_slug": "van-hauwaert-julie",
+      "away_slug": "pavade-prithika",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "AHeHxc4E",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Yilmaz O./Puchovanova N.",
+      "away_player": "Rakovac L./Arapovic H.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 18:15:00",
+      "home_ranking": "191",
+      "away_ranking": "59",
+      "home_slug": "yilmaz-ozge",
+      "away_slug": "rakovac-lea",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "IsaPzyZQ",
+      "tournament": "OTHERS - DOUBLES WOMEN: European Championships (Europe)",
+      "home_player": "Zhang S./Rad E.",
+      "away_player": "Harac E./Altinkaya S.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 18:15:00",
+      "home_ranking": "176",
+      "away_ranking": "191",
+      "home_slug": "zhang-sofia-xuan",
+      "away_slug": "harac-ece",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "YB8M37Kk",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Sidorenko V./Abraamian E.",
+      "away_player": "Ursu V./Chiriacova A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 09:55:00",
+      "home_ranking": "158",
+      "away_ranking": "130",
+      "home_slug": "sidorenko-vladimir",
+      "away_slug": "ursu-vladislav",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "UeTlk85d",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Green C./Ho T.T.",
+      "away_player": "Ranefur E./Bergand F.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 09:55:00",
+      "home_ranking": "198",
+      "away_ranking": "181",
+      "home_slug": "green-connor",
+      "away_slug": "ranefur-elias",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Igs33bQ6",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Pistej L./Kukulkova T.",
+      "away_player": "Levajac D./Lupulesku I.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 09:55:00",
+      "home_ranking": "171",
+      "away_ranking": "167",
+      "home_slug": "pistej-lubomir",
+      "away_slug": "levajac-dimitrije",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "IDXdPumQ",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Monteiro J./Leal J.",
+      "away_player": "Badowski M./Wielgos Z.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 09:55:00",
+      "home_ranking": "155",
+      "away_ranking": "154",
+      "home_slug": "monteiro-joao",
+      "away_slug": "badowski-marek",
+      "sets": [
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "MkGzDBc3",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Martinko J./Polakova V.",
+      "away_player": "Ionescu E./Szocs B.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 09:55:00",
+      "home_ranking": "62",
+      "away_ranking": "157",
+      "home_slug": "martinko-jiri",
+      "away_slug": "ionescu-eduard",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "YqEFPls9",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Geraldo J./Santa M.",
+      "away_player": "Yigenler A./Harac E.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 09:55:00",
+      "home_ranking": "155",
+      "away_ranking": "191",
+      "home_slug": "geraldo-joao",
+      "away_slug": "yigenler-abdullah",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "hGZAdjDM",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Lind A./Hursey A.",
+      "away_player": "Movileanu D./Dragoman A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-13 10:05:00",
+      "home_ranking": "63",
+      "away_ranking": "157",
+      "home_slug": "lind-anders",
+      "away_slug": "movileanu-darius",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "4Wzm7tRs",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Szantosi D./Nagy J.",
+      "away_player": "Mladenovic L./Ni X.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 10:05:00",
+      "home_ranking": "91",
+      "away_ranking": "117",
+      "home_slug": "szantosi-david",
+      "away_slug": "mladenovic-luka",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ObQtiUzp",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Moos M./Avameri A.",
+      "away_player": "Franziska P./Kaufmann A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 10:30:00",
+      "home_ranking": "73",
+      "away_ranking": "81",
+      "home_slug": "moos-madis",
+      "away_slug": "franziska-patrick",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "j7uB1xeJ",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Kubik M./Bajor N.",
+      "away_player": "Berzosa D./Berzosa M.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 10:30:00",
+      "home_ranking": "154",
+      "away_ranking": "176",
+      "home_slug": "kubik-maciej",
+      "away_slug": "berzosa-daniel",
+      "sets": [
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "6wMT1ok2",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Robles A./Xiao M.",
+      "away_player": "Grebenyuk A./Dymytrenko A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 10:30:00",
+      "home_ranking": "176",
+      "away_ranking": "195",
+      "home_slug": "robles-alvaro",
+      "away_slug": "grebenyuk-andrey",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "UFJrBkSF",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Gunduz I./Altinkaya S.",
+      "away_player": "Duda B./Mittelham N.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 10:35:00",
+      "home_ranking": "191",
+      "away_ranking": "81",
+      "home_slug": "gunduz-ibrahim",
+      "away_slug": "duda-benedikt",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Cdve5Kef",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Avivi I./Davidov E.",
+      "away_player": "Karlsson K./Kallberg Ch.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 10:35:00",
+      "home_ranking": "97",
+      "away_ranking": "181",
+      "home_slug": "avivi-itay",
+      "away_slug": "karlsson-kristian",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "M9MzIcu0",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Stoyanov N./Piccolin G.",
+      "away_player": "Lebrun A./Lutz Ch.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 10:35:00",
+      "home_ranking": "98",
+      "away_ranking": "77",
+      "home_slug": "stoyanov-niagol",
+      "away_slug": "lebrun-alexis",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "xtNj9TdS",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Ban I./Arapovic H.",
+      "away_player": "Poret T./Pavade P.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 10:40:00",
+      "home_ranking": "59",
+      "away_ranking": "77",
+      "home_slug": "ban-ivor",
+      "away_slug": "poret-thibault",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ldOSJJAm",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Tikhonov E./Tailakova M.",
+      "away_player": "Van Dessel M./de Nutte S.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 10:40:00",
+      "home_ranking": "158",
+      "away_ranking": "117",
+      "home_slug": "tikhonov-evgeny",
+      "away_slug": "van-dessel-mael",
+      "sets": [
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "dS4t0gCM",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Ranefur E./Bergand F.",
+      "away_player": "Mladenovic L./Ni X.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 15:10:00",
+      "home_ranking": "181",
+      "away_ranking": "117",
+      "home_slug": "ranefur-elias",
+      "away_slug": "mladenovic-luka",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "84L0rUpK",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Ursu V./Chiriacova A.",
+      "away_player": "Badowski M./Wielgos Z.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-13 15:10:00",
+      "home_ranking": "130",
+      "away_ranking": "154",
+      "home_slug": "ursu-vladislav",
+      "away_slug": "badowski-marek",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "xKBWx88s",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Lind A./Hursey A.",
+      "away_player": "Ionescu E./Szocs B.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 15:10:00",
+      "home_ranking": "63",
+      "away_ranking": "157",
+      "home_slug": "lind-anders",
+      "away_slug": "ionescu-eduard",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        }
+      ]
+    },
+    {
+      "match_id": "xOwh7AJk",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Levajac D./Lupulesku I.",
+      "away_player": "Geraldo J./Santa M.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-13 15:10:00",
+      "home_ranking": "167",
+      "away_ranking": "155",
+      "home_slug": "levajac-dimitrije",
+      "away_slug": "geraldo-joao",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        }
+      ]
+    },
+    {
+      "match_id": "lYu1Mesp",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Robles A./Xiao M.",
+      "away_player": "Duda B./Mittelham N.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 15:45:00",
+      "home_ranking": "176",
+      "away_ranking": "81",
+      "home_slug": "robles-alvaro",
+      "away_slug": "duda-benedikt",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "zo6YvPE8",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Kubik M./Bajor N.",
+      "away_player": "Karlsson K./Kallberg Ch.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-13 15:55:00",
+      "home_ranking": "154",
+      "away_ranking": "181",
+      "home_slug": "kubik-maciej",
+      "away_slug": "karlsson-kristian",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        }
+      ]
+    },
+    {
+      "match_id": "boOtZYQk",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Tikhonov E./Tailakova M.",
+      "away_player": "Lebrun A./Lutz Ch.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-13 15:55:00",
+      "home_ranking": "158",
+      "away_ranking": "77",
+      "home_slug": "tikhonov-evgeny",
+      "away_slug": "lebrun-alexis",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "CAwGVaKc",
+      "tournament": "OTHERS - MIXED DOUBLES: European Championships (Europe)",
+      "home_player": "Poret T./Pavade P.",
+      "away_player": "Franziska P./Kaufmann A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-13 16:05:00",
+      "home_ranking": "77",
+      "away_ranking": "81",
+      "home_slug": "poret-thibault",
+      "away_slug": "franziska-patrick",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    }
+  ]
+}
