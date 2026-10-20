@@ -8,11 +8,13 @@ the bookmakers selected for the API key).
 
 from __future__ import annotations
 
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from hashlib import sha256
 import os
 from pathlib import Path
 import sys
+import time
 from typing import Any
 
 import requests
@@ -28,6 +30,34 @@ DEFAULT_API_URL = "https://api.odds-api.io/v3"
 EVENT_BATCH_SIZE = 10
 MAX_ODDS_BATCHES_PER_RUN = 95
 EVENTS_PER_RUN = EVENT_BATCH_SIZE * MAX_ODDS_BATCHES_PER_RUN
+MAX_REQUESTS_PER_RUN = 100
+MAX_REQUEST_ATTEMPTS = 4
+RETRYABLE_STATUS_CODES = {500, 502, 503, 504}
+
+
+class QuotaReached(RuntimeError):
+    """Stop this snapshot without failing the rest of the scheduled workflow."""
+
+
+@dataclass
+class RequestBudget:
+    """Bound HTTP attempts and honor a smaller provider-reported allowance."""
+
+    remaining: int = MAX_REQUESTS_PER_RUN
+
+    def consume(self) -> None:
+        if self.remaining <= 0:
+            raise QuotaReached("Odds-API.io request budget exhausted; try again next scheduled run")
+        self.remaining -= 1
+
+    def update(self, response: requests.Response) -> None:
+        # This also accounts for other clients/runs sharing the same API key.
+        value = response.headers.get("X-RateLimit-Remaining")
+        try:
+            remaining = int(value)
+        except (TypeError, ValueError):
+            return
+        self.remaining = min(self.remaining, max(0, remaining))
 
 
 def _records(payload: object, label: str) -> list[dict[str, Any]]:
@@ -40,8 +70,37 @@ def _records(payload: object, label: str) -> list[dict[str, Any]]:
     return [record for record in records if isinstance(record, dict)]
 
 
-def _get_json(session: requests.Session, base_url: str, path: str, params: dict[str, object]) -> object:
-    response = session.get(f"{base_url}/{path.lstrip('/')}", params=params, timeout=30)
+def _get_json(
+    session: requests.Session,
+    base_url: str,
+    path: str,
+    params: dict[str, object],
+    budget: RequestBudget | None = None,
+) -> object:
+    budget = budget if budget is not None else RequestBudget()
+    for attempt in range(MAX_REQUEST_ATTEMPTS):
+        budget.consume()
+        try:
+            response = session.get(f"{base_url}/{path.lstrip('/')}", params=params, timeout=30)
+        except (requests.Timeout, requests.ConnectionError):
+            # Requests exceptions can include the URL and its API key.
+            if attempt == MAX_REQUEST_ATTEMPTS - 1 or budget.remaining <= 0:
+                raise RuntimeError(f"Odds-API.io {path} request failed after a network error") from None
+            reason = "a network error"
+        else:
+            budget.update(response)
+            if (
+                response.status_code not in RETRYABLE_STATUS_CODES
+                or attempt == MAX_REQUEST_ATTEMPTS - 1
+                or budget.remaining <= 0
+            ):
+                break
+            reason = f"HTTP {response.status_code}"
+            response.close()
+        delay = 2 ** (attempt + 1)
+        print(f"Odds-API.io {path} returned {reason}; retrying in {delay}s.")
+        time.sleep(delay)
+
     if not response.ok:
         # Do not include the request URL in errors: it contains the API key.
         detail = ""
@@ -53,7 +112,11 @@ def _get_json(session: requests.Session, base_url: str, path: str, params: dict[
             pass
         detail = detail.replace(str(params.get("apiKey", "")), "[redacted]")
         suffix = f": {detail}" if detail else ""
-        raise RuntimeError(f"Odds-API.io {path} request failed with HTTP {response.status_code}{suffix}")
+        message = f"Odds-API.io {path} request failed with HTTP {response.status_code}{suffix}"
+        if response.status_code == 429:
+            budget.remaining = 0
+            raise QuotaReached(message)
+        raise RuntimeError(message)
     try:
         return response.json()
     except ValueError as exc:
@@ -267,62 +330,75 @@ def main() -> None:
         base_url = base_url[: -len("/odds")]
     bookmakers_setting = os.getenv("ODDS_API_IO_BOOKMAKERS", "").strip()
     # The free API plan allows 100 requests per hour. Leave room for the
-    # events and selected-bookmakers calls, and rotate pages on the four
+    # events and selected-bookmakers calls plus retries, and rotate pages on the four
     # six-hourly scheduled runs so later events are covered too.
     schedule_slot = datetime.now(timezone.utc).hour // 6
     event_offset = schedule_slot * EVENTS_PER_RUN
-    with requests.Session() as session:
-        events_payload = _get_json(
-            session,
-            base_url,
-            "/events",
-            {
-                "apiKey": key,
-                "sport": "table-tennis",
-                "limit": EVENTS_PER_RUN,
-                "skip": event_offset,
-            },
-        )
-        events = _records(events_payload, "events")
-        if not events:
-            print("No upcoming table-tennis events found; no odds snapshots to archive.")
-            return
-        print(
-            f"Fetched {len(events)} events from offset {event_offset}; "
-            f"odds requests capped at {MAX_ODDS_BATCHES_PER_RUN} batches per run."
-        )
-
-        if bookmakers_setting:
-            bookmakers = [name.strip() for name in bookmakers_setting.split(",") if name.strip()]
-        else:
-            selected_payload = _get_json(
+    budget = RequestBudget()
+    observed_at = datetime.now(timezone.utc).isoformat()
+    odds_events: list[dict[str, Any]] = []
+    try:
+        with requests.Session() as session:
+            events_payload = _get_json(
                 session,
                 base_url,
-                "/bookmakers/selected",
-                {"apiKey": key},
-            )
-            bookmakers = _selected_bookmakers(selected_payload)
-        if not bookmakers:
-            raise RuntimeError(
-                "No Odds-API.io bookmakers are selected; set ODDS_API_IO_BOOKMAKERS or select bookmakers for this API key"
-            )
-
-        event_ids = [str(event.get("id")) for event in events if event.get("id") is not None]
-        observed_at = datetime.now(timezone.utc).isoformat()
-        odds_events: list[dict[str, Any]] = []
-        for start in range(0, len(event_ids), EVENT_BATCH_SIZE):
-            batch = event_ids[start : start + EVENT_BATCH_SIZE]
-            odds_payload = _get_json(
-                session,
-                base_url,
-                "/odds/multi",
+                "/events",
                 {
                     "apiKey": key,
-                    "eventIds": ",".join(batch),
-                    "bookmakers": ",".join(bookmakers),
+                    "sport": "table-tennis",
+                    "limit": EVENTS_PER_RUN,
+                    "skip": event_offset,
                 },
+                budget=budget,
             )
-            odds_events.extend(_records(odds_payload, "multi-odds"))
+            events = _records(events_payload, "events")
+            if not events:
+                print("No upcoming table-tennis events found; no odds snapshots to archive.")
+                return
+            print(
+                f"Fetched {len(events)} events from offset {event_offset}; "
+                f"odds requests capped at {MAX_ODDS_BATCHES_PER_RUN} batches per run."
+            )
+
+            if bookmakers_setting:
+                bookmakers = [name.strip() for name in bookmakers_setting.split(",") if name.strip()]
+            else:
+                selected_payload = _get_json(
+                    session,
+                    base_url,
+                    "/bookmakers/selected",
+                    {"apiKey": key},
+                    budget=budget,
+                )
+                bookmakers = _selected_bookmakers(selected_payload)
+            if not bookmakers:
+                raise RuntimeError(
+                    "No Odds-API.io bookmakers are selected; set ODDS_API_IO_BOOKMAKERS or select bookmakers for this API key"
+                )
+
+            event_ids = [str(event.get("id")) for event in events if event.get("id") is not None][:EVENTS_PER_RUN]
+            for start in range(0, len(event_ids), EVENT_BATCH_SIZE):
+                batch = event_ids[start : start + EVENT_BATCH_SIZE]
+                odds_payload = _get_json(
+                    session,
+                    base_url,
+                    "/odds/multi",
+                    {
+                        "apiKey": key,
+                        "eventIds": ",".join(batch),
+                        "bookmakers": ",".join(bookmakers),
+                    },
+                    budget=budget,
+                )
+                odds_events.extend(_records(odds_payload, "multi-odds"))
+
+    except QuotaReached as exc:
+        # Return normally so Actions can publish completed batches and run rankings.
+        message = " ".join(str(exc).split())
+        print(f"Warning: {message}. Remaining odds deferred to the next scheduled run.")
+        if os.getenv("GITHUB_ACTIONS") == "true":
+            message = message.replace("%", "%25")
+            print(f"::warning::{message}. Odds sync incomplete; completed batches will be archived.")
 
     rows = normalize(odds_events, observed_at)
     inserted = append_odds(rows)
