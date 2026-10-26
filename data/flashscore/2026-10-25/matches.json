@@ -1,0 +1,370 @@
+{
+  "date": "2026-10-25",
+  "match_count": 12,
+  "matches": [
+    {
+      "match_id": "A7hshgZj",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Li T.",
+      "away_player": "Kuo G.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-25 08:00:00",
+      "home_ranking": "52",
+      "away_ranking": "218",
+      "home_slug": "li-tianyang",
+      "away_slug": "kuo-guan-hong",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "YylmCZsK",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Wen R.",
+      "away_player": "Harimoto T.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-25 08:00:00",
+      "home_ranking": "52",
+      "away_ranking": "100",
+      "home_slug": "wen-ruibo",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "GUWq7UmA",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Li T.",
+      "away_player": "Harimoto T.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-25 13:00:00",
+      "home_ranking": "52",
+      "away_ranking": "100",
+      "home_slug": "li-tianyang",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ns7m3Jsh",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Chen Y.",
+      "away_player": "Wang Yidi",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-25 06:30:00",
+      "home_ranking": "52",
+      "away_ranking": "52",
+      "home_slug": "chen-yi",
+      "away_slug": "wang-yidi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "StC9Y7x1",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Harimoto M.",
+      "away_player": "Kuai M.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-25 07:00:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "kuai-man",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "zcMwiIcC",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Harimoto M.",
+      "away_player": "Chen Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-25 12:00:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "chen-yi",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "hUzmeC4S",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Wong Chun Ting/Chan B. H. W.",
+      "away_player": "Wen R./Yuan L.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-25 05:45:00",
+      "home_ranking": "222",
+      "away_ranking": "52",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "wen-ruibo",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "p4XvcYZF",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Lin S./Huang Y.",
+      "away_player": "Pang Y. E. K./Quek I.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-25 06:00:00",
+      "home_ranking": "52",
+      "away_ranking": "170",
+      "home_slug": "lin-shidong",
+      "away_slug": "pang-yew-en-koen",
+      "sets": [
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "hzhATNal",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Lin S./Huang Y.",
+      "away_player": "Wen R./Yuan L.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-25 11:00:00",
+      "home_ranking": "52",
+      "away_ranking": "52",
+      "home_slug": "lin-shidong",
+      "away_slug": "wen-ruibo",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "ERNwYQ0m",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Harimoto M./Hayata H.",
+      "away_player": "Chen Y./Jiang Y.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-25 05:00:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "chen-yi",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "16",
+          "away": "18"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "jkpMFqoJ",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Odo S./Nagasaki M.",
+      "away_player": "Kuai M./Wang Yidi",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-25 05:00:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "odo-satsuki",
+      "away_slug": "kuai-man",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "4dlXz67E",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Harimoto M./Hayata H.",
+      "away_player": "Kuai M./Wang Yidi",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-25 10:30:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "kuai-man",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    }
+  ]
+}

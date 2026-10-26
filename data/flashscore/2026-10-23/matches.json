@@ -1,0 +1,2557 @@
+{
+  "date": "2026-10-23",
+  "match_count": 87,
+  "matches": [
+    {
+      "match_id": "jmT1NwxI",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Abdukodirov A.",
+      "away_player": "Kurmangaliyev A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 05:45:00",
+      "home_ranking": "184",
+      "away_ranking": "102",
+      "home_slug": "abdukodirov-abdullo",
+      "away_slug": "kurmangaliyev-alan",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "tMVMA0hC",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Alamiyan N.",
+      "away_player": "Zikri T.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 05:45:00",
+      "home_ranking": "94",
+      "away_ranking": "228",
+      "home_slug": "alamiyan-noshad",
+      "away_slug": "zikri-taufiq",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "W8msbN86",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Hung J.-K.",
+      "away_player": "Allanazarov D.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 05:45:00",
+      "home_ranking": "218",
+      "away_ranking": "192",
+      "home_slug": "hung-jing-kai",
+      "away_slug": "allanazarov-dortguly",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "GAdUHpce",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Prasongpol N.",
+      "away_player": "Ginige C.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 05:45:00",
+      "home_ranking": "186",
+      "away_ranking": "177",
+      "home_slug": "prasongpol-nawachet",
+      "away_slug": "ginige-chameera",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "fRf2opP0",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Thakkar M. V.",
+      "away_player": "Junindra M.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-23 05:45:00",
+      "home_ranking": "93",
+      "away_ranking": "228",
+      "home_slug": "thakkar-manav-vikash",
+      "away_slug": "junindra-muhammad",
+      "sets": [
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "SxUU8vNO",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Yiu K. T.",
+      "away_player": "Choong J.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 05:45:00",
+      "home_ranking": "222",
+      "away_ranking": "121",
+      "home_slug": "yiu-kwan-to",
+      "away_slug": "choong-javen",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "f38ZywiB",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Zhubanov S.",
+      "away_player": "Pang Y. E. K.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 05:45:00",
+      "home_ranking": "102",
+      "away_ranking": "170",
+      "home_slug": "zhubanov-sanzhar",
+      "away_slug": "pang-yew-en-koen",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "UawyK4VP",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Akhmedov K.",
+      "away_player": "Xiang P.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 05:50:00",
+      "home_ranking": "202",
+      "away_ranking": "52",
+      "home_slug": "akhmedov-khurshid",
+      "away_slug": "xiang-peng",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "jVoR159s",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Lim Yunoh",
+      "away_player": "Kuo G.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-23 05:55:00",
+      "home_ranking": "106",
+      "away_ranking": "218",
+      "home_slug": "lim-yunoh",
+      "away_slug": "kuo-guan-hong",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "O0R9LH6U",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Al-Najadat T. A.",
+      "away_player": "Tanaka Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 06:15:00",
+      "home_ranking": "101",
+      "away_ranking": "100",
+      "home_slug": "al-najadat-taqi-al-din",
+      "away_slug": "tanaka-yuta",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "0rU6Ergm",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Bawm R.",
+      "away_player": "Lam Siu Hang",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 06:15:00",
+      "home_ranking": "29",
+      "away_ranking": "222",
+      "home_slug": "bawm-ramhimlian",
+      "away_slug": "lam-siu-hang",
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "vgV6JUzp",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Buyan T.",
+      "away_player": "Park G.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 06:15:00",
+      "home_ranking": "132",
+      "away_ranking": "106",
+      "home_slug": "buyan-tarvachinbo",
+      "away_slug": "park-gyuhyeon",
+      "sets": [
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "x6jkd1wJ",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Chew Zhe C.",
+      "away_player": "Abuhamda S. M. A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 06:15:00",
+      "home_ranking": "170",
+      "away_ranking": "28",
+      "home_slug": "chew-zhe-yu-clarence",
+      "away_slug": "abuhamda-salman-mohamed-a",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "rBZSqXmd",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Huang Y.",
+      "away_player": "Hameed A.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 06:15:00",
+      "home_ranking": "52",
+      "away_ranking": "95",
+      "home_slug": "huang-youzheng",
+      "away_slug": "hameed-anwer",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        }
+      ]
+    },
+    {
+      "match_id": "SvgAqOgD",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Misal J. R.",
+      "away_player": "Li T.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 06:15:00",
+      "home_ranking": "153",
+      "away_ranking": "52",
+      "home_slug": "misal-john-russel",
+      "away_slug": "li-tianyang",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "jshOwSJE",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Sagyndykov T.",
+      "away_player": "Gerassimenko K.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 06:15:00",
+      "home_ranking": "108",
+      "away_ranking": "102",
+      "home_slug": "sagyndykov-talgat",
+      "away_slug": "gerassimenko-kirill",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Knee7RoK",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Wen R.",
+      "away_player": "Wong Q. S.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 06:25:00",
+      "home_ranking": "52",
+      "away_ranking": "121",
+      "home_slug": "wen-ruibo",
+      "away_slug": "wong-qi-shen",
+      "sets": [
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "MkARwaMb",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Toliev M.",
+      "away_player": "Shinozuka H.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 06:30:00",
+      "home_ranking": "202",
+      "away_ranking": "100",
+      "home_slug": "toliev-musobek",
+      "away_slug": "shinozuka-hiroto",
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "nwP8wjSF",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Park G.",
+      "away_player": "Abdulwahhab M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 06:35:00",
+      "home_ranking": "106",
+      "away_ranking": "156",
+      "home_slug": "park-ganghyeon",
+      "away_slug": "abdulwahhab-mohammed",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "nJYEH85d",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Quek I.",
+      "away_player": "Sanguansin P.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 06:35:00",
+      "home_ranking": "170",
+      "away_ranking": "186",
+      "home_slug": "quek-izaac",
+      "away_slug": "sanguansin-phakpoom",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "jF7nRLxg",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Yap R. Z.",
+      "away_player": "Zhou Q.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 06:35:00",
+      "home_ranking": "121",
+      "away_ranking": "52",
+      "home_slug": "yap-rui-zhe",
+      "away_slug": "zhou-qihao",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "EP6JuLin",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Faraji B.",
+      "away_player": "Almusayebi M.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 06:40:00",
+      "home_ranking": "94",
+      "away_ranking": "196",
+      "home_slug": "faraji-benyamin",
+      "away_slug": "almusayebi-mohammed",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "YTy2WqCl",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Negara M.",
+      "away_player": "Chan B. H. W.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 06:40:00",
+      "home_ranking": "228",
+      "away_ranking": "222",
+      "home_slug": "negara-muhammad",
+      "away_slug": "chan-baldwin-ho-wah",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "I19vTs8t",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Kang D.",
+      "away_player": "Rashed R. K. R.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 06:45:00",
+      "home_ranking": "106",
+      "away_ranking": "28",
+      "home_slug": "kang-dongsoo",
+      "away_slug": "rashed-rashed-khaled-rashed",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "zoWKogJq",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Myandal T.",
+      "away_player": "Desai H.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 06:45:00",
+      "home_ranking": "132",
+      "away_ranking": "93",
+      "home_slug": "myandal-temuulen",
+      "away_slug": "desai-harmeet",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8lRE7zt3",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Abdulwahhab A.",
+      "away_player": "Chua J. S. H.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-23 07:00:00",
+      "home_ranking": "156",
+      "away_ranking": "170",
+      "home_slug": "abdulwahhab-abdullah",
+      "away_slug": "chua-josh-shao-han",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        }
+      ]
+    },
+    {
+      "match_id": "buBfPa75",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Pratama A.",
+      "away_player": "Hsu H.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 07:00:00",
+      "home_ranking": "228",
+      "away_ranking": "218",
+      "home_slug": "pratama-affan",
+      "away_slug": "hsu-hsien-chia",
+      "sets": [
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "OrpZaqvf",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Feng Y.-H.",
+      "away_player": "Kenzhigulov A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 07:10:00",
+      "home_ranking": "218",
+      "away_ranking": "102",
+      "home_slug": "feng-yi-hsin",
+      "away_slug": "kenzhigulov-aidos",
+      "sets": [
+        {
+          "home": "11",
+          "away": "1"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "t2PM5EAF",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Wong Chun Ting",
+      "away_player": "Alhadad A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 07:20:00",
+      "home_ranking": "222",
+      "away_ranking": "107",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "alhadad-abdullah",
+      "sets": [
+        {
+          "home": "11",
+          "away": "0"
+        },
+        {
+          "home": "11",
+          "away": "0"
+        },
+        {
+          "home": "11",
+          "away": "0"
+        }
+      ]
+    },
+    {
+      "match_id": "n1ifm6fl",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Kim M.",
+      "away_player": "Allanazarov Y.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 07:45:00",
+      "home_ranking": "106",
+      "away_ranking": "192",
+      "home_slug": "kim-minhyeok",
+      "away_slug": "allanazarov-ylyas",
+      "sets": [
+        {
+          "home": "11",
+          "away": "0"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "vDL0uCc3",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Kwan M. H.",
+      "away_player": "Harimoto T.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 07:45:00",
+      "home_ranking": "222",
+      "away_ranking": "100",
+      "home_slug": "kwan-man-ho",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "88XECMNa",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Matsushima S.",
+      "away_player": "Silva S.",
+      "score_home": "",
+      "score_away": "",
+      "time": "2026-10-23 07:45:00",
+      "home_ranking": "100",
+      "away_ranking": "177",
+      "home_slug": "matsushima-sora",
+      "away_slug": "silva-senura",
+      "sets": []
+    },
+    {
+      "match_id": "hzMtXhWP",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Prasongpol N.",
+      "away_player": "Kurmangaliyev A.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 13:15:00",
+      "home_ranking": "186",
+      "away_ranking": "102",
+      "home_slug": "prasongpol-nawachet",
+      "away_slug": "kurmangaliyev-alan",
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "r1OYw1qA",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Thakkar M. V.",
+      "away_player": "Pang Y. E. K.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 13:15:00",
+      "home_ranking": "93",
+      "away_ranking": "170",
+      "home_slug": "thakkar-manav-vikash",
+      "away_slug": "pang-yew-en-koen",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "lE5iM5hl",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Wong Chun Ting",
+      "away_player": "Chua J. S. H.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 13:20:00",
+      "home_ranking": "222",
+      "away_ranking": "170",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "chua-josh-shao-han",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "2"
+        }
+      ]
+    },
+    {
+      "match_id": "MoxP6BzB",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Huang Y.",
+      "away_player": "Desai H.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-23 13:20:16",
+      "home_ranking": "52",
+      "away_ranking": "93",
+      "home_slug": "huang-youzheng",
+      "away_slug": "desai-harmeet",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "8OV8Agyn",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Kang D.",
+      "away_player": "Zhou Q.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 13:30:00",
+      "home_ranking": "106",
+      "away_ranking": "52",
+      "home_slug": "kang-dongsoo",
+      "away_slug": "zhou-qihao",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "zmLywzH6",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Feng Y.-H.",
+      "away_player": "Tanaka Y.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-23 13:45:08",
+      "home_ranking": "218",
+      "away_ranking": "100",
+      "home_slug": "feng-yi-hsin",
+      "away_slug": "tanaka-yuta",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "tEPJPAOa",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Alamiyan N.",
+      "away_player": "Kuo G.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 13:50:00",
+      "home_ranking": "94",
+      "away_ranking": "218",
+      "home_slug": "alamiyan-noshad",
+      "away_slug": "kuo-guan-hong",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "QTTf9kvJ",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Hung J.-K.",
+      "away_player": "Xiang P.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-23 13:50:00",
+      "home_ranking": "218",
+      "away_ranking": "52",
+      "home_slug": "hung-jing-kai",
+      "away_slug": "xiang-peng",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "WfQJ76we",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Park G.",
+      "away_player": "Pratama A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 13:55:00",
+      "home_ranking": "106",
+      "away_ranking": "228",
+      "home_slug": "park-ganghyeon",
+      "away_slug": "pratama-affan",
+      "sets": [
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "vuKLRRUQ",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Silva S.",
+      "away_player": "Park G.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 14:00:00",
+      "home_ranking": "177",
+      "away_ranking": "106",
+      "home_slug": "silva-senura",
+      "away_slug": "park-gyuhyeon",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "vLTR5p87",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Yiu K. T.",
+      "away_player": "Li T.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 14:00:00",
+      "home_ranking": "222",
+      "away_ranking": "52",
+      "home_slug": "yiu-kwan-to",
+      "away_slug": "li-tianyang",
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "IihTcGit",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Chew Zhe C.",
+      "away_player": "Gerassimenko K.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 14:00:57",
+      "home_ranking": "170",
+      "away_ranking": "102",
+      "home_slug": "chew-zhe-yu-clarence",
+      "away_slug": "gerassimenko-kirill",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "bVgqfYj5",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Faraji B.",
+      "away_player": "Shinozuka H.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 14:20:04",
+      "home_ranking": "94",
+      "away_ranking": "100",
+      "home_slug": "faraji-benyamin",
+      "away_slug": "shinozuka-hiroto",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "SMHTvdnf",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Quek I.",
+      "away_player": "Chan B. H. W.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 14:30:12",
+      "home_ranking": "170",
+      "away_ranking": "222",
+      "home_slug": "quek-izaac",
+      "away_slug": "chan-baldwin-ho-wah",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "fazX4k5N",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Wen R.",
+      "away_player": "Lam Siu Hang",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-23 14:30:53",
+      "home_ranking": "52",
+      "away_ranking": "222",
+      "home_slug": "wen-ruibo",
+      "away_slug": "lam-siu-hang",
+      "sets": [
+        {
+          "home": "14",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "MuLlAEHq",
+      "tournament": "OTHERS - MEN: Asian Championships (Asia)",
+      "home_player": "Kim M.",
+      "away_player": "Harimoto T.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 14:55:19",
+      "home_ranking": "106",
+      "away_ranking": "100",
+      "home_slug": "kim-minhyeok",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "hzSGyUdS",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Hashimoto H.",
+      "away_player": "Tan Z. Y.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 12:15:00",
+      "home_ranking": "100",
+      "away_ranking": "170",
+      "home_slug": "hashimoto-honoka",
+      "away_slug": "tan-zhao-yun",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "1"
+        }
+      ]
+    },
+    {
+      "match_id": "hz8Jp7Zr",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Lyne K.",
+      "away_player": "Zeng J.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-23 12:15:00",
+      "home_ranking": "121",
+      "away_ranking": "170",
+      "home_slug": "lyne-karen",
+      "away_slug": "zeng-jian",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "C0Wb1EyK",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Paranang O.",
+      "away_player": "Wu Y.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 12:15:00",
+      "home_ranking": "186",
+      "away_ranking": "218",
+      "home_slug": "paranang-orawan",
+      "away_slug": "wu-ying-syuan",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "0K1L4SQE",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Peng Y.",
+      "away_player": "Das S.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 12:15:00",
+      "home_ranking": "218",
+      "away_ranking": "93",
+      "home_slug": "peng-yu-han",
+      "away_slug": "das-syndrela",
+      "sets": [
+        {
+          "home": "15",
+          "away": "17"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "l6DnW7Kk",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Tee A. X.",
+      "away_player": "Kuai M.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-23 12:25:00",
+      "home_ranking": "121",
+      "away_ranking": "52",
+      "home_slug": "tee-ai-xin",
+      "away_slug": "kuai-man",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "MZHUehas",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Lee D.",
+      "away_player": "Shi X.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-23 12:30:00",
+      "home_ranking": "106",
+      "away_ranking": "52",
+      "home_slug": "lee-daeun",
+      "away_slug": "shi-xunyao",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "IwcFg2ID",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Park G.",
+      "away_player": "Doo H. K.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-23 12:30:00",
+      "home_ranking": "106",
+      "away_ranking": "222",
+      "home_slug": "park-gahyeon",
+      "away_slug": "doo-hoi-kem",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
+    },
+    {
+      "match_id": "YD9ZtPY7",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Harimoto M.",
+      "away_player": "Ng W. L.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 12:40:00",
+      "home_ranking": "100",
+      "away_ranking": "222",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "ng-wing-lam",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "0"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "00BRro4e",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Hayata H.",
+      "away_player": "Ghosh S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 12:50:00",
+      "home_ranking": "100",
+      "away_ranking": "93",
+      "home_slug": "hayata-hina",
+      "away_slug": "ghosh-swastika",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
+    },
+    {
+      "match_id": "UaLxfWTg",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Yeh Y.",
+      "away_player": "Lee Z.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 12:50:00",
+      "home_ranking": "218",
+      "away_ranking": "106",
+      "home_slug": "yeh-yi-tian",
+      "away_slug": "lee-zion",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Ox9thks9",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Chang L. S. A.",
+      "away_player": "Lee E.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 12:55:00",
+      "home_ranking": "121",
+      "away_ranking": "106",
+      "home_slug": "chang-li-sian-alice",
+      "away_slug": "lee-eunhye",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "dj7ljTBL",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Ashtari M.",
+      "away_player": "Wang Yidi",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 13:00:00",
+      "home_ranking": "94",
+      "away_ranking": "52",
+      "home_slug": "ashtari-mahshid",
+      "away_slug": "wang-yidi",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "2mjacpJl",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Qin Y.",
+      "away_player": "Loy M. Y.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 13:15:00",
+      "home_ranking": "52",
+      "away_ranking": "170",
+      "home_slug": "qin-yuxuan",
+      "away_slug": "loy-ming-ying",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "6H4T26eR",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Su T. T.",
+      "away_player": "Nagasaki M.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 13:15:00",
+      "home_ranking": "222",
+      "away_ranking": "100",
+      "home_slug": "su-tsz-tung",
+      "away_slug": "nagasaki-miyu",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "dWGfUok2",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Chien T.",
+      "away_player": "Chen Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 13:20:00",
+      "home_ranking": "218",
+      "away_ranking": "52",
+      "home_slug": "chien-tung-chuan",
+      "away_slug": "chen-yi",
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "ADg7eOm1",
+      "tournament": "OTHERS - WOMEN: Asian Championships (Asia)",
+      "home_player": "Odo S.",
+      "away_player": "Chen S-Y.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 15:55:00",
+      "home_ranking": "100",
+      "away_ranking": "218",
+      "home_slug": "odo-satsuki",
+      "away_slug": "chen-szu-yu",
+      "sets": []
+    },
+    {
+      "match_id": "fyIMe0u0",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Kim M./Park G.",
+      "away_player": "Wen R./Yuan L.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 11:40:00",
+      "home_ranking": "106",
+      "away_ranking": "52",
+      "home_slug": "kim-minhyeok",
+      "away_slug": "wen-ruibo",
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Ymr2yWgo",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Feng Y.-H./Kuo G.",
+      "away_player": "Wong Q. S./Choong J.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 11:45:00",
+      "home_ranking": "218",
+      "away_ranking": "121",
+      "home_slug": "feng-yi-hsin",
+      "away_slug": "wong-qi-shen",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "lbR9wvsT",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Jain P./Thakkar M. V.",
+      "away_player": "Chew Zhe C./Chua J. S. H.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 11:45:00",
+      "home_ranking": "93",
+      "away_ranking": "170",
+      "home_slug": "jain-payas",
+      "away_slug": "chew-zhe-yu-clarence",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "tYN1u0CG",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Wong Chun Ting/Chan B. H. W.",
+      "away_player": "Alkhadrawi A./Bu Shulaybi A.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 11:50:00",
+      "home_ranking": "222",
+      "away_ranking": "165",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "alkhadrawi-ali",
+      "sets": [
+        {
+          "home": "11",
+          "away": "5"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "Y7KgsMs4",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Misal J. R./Nayre J. M.",
+      "away_player": "Ghaffari A./Faraji B.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 11:50:00",
+      "home_ranking": "153",
+      "away_ranking": "94",
+      "home_slug": "misal-john-russel",
+      "away_slug": "ghaffari-aryan",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "0fMoqrDi",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Alamian N./Alamiyan N.",
+      "away_player": "Pang Y. E. K./Quek I.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 11:55:00",
+      "home_ranking": "94",
+      "away_ranking": "170",
+      "home_slug": "alamian-nima",
+      "away_slug": "pang-yew-en-koen",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "SlGUgvAC",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Gerassimenko K./Kurmangaliyev A.",
+      "away_player": "Harimoto T./Shinozuka H.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 11:55:00",
+      "home_ranking": "102",
+      "away_ranking": "100",
+      "home_slug": "gerassimenko-kirill",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        }
+      ]
+    },
+    {
+      "match_id": "pUCuYH4j",
+      "tournament": "OTHERS - DOUBLES MEN: Asian Championships (Asia)",
+      "home_player": "Lin S./Huang Y.",
+      "away_player": "Lam Siu Hang/Yiu K. T.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 12:05:00",
+      "home_ranking": "52",
+      "away_ranking": "222",
+      "home_slug": "lin-shidong",
+      "away_slug": "lam-siu-hang",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "fF0E6xBF",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Harimoto M./Hayata H.",
+      "away_player": "Lai C./Tan Z. Y.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 11:15:00",
+      "home_ranking": "100",
+      "away_ranking": "170",
+      "home_slug": "harimoto-miwa",
+      "away_slug": "lai-chloe",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "nkc68bt3",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Cruz K./Laude A. J.",
+      "away_player": "Kuai M./Wang Yidi",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 11:15:00",
+      "home_ranking": "153",
+      "away_ranking": "52",
+      "home_slug": "cruz-kheith",
+      "away_slug": "kuai-man",
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "1",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "bBkhaf3k",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Odo S./Nagasaki M.",
+      "away_player": "Kong T. L./Su T. T.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 11:15:00",
+      "home_ranking": "100",
+      "away_ranking": "222",
+      "home_slug": "odo-satsuki",
+      "away_slug": "kong-tsz-lam",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "p2IYgaR9",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Chen S-Y./Wu Y.",
+      "away_player": "Loy M. Y./Ser Lin Qian",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-23 11:15:00",
+      "home_ranking": "218",
+      "away_ranking": "170",
+      "home_slug": "chen-szu-yu",
+      "away_slug": "loy-ming-ying",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "14"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "lb7CnHJq",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Lee Z./Yoo S.",
+      "away_player": "Ghorpade Y./Ghosh S.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 11:15:00",
+      "home_ranking": "106",
+      "away_ranking": "93",
+      "home_slug": "lee-zion",
+      "away_slug": "ghorpade-yashaswini",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "feAKpeld",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Chen Y./Jiang Y.",
+      "away_player": "Chien T./Peng Y.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-10-23 11:20:00",
+      "home_ranking": "52",
+      "away_ranking": "218",
+      "home_slug": "chen-yi",
+      "away_slug": "chien-tung-chuan",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "2u4M4GuS",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Paranang O./Sawettabut S.",
+      "away_player": "Lee D./Park G.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-23 11:20:00",
+      "home_ranking": "186",
+      "away_ranking": "106",
+      "home_slug": "paranang-orawan",
+      "away_slug": "lee-daeun",
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "IFGthwdM",
+      "tournament": "OTHERS - DOUBLES WOMEN: Asian Championships (Asia)",
+      "home_player": "Lyne K./Tee A. X.",
+      "away_player": "Doo H. K./Ng W. L.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-10-23 11:30:00",
+      "home_ranking": "121",
+      "away_ranking": "222",
+      "home_slug": "lyne-karen",
+      "away_slug": "doo-hoi-kem",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "faOkf4BO",
+      "tournament": "OTHERS - MIXED DOUBLES: Asian Championships (Asia)",
+      "home_player": "Jain P./Das S.",
+      "away_player": "Huang Y./Chen Y.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 05:00:00",
+      "home_ranking": "93",
+      "away_ranking": "52",
+      "home_slug": "jain-payas",
+      "away_slug": "huang-youzheng",
+      "sets": [
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Wb8N83QH",
+      "tournament": "OTHERS - MIXED DOUBLES: Asian Championships (Asia)",
+      "home_player": "Wong Chun Ting/Doo H. K.",
+      "away_player": "Park G./Park G.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 05:00:00",
+      "home_ranking": "222",
+      "away_ranking": "106",
+      "home_slug": "wong-chun-ting",
+      "away_slug": "park-gyuhyeon",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "OY4FAPe5",
+      "tournament": "OTHERS - MIXED DOUBLES: Asian Championships (Asia)",
+      "home_player": "Desai H./Ghorpade Y.",
+      "away_player": "Park G./Lee D.",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-10-23 05:00:00",
+      "home_ranking": "93",
+      "away_ranking": "106",
+      "home_slug": "desai-harmeet",
+      "away_slug": "park-ganghyeon",
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "jL67CoRh",
+      "tournament": "OTHERS - MIXED DOUBLES: Asian Championships (Asia)",
+      "home_player": "Yuan L./Wang Yidi",
+      "away_player": "Matsushima S./Harimoto M.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-23 05:00:00",
+      "home_ranking": "52",
+      "away_ranking": "100",
+      "home_slug": "yuan-licen",
+      "away_slug": "matsushima-sora",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "htgNCfAU",
+      "tournament": "OTHERS - MIXED DOUBLES: Asian Championships (Asia)",
+      "home_player": "Desai H./Ghorpade Y.",
+      "away_player": "Matsushima S./Harimoto M.",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-10-23 07:50:20",
+      "home_ranking": "93",
+      "away_ranking": "100",
+      "home_slug": "desai-harmeet",
+      "away_slug": "matsushima-sora",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "8IxkRJ5s",
+      "tournament": "OTHERS - MIXED DOUBLES: Asian Championships (Asia)",
+      "home_player": "Park G./Park G.",
+      "away_player": "Huang Y./Chen Y.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-10-23 07:50:20",
+      "home_ranking": "106",
+      "away_ranking": "52",
+      "home_slug": "park-gyuhyeon",
+      "away_slug": "huang-youzheng",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Q7jm4tjn",
+      "tournament": "OTHERS - MIXED DOUBLES: Asian Championships (Asia)",
+      "home_player": "Huang Y./Chen Y.",
+      "away_player": "Matsushima S./Harimoto M.",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-10-23 15:30:24",
+      "home_ranking": "52",
+      "away_ranking": "100",
+      "home_slug": "huang-youzheng",
+      "away_slug": "matsushima-sora",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
+    }
+  ]
+}
