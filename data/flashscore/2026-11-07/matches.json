@@ -1,0 +1,298 @@
+{
+  "date": "2026-11-07",
+  "match_count": 8,
+  "matches": [
+    {
+      "match_id": "YXBY5IYA",
+      "tournament": "OTHERS - MEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Lin Y.-J.",
+      "away_player": "Wen R.",
+      "score_home": "4",
+      "score_away": "0",
+      "time": "2026-11-07 13:25:00",
+      "home_ranking": "218",
+      "away_ranking": "52",
+      "home_slug": "lin-yun-ju",
+      "away_slug": "wen-ruibo",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
+    },
+    {
+      "match_id": "nuKCzUw2",
+      "tournament": "OTHERS - MEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Qiu D.",
+      "away_player": "Harimoto T.",
+      "score_home": "0",
+      "score_away": "4",
+      "time": "2026-11-07 15:20:00",
+      "home_ranking": "81",
+      "away_ranking": "100",
+      "home_slug": "qiu-dang",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "Y72GBdOF",
+      "tournament": "OTHERS - MEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Togami S.",
+      "away_player": "Verdonschot W.",
+      "score_home": "4",
+      "score_away": "2",
+      "time": "2026-11-07 18:45:00",
+      "home_ranking": "100",
+      "away_ranking": "81",
+      "home_slug": "togami-shunsuke",
+      "away_slug": "verdonschot-wim",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "G643RaKU",
+      "tournament": "OTHERS - MEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Matsushima S.",
+      "away_player": "Franziska P.",
+      "score_home": "2",
+      "score_away": "4",
+      "time": "2026-11-07 20:20:00",
+      "home_ranking": "100",
+      "away_ranking": "81",
+      "home_slug": "matsushima-sora",
+      "away_slug": "franziska-patrick",
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
+    },
+    {
+      "match_id": "fehsFVU7",
+      "tournament": "OTHERS - WOMEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Hayata H.",
+      "away_player": "Kuai M.",
+      "score_home": "4",
+      "score_away": "3",
+      "time": "2026-11-07 12:00:00",
+      "home_ranking": "100",
+      "away_ranking": "52",
+      "home_slug": "hayata-hina",
+      "away_slug": "kuai-man",
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
+    },
+    {
+      "match_id": "jii6KHm4",
+      "tournament": "OTHERS - WOMEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Chen X.",
+      "away_player": "Harimoto M.",
+      "score_home": "2",
+      "score_away": "4",
+      "time": "2026-11-07 14:15:00",
+      "home_ranking": "52",
+      "away_ranking": "100",
+      "home_slug": "chen-xingtong",
+      "away_slug": "harimoto-miwa",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "hbAE4HjK",
+      "tournament": "OTHERS - WOMEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Goda H.",
+      "away_player": "Odo S.",
+      "score_home": "2",
+      "score_away": "4",
+      "time": "2026-11-07 17:45:00",
+      "home_ranking": "69",
+      "away_ranking": "100",
+      "home_slug": "goda-hana",
+      "away_slug": "odo-satsuki",
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "h6zJYyqe",
+      "tournament": "OTHERS - WOMEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Winter S.",
+      "away_player": "Chen Y.",
+      "score_home": "4",
+      "score_away": "0",
+      "time": "2026-11-07 19:50:00",
+      "home_ranking": "81",
+      "away_ranking": "52",
+      "home_slug": "winter-sabine",
+      "away_slug": "chen-yi",
+      "sets": [
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    }
+  ]
+}

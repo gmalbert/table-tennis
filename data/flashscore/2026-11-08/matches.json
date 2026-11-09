@@ -1,0 +1,236 @@
+{
+  "date": "2026-11-08",
+  "match_count": 6,
+  "matches": [
+    {
+      "match_id": "lfq6A3Il",
+      "tournament": "OTHERS - MEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Lin Y.-J.",
+      "away_player": "Harimoto T.",
+      "score_home": "3",
+      "score_away": "4",
+      "time": "2026-11-08 12:05:00",
+      "home_ranking": "218",
+      "away_ranking": "100",
+      "home_slug": "lin-yun-ju",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "AXR2DFRa",
+      "tournament": "OTHERS - MEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Franziska P.",
+      "away_player": "Togami S.",
+      "score_home": "4",
+      "score_away": "2",
+      "time": "2026-11-08 13:20:00",
+      "home_ranking": "81",
+      "away_ranking": "100",
+      "home_slug": "franziska-patrick",
+      "away_slug": "togami-shunsuke",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
+    },
+    {
+      "match_id": "Q7CAChgJ",
+      "tournament": "OTHERS - MEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Franziska P.",
+      "away_player": "Harimoto T.",
+      "score_home": "2",
+      "score_away": "4",
+      "time": "2026-11-08 18:00:00",
+      "home_ranking": "81",
+      "away_ranking": "100",
+      "home_slug": "franziska-patrick",
+      "away_slug": "harimoto-tomokazu",
+      "sets": [
+        {
+          "home": "11",
+          "away": "2"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "CfaYe43e",
+      "tournament": "OTHERS - WOMEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Hayata H.",
+      "away_player": "Harimoto M.",
+      "score_home": "4",
+      "score_away": "1",
+      "time": "2026-11-08 10:05:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "hayata-hina",
+      "away_slug": "harimoto-miwa",
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
+    },
+    {
+      "match_id": "6NNPKcZP",
+      "tournament": "OTHERS - WOMEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Odo S.",
+      "away_player": "Winter S.",
+      "score_home": "4",
+      "score_away": "1",
+      "time": "2026-11-08 11:10:00",
+      "home_ranking": "100",
+      "away_ranking": "81",
+      "home_slug": "odo-satsuki",
+      "away_slug": "winter-sabine",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        }
+      ]
+    },
+    {
+      "match_id": "CtvZoYrn",
+      "tournament": "OTHERS - WOMEN: WTT Champions Frankfurt (Germany)",
+      "home_player": "Odo S.",
+      "away_player": "Hayata H.",
+      "score_home": "2",
+      "score_away": "4",
+      "time": "2026-11-08 16:40:00",
+      "home_ranking": "100",
+      "away_ranking": "100",
+      "home_slug": "odo-satsuki",
+      "away_slug": "hayata-hina",
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "3",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        }
+      ]
+    }
+  ]
+}
