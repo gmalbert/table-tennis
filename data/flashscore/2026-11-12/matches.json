@@ -1,14 +1,14 @@
 {
   "date": "2026-11-12",
-  "match_count": 60,
+  "match_count": 61,
   "matches": [
     {
       "match_id": "hGXzSoA4",
       "tournament": "TEAMS - MEN: Champions League (Europe) - Play Offs",
       "home_player": "Cergy",
       "away_player": "Dusseldorf",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-11-12 18:30:00",
       "home_ranking": "",
       "away_ranking": "",
@@ -270,56 +270,132 @@
       "tournament": "OTHERS - MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Iizuka L. K.",
       "away_player": "Ranefur E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 14:40:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-11-12 14:55:00",
       "home_ranking": "39",
       "away_ranking": "181",
       "home_slug": "iizuka-leonardo-kenzo",
       "away_slug": "ranefur-elias",
-      "sets": []
+      "sets": [
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        }
+      ]
     },
     {
       "match_id": "jR9rIIYp",
       "tournament": "OTHERS - MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Yuan L.",
       "away_player": "Poret T.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 14:50:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-11-12 15:00:00",
       "home_ranking": "52",
       "away_ranking": "77",
       "home_slug": "yuan-licen",
       "away_slug": "poret-thibault",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "dr3pxvQG",
       "tournament": "OTHERS - MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Tanaka Y.",
       "away_player": "Kang D.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 14:55:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-11-12 15:10:00",
       "home_ranking": "100",
       "away_ranking": "106",
       "home_slug": "tanaka-yuta",
       "away_slug": "kang-dongsoo",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "E37cRMBb",
       "tournament": "OTHERS - MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Gunduz I.",
       "away_player": "Thakkar M. V.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 15:15:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-11-12 15:25:00",
       "home_ranking": "191",
       "away_ranking": "93",
       "home_slug": "gunduz-ibrahim",
       "away_slug": "thakkar-manav-vikash",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "6w4kTrsn",
@@ -340,70 +416,155 @@
       "tournament": "OTHERS - MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Walther R.",
       "away_player": "Teodoro G.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 15:50:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-11-12 16:10:00",
       "home_ranking": "81",
       "away_ranking": "39",
       "home_slug": "walther-ricardo",
       "away_slug": "guilherme-teodoro",
-      "sets": []
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "4"
+        }
+      ]
     },
     {
       "match_id": "WvUKPxY9",
       "tournament": "OTHERS - MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Yilmaz T.",
       "away_player": "Haug B.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 16:05:34",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-11-12 16:25:34",
       "home_ranking": "191",
       "away_ranking": "145",
       "home_slug": "yilmaz-turgay",
       "away_slug": "haug-borgar",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "15"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "rLdUuMQi",
       "tournament": "OTHERS - MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Grebnev M.",
       "away_player": "Yigenler A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 16:25:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-11-12 17:00:00",
       "home_ranking": "158",
       "away_ranking": "191",
       "home_slug": "grebnev-maksim",
       "away_slug": "yigenler-abdullah",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "KrJCNvBN",
       "tournament": "OTHERS - MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Sareen A.",
       "away_player": "Tikhonov E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 16:35:00",
+      "score_home": "3",
+      "score_away": "2",
+      "time": "2026-11-12 17:20:00",
       "home_ranking": "24",
       "away_ranking": "158",
       "home_slug": "sareen-aditya",
       "away_slug": "tikhonov-evgeny",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "4"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "OnnSNG2M",
       "tournament": "OTHERS - MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Bertelsmeier A.",
       "away_player": "Huang Y.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 17:00:39",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-11-12 17:45:39",
       "home_ranking": "81",
       "away_ranking": "52",
       "home_slug": "bertelsmeier-andre",
       "away_slug": "huang-youzheng",
-      "sets": []
+      "sets": [
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "E1KhRjWh",
@@ -654,112 +815,248 @@
       "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Zarif A.",
       "away_player": "Harac E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 14:40:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-11-12 14:55:00",
       "home_ranking": "77",
       "away_ranking": "191",
       "home_slug": "zarif-audrey",
       "away_slug": "harac-ece",
-      "sets": []
-    },
-    {
-      "match_id": "AgHzSvpJ",
-      "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
-      "home_player": "Rahimi E.",
-      "away_player": "Joo Cheonhui",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 15:15:00",
-      "home_ranking": "94",
-      "away_ranking": "106",
-      "home_slug": "rahimi-elina",
-      "away_slug": "joo-cheonhui",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "4YcYwUFb",
       "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Kim N.",
       "away_player": "Takahashi B.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 15:25:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-11-12 15:45:00",
       "home_ranking": "106",
       "away_ranking": "39",
       "home_slug": "kim-nayeong",
       "away_slug": "takahashi-bruna",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "AgHzSvpJ",
+      "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
+      "home_player": "Rahimi E.",
+      "away_player": "Joo Cheonhui",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-11-12 15:45:00",
+      "home_ranking": "94",
+      "away_ranking": "106",
+      "home_slug": "rahimi-elina",
+      "away_slug": "joo-cheonhui",
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "tdKGLn0U",
       "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Yeh Y.",
       "away_player": "Hursey A.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 15:30:00",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-11-12 15:45:00",
       "home_ranking": "218",
       "away_ranking": "207",
       "home_slug": "yeh-yi-tian",
       "away_slug": "hursey-anna",
-      "sets": []
-    },
-    {
-      "match_id": "Cb1tx8pB",
-      "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
-      "home_player": "Szocs B.",
-      "away_player": "Samara E.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 15:50:00",
-      "home_ranking": "157",
-      "away_ranking": "157",
-      "home_slug": "szocs-bernadette",
-      "away_slug": "samara-elizabeta",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "EVJeF10D",
       "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Fan S.",
       "away_player": "Zong G.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 16:00:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-11-12 16:20:00",
       "home_ranking": "52",
       "away_ranking": "52",
       "home_slug": "fan-shuhan",
       "away_slug": "zong-geman",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
-      "match_id": "MRN0PU05",
+      "match_id": "Cb1tx8pB",
       "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
-      "home_player": "Qin Y.",
-      "away_player": "Moyland S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 16:25:00",
-      "home_ranking": "52",
-      "away_ranking": "200",
-      "home_slug": "qin-yuxuan",
-      "away_slug": "moyland-sally",
-      "sets": []
+      "home_player": "Szocs B.",
+      "away_player": "Samara E.",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-11-12 16:30:00",
+      "home_ranking": "157",
+      "away_ranking": "157",
+      "home_slug": "szocs-bernadette",
+      "away_slug": "samara-elizabeta",
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "5"
+        }
+      ]
     },
     {
       "match_id": "x09MkrxQ",
       "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Muramatsu C.",
       "away_player": "Polcanova S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 16:40:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-11-12 16:55:00",
       "home_ranking": "100",
       "away_ranking": "25",
       "home_slug": "muramatsu-cocona",
       "away_slug": "polcanova-sofia",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
+    },
+    {
+      "match_id": "MRN0PU05",
+      "tournament": "OTHERS - WOMEN: WTT Contender Istanbul (Turkey)",
+      "home_player": "Qin Y.",
+      "away_player": "Moyland S.",
+      "score_home": "3",
+      "score_away": "0",
+      "time": "2026-11-12 17:05:00",
+      "home_ranking": "52",
+      "away_ranking": "200",
+      "home_slug": "qin-yuxuan",
+      "away_slug": "moyland-sally",
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        }
+      ]
     },
     {
       "match_id": "G2bup4nL",
@@ -949,7 +1246,7 @@
       "home_player": "Gunduz I./Yigenler A.",
       "away_player": "Krastev P./Velichkov Y.",
       "score_home": "2",
-      "score_away": "2",
+      "score_away": "3",
       "time": "2026-11-12 13:30:00",
       "home_ranking": "191",
       "away_ranking": "41",
@@ -973,8 +1270,8 @@
           "away": "11"
         },
         {
-          "home": "0",
-          "away": "0"
+          "home": "9",
+          "away": "11"
         }
       ]
     },
@@ -983,21 +1280,43 @@
       "tournament": "OTHERS - DOUBLES MEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Pantoja Andrade M./Tauler N.",
       "away_player": "Lind A./Buch M.",
-      "score_home": "1",
-      "score_away": "0",
+      "score_home": "",
+      "score_away": "",
       "time": "2026-11-12 14:00:00",
       "home_ranking": "176",
       "away_ranking": "63",
       "home_slug": "pantoja-andrade-miguel",
       "away_slug": "lind-anders",
+      "sets": []
+    },
+    {
+      "match_id": "6F3iDITk",
+      "tournament": "OTHERS - DOUBLES MEN: WTT Contender Istanbul (Turkey)",
+      "home_player": "Pantoja Andrade M./Tauler N.",
+      "away_player": "Kharki I./Fang B.",
+      "score_home": "1",
+      "score_away": "3",
+      "time": "2026-11-12 14:00:00",
+      "home_ranking": "176",
+      "away_ranking": "102",
+      "home_slug": "pantoja-andrade-miguel",
+      "away_slug": "kharki-iskender",
       "sets": [
         {
           "home": "11",
           "away": "7"
         },
         {
-          "home": "0",
-          "away": "1"
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "7",
+          "away": "11"
         }
       ]
     },
@@ -1161,8 +1480,8 @@
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Hashimoto H./Nagasaki M.",
       "away_player": "Voronina V./Panfilova M.",
-      "score_home": "0",
-      "score_away": "1",
+      "score_home": "3",
+      "score_away": "2",
       "time": "2026-11-12 13:55:00",
       "home_ranking": "100",
       "away_ranking": "158",
@@ -1174,8 +1493,20 @@
           "away": "11"
         },
         {
-          "home": "4",
-          "away": "4"
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
         }
       ]
     },
@@ -1184,28 +1515,62 @@
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Takahashi G./Watanabe L.",
       "away_player": "Wan Y./Paranang O.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "2",
+      "score_away": "3",
       "time": "2026-11-12 14:15:00",
       "home_ranking": "39",
       "away_ranking": "81",
       "home_slug": "takahashi-giulia",
       "away_slug": "wan-yuan",
-      "sets": []
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "IFzo56Ec",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Contender Istanbul (Turkey)",
       "home_player": "Shibata S./Muramatsu C.",
       "away_player": "Kihara M./Hirano M.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-12 14:20:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-11-12 14:35:00",
       "home_ranking": "100",
       "away_ranking": "100",
       "home_slug": "shibata-saki",
       "away_slug": "kihara-miyuu",
-      "sets": []
+      "sets": [
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "Ea7QuPPM",
