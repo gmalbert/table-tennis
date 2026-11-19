@@ -236,7 +236,7 @@
       "score_away": "3",
       "time": "2026-11-16 13:00:00",
       "home_ranking": "191",
-      "away_ranking": "140",
+      "away_ranking": "52",
       "home_slug": "gunduz-ibrahim",
       "away_slug": "sun-yang",
       "sets": [
@@ -356,8 +356,8 @@
       "tournament": "OTHERS - MEN: WTT Star Contender Muscat (Oman) - Qualification",
       "home_player": "Quan K.",
       "away_player": "Lim Yunoh",
-      "score_home": "1",
-      "score_away": "1",
+      "score_home": "2",
+      "score_away": "3",
       "time": "2026-11-16 14:15:00",
       "home_ranking": "52",
       "away_ranking": "106",
@@ -373,8 +373,16 @@
           "away": "5"
         },
         {
-          "home": "6",
-          "away": "5"
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "2",
+          "away": "11"
         }
       ]
     },
@@ -383,42 +391,85 @@
       "tournament": "OTHERS - MEN: WTT Star Contender Muscat (Oman) - Qualification",
       "home_player": "Al Balushi M.",
       "away_player": "Kharki I.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "0",
+      "score_away": "3",
       "time": "2026-11-16 14:35:00",
       "home_ranking": "146",
       "away_ranking": "102",
       "home_slug": "al-balushi-muhannad",
       "away_slug": "kharki-iskender",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "13"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "IaOvZLqQ",
       "tournament": "OTHERS - MEN: WTT Star Contender Muscat (Oman) - Qualification",
       "home_player": "Al Rashdi B.",
       "away_player": "Grebnev M.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "0",
+      "score_away": "3",
       "time": "2026-11-16 14:45:00",
       "home_ranking": "146",
       "away_ranking": "158",
       "home_slug": "al-rashidi-bilal",
       "away_slug": "grebnev-maksim",
-      "sets": []
+      "sets": [
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "E3VPPH6C",
       "tournament": "OTHERS - MEN: WTT Star Contender Muscat (Oman) - Qualification",
       "home_player": "Yigenler A.",
       "away_player": "Fang B.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-11-16 14:45:00",
       "home_ranking": "191",
       "away_ranking": "102",
       "home_slug": "yigenler-abdullah",
       "away_slug": "fang-bo",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "GhZVbl2d",
@@ -572,7 +623,7 @@
       "tournament": "OTHERS - WOMEN: WTT Star Contender Muscat (Oman) - Qualification",
       "home_player": "Feng Y.",
       "away_player": "Cok I.",
-      "score_home": "2",
+      "score_home": "3",
       "score_away": "1",
       "time": "2026-11-16 14:00:00",
       "home_ranking": "52",
@@ -593,8 +644,8 @@
           "away": "4"
         },
         {
-          "home": "8",
-          "away": "4"
+          "home": "11",
+          "away": "6"
         }
       ]
     },
@@ -604,7 +655,7 @@
       "home_player": "Yoo S.",
       "away_player": "Muramatsu C.",
       "score_home": "1",
-      "score_away": "1",
+      "score_away": "3",
       "time": "2026-11-16 14:10:00",
       "home_ranking": "106",
       "away_ranking": "100",
@@ -620,8 +671,12 @@
           "away": "11"
         },
         {
-          "home": "2",
-          "away": "5"
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "7",
+          "away": "11"
         }
       ]
     },
@@ -630,14 +685,31 @@
       "tournament": "OTHERS - WOMEN: WTT Star Contender Muscat (Oman) - Qualification",
       "home_player": "Zhang S.",
       "away_player": "Ghosh S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-16 14:55:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-11-16 15:05:00",
       "home_ranking": "176",
       "away_ranking": "93",
       "home_slug": "zhang-sofia-xuan",
       "away_slug": "ghosh-swastika",
-      "sets": []
+      "sets": [
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "14",
+          "away": "12"
+        }
+      ]
     }
   ]
 }
