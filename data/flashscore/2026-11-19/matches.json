@@ -363,8 +363,8 @@
       "tournament": "OTHERS - MEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Jorgic D.",
       "away_player": "Sun Y.",
-      "score_home": "0",
-      "score_away": "1",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-11-19 14:35:00",
       "home_ranking": "172",
       "away_ranking": "52",
@@ -376,8 +376,16 @@
           "away": "13"
         },
         {
-          "home": "0",
-          "away": "0"
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "5",
+          "away": "11"
         }
       ]
     },
@@ -386,8 +394,8 @@
       "tournament": "OTHERS - MEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Geraldo J.",
       "away_player": "Yuan L.",
-      "score_home": "0",
-      "score_away": "0",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-11-19 14:45:00",
       "home_ranking": "155",
       "away_ranking": "52",
@@ -395,8 +403,20 @@
       "away_slug": "yuan-licen",
       "sets": [
         {
-          "home": "1",
-          "away": "1"
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "13",
+          "away": "11"
+        },
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "10",
+          "away": "12"
         }
       ]
     },
@@ -405,28 +425,66 @@
       "tournament": "OTHERS - MEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Pucar T.",
       "away_player": "Huang Y.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "2",
       "time": "2026-11-19 15:00:00",
       "home_ranking": "59",
       "away_ranking": "52",
       "home_slug": "pucar-tomislav",
       "away_slug": "huang-youzheng",
-      "sets": []
+      "sets": [
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "5",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "12",
+          "away": "10"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "8Q2So7Qs",
       "tournament": "OTHERS - MEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Ovtcharov D.",
       "away_player": "Jancarik L.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-19 15:35:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-11-19 16:00:00",
       "home_ranking": "81",
       "away_ranking": "62",
       "home_slug": "ovtcharov-dimitrij",
       "away_slug": "jancarik-lubomir",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "6"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        },
+        {
+          "home": "11",
+          "away": "9"
+        }
+      ]
     },
     {
       "match_id": "lhhEfVl1",
@@ -845,7 +903,7 @@
       "home_player": "Xiao M.",
       "away_player": "Cheng I-C.",
       "score_home": "2",
-      "score_away": "2",
+      "score_away": "3",
       "time": "2026-11-19 14:20:00",
       "home_ranking": "176",
       "away_ranking": "218",
@@ -869,8 +927,8 @@
           "away": "11"
         },
         {
-          "home": "0",
-          "away": "0"
+          "home": "3",
+          "away": "11"
         }
       ]
     },
@@ -879,28 +937,66 @@
       "tournament": "OTHERS - WOMEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Zaharia E.",
       "away_player": "Abraamian E.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-11-19 15:15:00",
       "home_ranking": "157",
       "away_ranking": "158",
       "home_slug": "zaharia-elena",
       "away_slug": "abraamian-elizabet",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "7",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "6ZitHfQb",
       "tournament": "OTHERS - WOMEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Yeh Y.",
       "away_player": "Kim S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-19 16:10:00",
+      "score_home": "2",
+      "score_away": "3",
+      "time": "2026-11-19 16:35:00",
       "home_ranking": "218",
       "away_ranking": "106",
       "home_slug": "yeh-yi-tian",
       "away_slug": "kim-seongjin",
-      "sets": []
+      "sets": [
+        {
+          "home": "7",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "10",
+          "away": "12"
+        }
+      ]
     },
     {
       "match_id": "WCkE8z4T",
@@ -1039,28 +1135,62 @@
       "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Lim J./Oh J.",
       "away_player": "de Nodrest L./Bardet L.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-19 15:00:00",
+      "score_home": "3",
+      "score_away": "1",
+      "time": "2026-11-19 15:10:00",
       "home_ranking": "106",
       "away_ranking": "77",
       "home_slug": "lim-jonghoon",
       "away_slug": "de-nodrest-leo",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "3"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "6"
+        }
+      ]
     },
     {
       "match_id": "QBnAFuIr",
       "tournament": "OTHERS - DOUBLES MEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Gauzy S./Coton F.",
       "away_player": "Thakkar M. V./Shah M. U.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "1",
+      "score_away": "3",
       "time": "2026-11-19 15:45:00",
       "home_ranking": "77",
       "away_ranking": "93",
       "home_slug": "gauzy-simon",
       "away_slug": "thakkar-manav-vikash",
-      "sets": []
+      "sets": [
+        {
+          "home": "9",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "8",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "tfuFKURr",
@@ -1191,28 +1321,58 @@
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Kim N./Joo Cheonhui",
       "away_player": "Shibata S./Aoki S.",
-      "score_home": "",
-      "score_away": "",
+      "score_home": "3",
+      "score_away": "1",
       "time": "2026-11-19 15:10:00",
       "home_ranking": "106",
       "away_ranking": "100",
       "home_slug": "kim-nayeong",
       "away_slug": "shibata-saki",
-      "sets": []
+      "sets": [
+        {
+          "home": "11",
+          "away": "8"
+        },
+        {
+          "home": "2",
+          "away": "11"
+        },
+        {
+          "home": "11",
+          "away": "7"
+        },
+        {
+          "home": "11",
+          "away": "8"
+        }
+      ]
     },
     {
       "match_id": "tnJRgPeM",
       "tournament": "OTHERS - DOUBLES WOMEN: WTT Star Contender Muscat (Oman)",
       "home_player": "Szocs B./Samara E.",
       "away_player": "Odo S./Yokoi S.",
-      "score_home": "",
-      "score_away": "",
-      "time": "2026-11-19 15:35:00",
+      "score_home": "0",
+      "score_away": "3",
+      "time": "2026-11-19 15:50:00",
       "home_ranking": "157",
       "away_ranking": "100",
       "home_slug": "szocs-bernadette",
       "away_slug": "odo-satsuki",
-      "sets": []
+      "sets": [
+        {
+          "home": "8",
+          "away": "11"
+        },
+        {
+          "home": "6",
+          "away": "11"
+        },
+        {
+          "home": "4",
+          "away": "11"
+        }
+      ]
     },
     {
       "match_id": "Ig7RRROQ",
